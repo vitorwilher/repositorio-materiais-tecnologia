@@ -1,0 +1,1059 @@
+[
+  {
+    "objectID": "trilhas/trilha-6-produtividade.html",
+    "href": "trilhas/trilha-6-produtividade.html",
+    "title": "Trilha 6 — Produtividade e Citizen Development",
+    "section": "",
+    "text": "Pergunta que responde: como o profissional não-técnico (gestor, analista de negócios, administrativo) usa o SENAC como porta para automação e produtividade com IA, sem virar desenvolvedor?\nA trilha cobre o público não-técnico com forte vocação de isca, e oferece rotas laterais para a Trilha Dados (via Power BI) e para a Trilha IA Aplicada (via Copilot/IA generativa)."
+  },
+  {
+    "objectID": "trilhas/trilha-6-produtividade.html#fluxo-da-trilha",
+    "href": "trilhas/trilha-6-produtividade.html#fluxo-da-trilha",
+    "title": "Trilha 6 — Produtividade e Citizen Development",
+    "section": "Fluxo da trilha",
+    "text": "Fluxo da trilha\n\n\n\n\n\n\nflowchart LR\n  onda[\"Excel com IA —&lt;br/&gt;Fundamentos&lt;br/&gt;&lt;small&gt;8h · ONDA&lt;/small&gt;\"]\n  e1[\"Excel com IA&lt;br/&gt;&lt;small&gt;28h&lt;/small&gt;\"]\n  e2[\"Excel Avançado&lt;br/&gt;com IA&lt;br/&gt;&lt;small&gt;36h&lt;/small&gt;\"]\n  e3[\"Excel Dashboard&lt;br/&gt;&lt;small&gt;24h&lt;/small&gt;\"]\n  pp[\"Microsoft&lt;br/&gt;Power Platform&lt;br/&gt;&lt;small&gt;48h · retorno&lt;/small&gt;\"]\n  inc1[\"Informática&lt;br/&gt;Fundamental com IA&lt;br/&gt;&lt;small&gt;60h&lt;/small&gt;\"]\n  inc2[\"Informática Básica&lt;br/&gt;p/ Melhor Idade&lt;br/&gt;&lt;small&gt;60h&lt;/small&gt;\"]\n  dados[\"→ Trilha Dados&lt;br/&gt;(via Power BI)\"]\n\n  onda --&gt; e1 --&gt; e2 --&gt; e3\n  e3 --&gt; pp\n  e3 -. lateral .-&gt; dados\n  inc1 --&gt; e1\n  inc2 -. inclusão .-&gt; inc1\n\n  class onda,e1,e2,e3,inc1,inc2 ativo\n  class pp retorno\n  class dados ponte\n  classDef ativo fill:#e3f5e8,stroke:#1b7a3d,color:#13361f;\n  classDef retorno fill:#e7f0fb,stroke:#1f5fa8,color:#0f3a6b;\n  classDef ponte fill:#eef0f3,stroke:#5a6573,stroke-dasharray:3 3,color:#2f3640;\n\n\n\n\nFigura 1: Trilha Produtividade — núcleo Excel, low-code (Power Platform) e ramo de inclusão."
+  },
+  {
+    "objectID": "trilhas/trilha-6-produtividade.html#cursos-da-trilha",
+    "href": "trilhas/trilha-6-produtividade.html#cursos-da-trilha",
+    "title": "Trilha 6 — Produtividade e Citizen Development",
+    "section": "Cursos da trilha",
+    "text": "Cursos da trilha\n\nCursos da Trilha Produtividade e Citizen Development.\n\n\n\n\n\n\n\n\nCamada\nCurso\nCH\nStatus\n\n\n\n\nIsca (ONDA)\nExcel com IA — Fundamentos\n8h\nativo\n\n\nExcel — nível 1\nExcel com IA\n28h\nativo\n\n\nExcel — nível 2\nExcel Avançado com IA\n36h\nativo\n\n\nExcel — nível 3\nExcel Dashboard\n24h\nativo\n\n\nInclusão / letramento\nInformática Fundamental com IA\n60h\nativo\n\n\nInclusão / letramento\nInformática Básica para Melhor Idade\n60h\nativo\n\n\nLow-code corporativo\nMicrosoft Power Platform\n48h\nretorno\n\n\n\nPontes: Graduação Tecnológica em ADS / MBA em Gestão de Produtos (perfil gestor); ponte para a Trilha Dados via Power BI."
+  },
+  {
+    "objectID": "trilhas/trilha-6-produtividade.html#decisões-a-validar-no-gt-tech",
+    "href": "trilhas/trilha-6-produtividade.html#decisões-a-validar-no-gt-tech",
+    "title": "Trilha 6 — Produtividade e Citizen Development",
+    "section": "Decisões a validar no GT Tech",
+    "text": "Decisões a validar no GT Tech\n\nFusão administrativa dos pares com/sem IA já consumada no catálogo — falta formalizar a saída da lista interna.\nRamo de inclusão mantido separado do núcleo corporativo — validar se a separação é exposta ao aluno ou só interna.\nPower Platform precisa de retorno claro (atualizado para Copilot Studio e agentes) como porta de Citizen Development."
+  },
+  {
+    "objectID": "trilhas/trilha-4-ciberseguranca.html",
+    "href": "trilhas/trilha-4-ciberseguranca.html",
+    "title": "Trilha 4 — Cibersegurança",
+    "section": "",
+    "text": "Pergunta que responde: como o SENAC RJ deixa de oferecer “um curso de segurança” e passa a oferecer uma jornada que cobre governança, defesa e ofensiva?\nÉ o eixo mais sub-dimensionado do portfólio (1 curso atual contra 4 lacunas mapeadas). A trilha proposta (fase 1) abre 2 cursos novos como porta de entrada e mantém o Cisco como núcleo técnico."
+  },
+  {
+    "objectID": "trilhas/trilha-4-ciberseguranca.html#fluxo-da-trilha",
+    "href": "trilhas/trilha-4-ciberseguranca.html#fluxo-da-trilha",
+    "title": "Trilha 4 — Cibersegurança",
+    "section": "Fluxo da trilha",
+    "text": "Fluxo da trilha\n\n\n\n\n\n\nflowchart LR\n  lgpd[\"LGPD e Governança&lt;br/&gt;de Dados&lt;br/&gt;&lt;small&gt;24h · NC-05&lt;/small&gt;\"]\n  pentest[\"Pentest&lt;br/&gt;Fundamentos&lt;br/&gt;&lt;small&gt;60h · NC-06&lt;/small&gt;\"]\n  cisco[\"Cibersegurança&lt;br/&gt;Cisco&lt;br/&gt;&lt;small&gt;100h · núcleo&lt;/small&gt;\"]\n  P[\"MBA / Especialização&lt;br/&gt;em Seg. da Informação&lt;br/&gt;&lt;small&gt;a propor c/ a Faculdade&lt;/small&gt;\"]\n\n  lgpd --&gt; cisco\n  pentest --&gt; cisco\n  cisco --&gt; P\n\n  class cisco ativo\n  class lgpd,pentest novo\n  class P prof\n  classDef ativo fill:#e3f5e8,stroke:#1b7a3d,color:#13361f;\n  classDef novo fill:#fff0e0,stroke:#b5560a,stroke-dasharray:4 3,color:#5a2c05;\n  classDef prof fill:#e7f0fb,stroke:#1f5fa8,stroke-width:2px,color:#0f3a6b;\n\n\n\n\nFigura 1: Trilha Cibersegurança (fase 1) — iscas de governança e ofensiva + núcleo Cisco."
+  },
+  {
+    "objectID": "trilhas/trilha-4-ciberseguranca.html#cursos-da-trilha",
+    "href": "trilhas/trilha-4-ciberseguranca.html#cursos-da-trilha",
+    "title": "Trilha 4 — Cibersegurança",
+    "section": "Cursos da trilha",
+    "text": "Cursos da trilha\n\nCursos da Trilha Cibersegurança (fase 1).\n\n\n\n\n\n\n\n\nCamada\nCurso\nCH\nStatus\n\n\n\n\nIsca — governança\nLGPD e Governança de Dados\n24h\nnovo\n\n\nIsca — ofensiva\nPentest Fundamentos\n60h\nnovo\n\n\nNúcleo técnico\nCibersegurança Cisco\n100h\nativo\n\n\n\nPontes para a Faculdade Senac RJ: sem destino direto hoje — proposta: pleitear MBA/Especialização em Segurança da Informação."
+  },
+  {
+    "objectID": "trilhas/trilha-4-ciberseguranca.html#decisões-a-validar-no-gt-tech",
+    "href": "trilhas/trilha-4-ciberseguranca.html#decisões-a-validar-no-gt-tech",
+    "title": "Trilha 4 — Cibersegurança",
+    "section": "Decisões a validar no GT Tech",
+    "text": "Decisões a validar no GT Tech\n\nFase 2 depende de escolha estratégica: crescimento orgânico (Zero Trust, SOC, DevSecOps) ou parceria (CompTIA, Offensive Security).\nPentest Fundamentos exige positioning ético explícito; escuta de mercado deve envolver profissionais de segurança ofensiva da região."
+  },
+  {
+    "objectID": "trilhas/trilha-2-dados.html",
+    "href": "trilhas/trilha-2-dados.html",
+    "title": "Trilha 2 — Dados",
+    "section": "",
+    "text": "Pergunta que responde: como o aluno-base do SENAC (entra por Informática Fundamental com IA) avança até uma profissão de dados sem sair da instituição?\nO eixo de Dados parte de um mesmo aluno-base e diverge em duas profissões: Analista de Dados (2A, mais curta, empregável após Power BI) e Engenheiro de Dados (2B, mais técnica, ancorada em SQL e pipelines)."
+  },
+  {
+    "objectID": "trilhas/trilha-2-dados.html#trilha-2a-analista-de-dados",
+    "href": "trilhas/trilha-2-dados.html#trilha-2a-analista-de-dados",
+    "title": "Trilha 2 — Dados",
+    "section": "Trilha 2A — Analista de Dados",
+    "text": "Trilha 2A — Analista de Dados\n\n\n\n\n\n\nflowchart LR\n  b[\"Informática&lt;br/&gt;Fundamental com IA&lt;br/&gt;&lt;small&gt;60h · aluno-base&lt;/small&gt;\"]\n  ia1[\"IA Sem Mistério&lt;br/&gt;&lt;small&gt;16h&lt;/small&gt;\"]\n  n2[\"Excel com IA&lt;br/&gt;&lt;small&gt;28h&lt;/small&gt;\"]\n  ia2[\"IA Muito Além&lt;br/&gt;do Prompt&lt;br/&gt;&lt;small&gt;24h&lt;/small&gt;\"]\n  n3[\"Excel Avançado&lt;br/&gt;com IA&lt;br/&gt;&lt;small&gt;36h&lt;/small&gt;\"]\n  n4[\"Power BI&lt;br/&gt;&lt;small&gt;60h&lt;/small&gt;\"]\n  P[\"ANALISTA&lt;br/&gt;DE DADOS\"]\n\n  b --&gt; ia1 --&gt; n2 --&gt; ia2 --&gt; n3 --&gt; n4 --&gt; P\n\n  class b base\n  class n2,n3,n4 ativo\n  class ia1,ia2 iacurso\n  class P prof\n  classDef base fill:#f1f3f5,stroke:#868e96,color:#2f3640;\n  classDef ativo fill:#e3f5e8,stroke:#1b7a3d,color:#13361f;\n  classDef iacurso fill:#fdecdc,stroke:#d9480f,color:#7a2c05;\n  classDef prof fill:#e7f0fb,stroke:#1f5fa8,stroke-width:2px,color:#0f3a6b;\n\n\n\n\nFigura 1: Trilha 2A — Analista de Dados. Cursos de IA (laranja) intercalados na jornada de dados.\n\n\n\n\n\nCarga horária total: 344h. Não depende de curso novo — toda a sequência já existe e vende. O ramo lateral opcional Excel Dashboard entra entre Excel Avançado e Power BI para quem quer fechar produtividade analítica sem seguir até Analista."
+  },
+  {
+    "objectID": "trilhas/trilha-2-dados.html#trilha-2b-engenheiro-de-dados",
+    "href": "trilhas/trilha-2-dados.html#trilha-2b-engenheiro-de-dados",
+    "title": "Trilha 2 — Dados",
+    "section": "Trilha 2B — Engenheiro de Dados",
+    "text": "Trilha 2B — Engenheiro de Dados\n\n\n\n\n\n\nflowchart LR\n  b[\"Informática&lt;br/&gt;Fundamental com IA&lt;br/&gt;&lt;small&gt;60h · aluno-base&lt;/small&gt;\"]\n  n2[\"Excel com IA&lt;br/&gt;&lt;small&gt;28h&lt;/small&gt;\"]\n  n3[\"SQL para Dados&lt;br/&gt;&lt;small&gt;60h · NC-02&lt;/small&gt;\"]\n  n4[\"Fundamentos de&lt;br/&gt;Engenharia de Dados&lt;br/&gt;&lt;small&gt;120h · NC-03&lt;/small&gt;\"]\n  n5[\"cursos futuros&lt;br/&gt;&lt;small&gt;Spark · Airflow · Kafka · Cloud&lt;/small&gt;\"]\n  P[\"ENGENHEIRO&lt;br/&gt;DE DADOS\"]\n\n  b --&gt; n2 --&gt; n3 --&gt; n4 --&gt; n5 --&gt; P\n\n  class b base\n  class n2 ativo\n  class n3,n4 novo\n  class n5 futuro\n  class P prof\n  classDef base fill:#f1f3f5,stroke:#868e96,color:#2f3640;\n  classDef ativo fill:#e3f5e8,stroke:#1b7a3d,color:#13361f;\n  classDef novo fill:#fff0e0,stroke:#b5560a,stroke-dasharray:4 3,color:#5a2c05;\n  classDef futuro fill:#eef0f3,stroke:#5a6573,stroke-dasharray:2 2,color:#2f3640;\n  classDef prof fill:#e7f0fb,stroke:#1f5fa8,stroke-width:2px,color:#0f3a6b;\n\n\n\n\nFigura 2: Trilha 2B — Engenheiro de Dados. Dois cursos novos (NC-02, NC-03) e ramo de cursos futuros."
+  },
+  {
+    "objectID": "trilhas/trilha-2-dados.html#cursos-da-trilha",
+    "href": "trilhas/trilha-2-dados.html#cursos-da-trilha",
+    "title": "Trilha 2 — Dados",
+    "section": "Cursos da trilha",
+    "text": "Cursos da trilha\n\nCursos da Trilha Dados.\n\n\n\n\n\n\n\n\nCurso\nCH\nUsado em\nStatus\n\n\n\n\nInformática Fundamental com IA\n60h\n2A · 2B (aluno-base)\nativo\n\n\nIA Sem Mistério\n16h\n2A\nativo\n\n\nExcel com IA\n28h\n2A · 2B\nativo\n\n\nIA — Muito Além do Prompt\n24h\n2A\nativo\n\n\nExcel Avançado com IA\n36h\n2A\nativo\n\n\nExcel Dashboard\n24h\n2A (lateral)\nativo\n\n\nPower BI\n60h\n2A\nativo\n\n\nSQL para Dados\n60h\n2B\nnovo\n\n\nFundamentos de Engenharia de Dados\n120h\n2B\nnovo\n\n\nBanco de Dados\n120h\na definir vs. NC-02\nativo\n\n\nIA Generativa Aplicada a Negócios\n24h\nporta de entrada alternativa\nnovo\n\n\n\nPontes para a Faculdade Senac RJ: Graduação Tecnológica em IA e Ciência de Dados → MBA em IA e Análise de Dados."
+  },
+  {
+    "objectID": "trilhas/trilha-2-dados.html#decisões-a-validar-no-gt-tech",
+    "href": "trilhas/trilha-2-dados.html#decisões-a-validar-no-gt-tech",
+    "title": "Trilha 2 — Dados",
+    "section": "Decisões a validar no GT Tech",
+    "text": "Decisões a validar no GT Tech\n\nIntercalação dos cursos de IA na 2A — validar ponto de inserção e se ambos entram (avaliar se a mesma lógica vale para a 2B).\nA profissão “Analista de Dados” precisa ser apresentada ao aluno desde o início.\nSQL para Dados (NC-02) × Banco de Dados — definir relação com o E2 (NC-02 como avançado/análise; Banco como complemento).\nParceria Semantix é candidata a ancorar Engenharia de Dados."
+  },
+  {
+    "objectID": "trilhas/index.html",
+    "href": "trilhas/index.html",
+    "title": "Visão geral das 6 trilhas",
+    "section": "",
+    "text": "O portfólio FIC de Tecnologia está organizado em 6 trilhas. Cada trilha é uma jornada: parte de onde o aluno já está (curso popular de captação), avança curso-a-curso com um call-to-action de continuidade ao fim de cada etapa, e termina em uma profissão nomeada ou em uma ponte para a Faculdade Senac RJ.\nPara o mapa completo com todos os cursos e pré-requisitos, veja o Fluxograma das trilhas."
+  },
+  {
+    "objectID": "trilhas/index.html#mapa-resumo",
+    "href": "trilhas/index.html#mapa-resumo",
+    "title": "Visão geral das 6 trilhas",
+    "section": "Mapa-resumo",
+    "text": "Mapa-resumo\n\nAs 6 trilhas do portfólio de Tecnologia.\n\n\n\n\n\n\n\n\n#\nTrilha\nFoco\nPágina\n\n\n\n\n1\nIA Aplicada\nDa produtividade pessoal com IA à IA aplicada profissionalmente\nabrir\n\n\n2\nDados\nAluno-base → Analista de Dados (2A) e Engenheiro de Dados (2B)\nabrir\n\n\n3\nInfraestrutura, Cloud e Redes\nTI tradicional → cloud native (AWS, Azure, GCP, K8s)\nabrir\n\n\n4\nCibersegurança\nGovernança, defesa e ofensiva\nabrir\n\n\n5\nProgramação e Desenvolvimento\nPrimeira linguagem → Full Stack, com pontes p/ Dados e IA\nabrir\n\n\n6\nProdutividade e Citizen Development\nPúblico não-técnico: Excel, Power Platform, inclusão\nabrir"
+  },
+  {
+    "objectID": "trilhas/index.html#princípios-de-desenho",
+    "href": "trilhas/index.html#princípios-de-desenho",
+    "title": "Visão geral das 6 trilhas",
+    "section": "Princípios de desenho",
+    "text": "Princípios de desenho\n\nAluno-base → profissão. Toda trilha começa num curso de captação e termina em perfil nomeado.\nUpsell explícito. Ao concluir um curso, o aluno é apresentado à próxima oferta da trilha.\nPedagogia vendor-agnóstica; certificação/infra ancora em Microsoft quando faz sentido.\nIA atravessa as trilhas — não é um silo; aparece como competência ao longo da jornada.\n\n\n\n\n\n\n\nImportante\n\n\n\nAs trilhas e os cursos novos (NC-01…NC-09) são propostas em validação no GT Tech e com a coordenação — não decisões consolidadas. Trate este repositório como documento vivo."
+  },
+  {
+    "objectID": "fluxograma.html",
+    "href": "fluxograma.html",
+    "title": "Fluxograma das trilhas",
+    "section": "",
+    "text": "Este é o mapa completo do portfólio de Tecnologia: cada trilha como uma sequência de upsell (curso → próximo curso), os pré-requisitos, e as pontes entre trilhas (linhas tracejadas). Para o detalhe de cada jornada, abra a página da trilha correspondente."
+  },
+  {
+    "objectID": "fluxograma.html#mapa-geral",
+    "href": "fluxograma.html#mapa-geral",
+    "title": "Fluxograma das trilhas",
+    "section": "Mapa geral",
+    "text": "Mapa geral\n\n\n\n\n\n\nflowchart TB\n\n  subgraph T1[\"Trilha 1 · IA Aplicada\"]\n    direction LR\n    a1[\"IA na Prática&lt;br/&gt;&lt;small&gt;8h&lt;/small&gt;\"] --&gt; a2[\"IA Sem Mistério&lt;br/&gt;&lt;small&gt;16h&lt;/small&gt;\"] --&gt; a3[\"IA Muito Além&lt;br/&gt;do Prompt&lt;br/&gt;&lt;small&gt;24h&lt;/small&gt;\"] --&gt; a4[\"Apresentações&lt;br/&gt;Dinâmicas IA&lt;br/&gt;&lt;small&gt;32h&lt;/small&gt;\"] --&gt; a5[\"AI-901 Azure&lt;br/&gt;&lt;small&gt;~48h&lt;/small&gt;\"] --&gt; a6[\"IA Aplicada&lt;br/&gt;Avançada&lt;br/&gt;&lt;small&gt;80h · NC-04&lt;/small&gt;\"]\n  end\n\n  subgraph T2[\"Trilha 2 · Dados\"]\n    direction LR\n    b0[\"Informática&lt;br/&gt;Fundamental com IA&lt;br/&gt;&lt;small&gt;60h · base&lt;/small&gt;\"]\n    b0 --&gt; b1[\"Excel com IA&lt;br/&gt;&lt;small&gt;28h&lt;/small&gt;\"]\n    b1 --&gt; b2[\"Excel Avançado&lt;br/&gt;com IA&lt;br/&gt;&lt;small&gt;36h&lt;/small&gt;\"] --&gt; b3[\"Power BI&lt;br/&gt;&lt;small&gt;60h&lt;/small&gt;\"] --&gt; b4[\"ANALISTA&lt;br/&gt;DE DADOS\"]\n    b1 --&gt; b5[\"SQL para Dados&lt;br/&gt;&lt;small&gt;60h · NC-02&lt;/small&gt;\"] --&gt; b6[\"Fund. Engenharia&lt;br/&gt;de Dados&lt;br/&gt;&lt;small&gt;120h · NC-03&lt;/small&gt;\"] --&gt; b7[\"ENGENHEIRO&lt;br/&gt;DE DADOS\"]\n  end\n\n  subgraph T3[\"Trilha 3 · Infra, Cloud e Redes\"]\n    direction LR\n    c1[\"Linux p/ TI&lt;br/&gt;&lt;small&gt;40h · NC-07&lt;/small&gt;\"] --&gt; c2[\"Cloud Azure&lt;br/&gt;&lt;small&gt;40h · NC-08&lt;/small&gt;\"] --&gt; c3[\"Google Cloud&lt;br/&gt;&lt;small&gt;76h&lt;/small&gt;\"] --&gt; c5[\"Containers e&lt;br/&gt;Kubernetes&lt;br/&gt;&lt;small&gt;60h · NC-09&lt;/small&gt;\"]\n    c2 --&gt; c4[\"AWS RE/START&lt;br/&gt;&lt;small&gt;400h&lt;/small&gt;\"] --&gt; c5\n    c6[\"Cisco CCNA&lt;br/&gt;&lt;small&gt;210h&lt;/small&gt;\"] --&gt; c2\n  end\n\n  subgraph T4[\"Trilha 4 · Cibersegurança\"]\n    direction LR\n    d1[\"LGPD e Governança&lt;br/&gt;&lt;small&gt;24h · NC-05&lt;/small&gt;\"] --&gt; d3[\"Cibersegurança&lt;br/&gt;Cisco&lt;br/&gt;&lt;small&gt;100h&lt;/small&gt;\"]\n    d2[\"Pentest&lt;br/&gt;Fundamentos&lt;br/&gt;&lt;small&gt;60h · NC-06&lt;/small&gt;\"] --&gt; d3\n  end\n\n  subgraph T5[\"Trilha 5 · Programação\"]\n    direction LR\n    e0[\"IA Generativa&lt;br/&gt;p/ Negócios&lt;br/&gt;&lt;small&gt;24h · NC-01&lt;/small&gt;\"] --&gt; e1[\"Front-End com IA&lt;br/&gt;&lt;small&gt;80h&lt;/small&gt;\"]\n    e1 --&gt; e2[\"Full Stack Java&lt;br/&gt;&lt;small&gt;360h&lt;/small&gt;\"]\n    e1 --&gt; e3[\"Back-End Java&lt;br/&gt;&lt;small&gt;84h&lt;/small&gt;\"] --&gt; e4[\"NODE&lt;br/&gt;&lt;small&gt;100h&lt;/small&gt;\"]\n    e1 --&gt; e5[\"PHP Laravel&lt;br/&gt;&lt;small&gt;168h&lt;/small&gt;\"]\n    e1 --&gt; e6[\"Python Django&lt;br/&gt;&lt;small&gt;168h&lt;/small&gt;\"] --&gt; e7[\"Python Avançado&lt;br/&gt;com IA&lt;br/&gt;&lt;small&gt;100h&lt;/small&gt;\"]\n  end\n\n  subgraph T6[\"Trilha 6 · Produtividade\"]\n    direction LR\n    f1[\"Excel com IA&lt;br/&gt;Fundamentos&lt;br/&gt;&lt;small&gt;8h&lt;/small&gt;\"] --&gt; f2[\"Excel com IA&lt;br/&gt;&lt;small&gt;28h&lt;/small&gt;\"] --&gt; f3[\"Excel Avançado&lt;br/&gt;&lt;small&gt;36h&lt;/small&gt;\"] --&gt; f4[\"Excel Dashboard&lt;br/&gt;&lt;small&gt;24h&lt;/small&gt;\"]\n    f4 --&gt; f5[\"Power Platform&lt;br/&gt;&lt;small&gt;48h · retorno&lt;/small&gt;\"]\n    f6[\"Inf. Melhor Idade&lt;br/&gt;&lt;small&gt;60h&lt;/small&gt;\"] --&gt; g0b[\"Inf. Fundamental&lt;br/&gt;com IA&lt;br/&gt;&lt;small&gt;60h&lt;/small&gt;\"]\n  end\n\n  %% --- Pontes entre trilhas (tracejadas) ---\n  e7 -. ponte p/ Dados .-&gt; b5\n  f4 -. ponte p/ Dados .-&gt; b3\n  a3 -. IA atravessa Dados .-&gt; b2\n  e0 -. isca comum .-&gt; a4\n\n  class a1,a2,a3,a4 ativo\n  class a5 futuro\n  class a6 novo\n  class b0,b1,b2,b3,b4,b7 ativo\n  class b5,b6 novo\n  class c3,c4,c6 ativo\n  class c1,c2,c5 novo\n  class d3 ativo\n  class d1,d2 novo\n  class e1,e2,e3,e5,e6,e7 ativo\n  class e0 novo\n  class e4 futuro\n  class f1,f2,f3,f4,f6,g0b ativo\n  class f5 retorno\n  class b4,b7 prof\n\n  classDef ativo fill:#e3f5e8,stroke:#1b7a3d,color:#13361f;\n  classDef novo fill:#fff0e0,stroke:#b5560a,stroke-dasharray:4 3,color:#5a2c05;\n  classDef futuro fill:#eef0f3,stroke:#5a6573,stroke-dasharray:2 2,color:#2f3640;\n  classDef retorno fill:#e7f0fb,stroke:#1f5fa8,color:#0f3a6b;\n  classDef prof fill:#dbe9fb,stroke:#1f5fa8,stroke-width:2px,color:#0f3a6b;\n\n\n\n\nFigura 1: Portfólio de Tecnologia — 6 trilhas, pré-requisitos e pontes. Setas cheias = upsell; tracejadas = ponte entre trilhas."
+  },
+  {
+    "objectID": "fluxograma.html#como-ler-o-mapa",
+    "href": "fluxograma.html#como-ler-o-mapa",
+    "title": "Fluxograma das trilhas",
+    "section": "Como ler o mapa",
+    "text": "Como ler o mapa\n\nSetas cheias dentro de cada trilha = sequência de upsell (cada curso aponta para o próximo).\nSetas tracejadas entre trilhas = pontes: pontos onde o aluno migra de uma trilha para outra (ex.: quem termina Python Avançado com IA na Programação pode entrar em SQL para Dados na trilha Dados).\nCaixas azuis de destaque (Analista / Engenheiro de Dados) = profissões nomeadas ao fim da trilha.\nO aluno-base Informática Fundamental com IA alimenta tanto a Trilha Dados quanto a de Produtividade."
+  },
+  {
+    "objectID": "fluxograma.html#detalhe-por-trilha",
+    "href": "fluxograma.html#detalhe-por-trilha",
+    "title": "Fluxograma das trilhas",
+    "section": "Detalhe por trilha",
+    "text": "Detalhe por trilha\nCada trilha tem seu próprio diagrama e tabela de cursos:\nTrilha 1 — IA Aplicada · Trilha 2 — Dados · Trilha 3 — Infraestrutura · Trilha 4 — Cibersegurança · Trilha 5 — Programação · Trilha 6 — Produtividade\n\n\n\n\n\n\nAtualizar este mapa: o fluxograma é escrito em Mermaid (texto) — para incluir um curso novo, edite o bloco ```{mermaid} acima (adicione o nó e a seta) e registre a mudança no Changelog. Veja o passo a passo em Como atualizar."
+  },
+  {
+    "objectID": "cursos/python-django/index.html",
+    "href": "cursos/python-django/index.html",
+    "title": "Programação em Python com Django",
+    "section": "",
+    "text": "Status: ativo   ativo no catálogo  ·  Carga horária: 168h  ·  Origem: Catálogo público — rota Python/IA\nMaterial: a preencher  ·  Última atualização: a preencher"
+  },
+  {
+    "objectID": "cursos/python-django/index.html#onde-este-curso-entra-nas-trilhas",
+    "href": "cursos/python-django/index.html#onde-este-curso-entra-nas-trilhas",
+    "title": "Programação em Python com Django",
+    "section": "Onde este curso entra nas trilhas",
+    "text": "Onde este curso entra nas trilhas\nFaz parte de: Trilha 5 — Programação e Desenvolvimento.\n\nPreencha aqui o pré-requisito (curso anterior) e o próximo passo (call-to-action de upsell), conforme o diagrama da trilha. Ex.: “Vem de X · Próximo passo: Y”.\n\n\nPC — Plano de CursoPTD — Plano de Trabalho DocenteReferências BibliográficasMateriais Complementares\n\n\n\nA preencher. Resumo do Plano de Curso oficial. Linkar o .docx canônico. Sugestão de subtópicos: Identificação · Requisitos de acesso · Justificativa · Objetivo · Organização curricular (conhecimentos, habilidades, atitudes) · Orientações metodológicas · Avaliação · Instalações e recursos · Perfil docente · Certificação.\n\n\n\n\nA preencher. Situação de aprendizagem, indicador(es) da UC, planejamento das aulas (com sugestões de corte) e procedimentos/instrumentos de avaliação. Linkar o .docx canônico.\n\n\n\n\nA preencher. Bibliografia básica (oficial, do PC) e complementar (apoio).\n\n\n\n\nA preencher. Guias do instrutor, datasets/planilhas-exemplo, modelos, vídeos, prompts, tutoriais e demais apoios. Linkar arquivos da pasta de origem do curso, quando houver."
+  },
+  {
+    "objectID": "cursos/python-django/index.html#histórico-de-atualizações-deste-curso",
+    "href": "cursos/python-django/index.html#histórico-de-atualizações-deste-curso",
+    "title": "Programação em Python com Django",
+    "section": "Histórico de atualizações (deste curso)",
+    "text": "Histórico de atualizações (deste curso)\n\nHistórico do material deste curso.\n\n\n\n\n\n\n\nData\nO que mudou\nAutor\n\n\n\n\na preencher\nCriação da página (scaffold).\nCápsula de Inovação"
+  },
+  {
+    "objectID": "cursos/programador-front-end-ia/index.html",
+    "href": "cursos/programador-front-end-ia/index.html",
+    "title": "Programador Front-End com IA",
+    "section": "",
+    "text": "Status: ativo   ativo no catálogo  ·  Carga horária: 80h  ·  Origem: Catálogo público — isca\nMaterial: a preencher  ·  Última atualização: a preencher"
+  },
+  {
+    "objectID": "cursos/programador-front-end-ia/index.html#onde-este-curso-entra-nas-trilhas",
+    "href": "cursos/programador-front-end-ia/index.html#onde-este-curso-entra-nas-trilhas",
+    "title": "Programador Front-End com IA",
+    "section": "Onde este curso entra nas trilhas",
+    "text": "Onde este curso entra nas trilhas\nFaz parte de: Trilha 5 — Programação e Desenvolvimento.\n\nPreencha aqui o pré-requisito (curso anterior) e o próximo passo (call-to-action de upsell), conforme o diagrama da trilha. Ex.: “Vem de X · Próximo passo: Y”.\n\n\nPC — Plano de CursoPTD — Plano de Trabalho DocenteReferências BibliográficasMateriais Complementares\n\n\n\nA preencher. Resumo do Plano de Curso oficial. Linkar o .docx canônico. Sugestão de subtópicos: Identificação · Requisitos de acesso · Justificativa · Objetivo · Organização curricular (conhecimentos, habilidades, atitudes) · Orientações metodológicas · Avaliação · Instalações e recursos · Perfil docente · Certificação.\n\n\n\n\nA preencher. Situação de aprendizagem, indicador(es) da UC, planejamento das aulas (com sugestões de corte) e procedimentos/instrumentos de avaliação. Linkar o .docx canônico.\n\n\n\n\nA preencher. Bibliografia básica (oficial, do PC) e complementar (apoio).\n\n\n\n\nA preencher. Guias do instrutor, datasets/planilhas-exemplo, modelos, vídeos, prompts, tutoriais e demais apoios. Linkar arquivos da pasta de origem do curso, quando houver."
+  },
+  {
+    "objectID": "cursos/programador-front-end-ia/index.html#histórico-de-atualizações-deste-curso",
+    "href": "cursos/programador-front-end-ia/index.html#histórico-de-atualizações-deste-curso",
+    "title": "Programador Front-End com IA",
+    "section": "Histórico de atualizações (deste curso)",
+    "text": "Histórico de atualizações (deste curso)\n\nHistórico do material deste curso.\n\n\n\n\n\n\n\nData\nO que mudou\nAutor\n\n\n\n\na preencher\nCriação da página (scaffold).\nCápsula de Inovação"
+  },
+  {
+    "objectID": "cursos/power-platform/index.html",
+    "href": "cursos/power-platform/index.html",
+    "title": "Microsoft Power Platform",
+    "section": "",
+    "text": "Status: retorno   em atualização (Copilot Studio / agentes) — retorno previsto · Código: SGA 13192 / DN 1746.48  ·  Carga horária: 48h  ·  Formato: Presencial ou Remoto\nMaterial: completo  ·  Última atualização: 2026-06-19"
+  },
+  {
+    "objectID": "cursos/power-platform/index.html#onde-este-curso-entra-nas-trilhas",
+    "href": "cursos/power-platform/index.html#onde-este-curso-entra-nas-trilhas",
+    "title": "Microsoft Power Platform",
+    "section": "Onde este curso entra nas trilhas",
+    "text": "Onde este curso entra nas trilhas\nFaz parte de: Trilha 6 — Produtividade e Citizen Development.\n\nVem de: Excel Dashboard (camada de produtividade analítica) · Próximo passo: ponte para a Faculdade Senac (ADS / MBA Produtos, perfil gestor). É a porta de Citizen Development do segmento corporativo.\n\n\nPC — Plano de CursoPTD — Plano de Trabalho DocenteReferências BibliográficasMateriais Complementares\n\n\nFonte oficial: PC — Microsoft Power Platform (.docx)\n\n1. Identificação\n\nEixo tecnológico: Informação e Comunicação · Segmento: Tecnologia da Informação\nTipo: Aperfeiçoamento · Carga horária: 48 horas · Formato: Presencial ou Remoto\nCódigo DN: 1746.48 · Código Senac RJ: 12319\n\n\n\n2. Requisitos de acesso\n\nIdade mínima: 18 anos.\nConhecimento específico: Planilhas dinâmicas; Power BI (análise ou estruturação de dados).\nDocumentos: identidade, CPF, autodeclaração de conhecimento específico.\n\n\n\n3. Justificativa\nA Power Platform é uma suíte low-code/no-code que permite a usuários não técnicos criar soluções digitais de negócio (Power Apps, Power Automate, Power Pages, Copilot Studio), economizando tempo e recursos. Acompanha a demanda de mercado por automação, nuvem e análise de dados — segundo a Gartner, até 2026 cerca de 75% do desenvolvimento de novos aplicativos será low-code.\n\n\n4. Objetivo\nTornar os participantes aptos à criação, personalização e automação de soluções de negócio com as ferramentas integradas do Power Platform. Destinado a analistas de negócios, gestores, empreendedores, estudantes de TI, consultores e áreas afins.\n\n\n5. Organização curricular\nUnidade Curricular: Microsoft Power Platform — 48h. Indicador: Utiliza recursos do Power Platform nas soluções de processos.\n\n\n\n\n\n\n\nElemento\nConteúdo\n\n\n\n\nConhecimentos\nIntrodução à Power Platform; Dashboards no Power BI; publicação/compartilhamento; Power Pages (permissões, tipos de conteúdo, criação de sites); Power Apps (desenvolvimento de aplicativos); Copilot Studio (IA generativa, chatbots, tópicos de conversação, monitoramento); Power Automate (fluxos, ações, gatilhos, conectores, interação com planilhas).\n\n\nHabilidades\nAnalisar dados recebidos; desenvolver estruturas e fluxos de automatização; desenvolver e avaliar aplicações; implementar soluções com as ferramentas do Power Platform.\n\n\nAtitudes / Valores\nSigilo no tratamento de dados e informações; senso crítico nos processos de trabalho.\n\n\n\n\n\n6. Orientações metodológicas\nPrática contextualizada com situações que simulam desafios reais do mundo corporativo. Recomenda-se que o docente prepare bases de dados de diferentes origens (planilhas, bancos relacionais e não relacionais) para estudos de caso: dashboards, aplicativos, sites, chatbots e automação de fluxos.\n\n\n7. Avaliação\nMenções durante o processo (A / PA / NA) e ao final (A / NA). Resultado final: Concluiu (C) com indicadores atendidos e frequência ≥ 75%; Não concluiu (NC) caso contrário. Recuperação oportunizada ao longo do processo.\n\n\n8. Instalações, equipamentos e recursos\n1 computador por aluno (i5 10ª geração+, Windows 10+, 8 GB RAM, 20 GB livres, internet 25 Mb), com Office 365, Power BI, Outlook e navegador atualizado. Material: não há fornecido/adquirido.\n\n\n9. Perfil docente\nPreferencialmente superior em Ciência da Computação, Sistemas de Informação, Engenharia de Software ou áreas correlatas.\n\n\n11. Certificação\nCertificado de Microsoft Power Platform, com dupla chancela (Microsoft + Senac) e validade nacional.\n\n\n\nFonte oficial: PTD — Microsoft Power Platform (.docx)\nIndicador da UC: Utiliza recursos do Power Platform nas soluções de processos.\nOrientação geral: verificar se todos os estudantes têm acesso ao Campus Digital — o cadastro nas ferramentas é feito com a conta educacional do estudante.\n\nSituação de Aprendizagem\n\nAs empresas ESTASENAC (estacionamento) e Super Delivery enfrentam dificuldades na gestão de pedidos e na interação com clientes e buscam soluções digitais low-code. Como profissional de Power Platform, você deve desenvolver e implementar essas soluções para as empresas contratantes.\n\nInstrumentos de avaliação: projeto integrando as ferramentas — site (Power Pages), dashboard (Power BI), automação (Power Automate), chatbot (Copilot Studio) e aplicativo (Power Apps).\n\n\nPlanejamento das aulas (48h)\n\n\n\n\n\n\n\n\nAula\nFoco\nDestaques\n\n\n\n\n1\nBoas-vindas + visão geral\nAcolhimento; IA × automação de processos; segurança/privacidade de dados; tour pelas ferramentas; início do Power Pages.\n\n\n2\nPower Pages — sites\nPlanejamento (header/main/footer), criação de site, design drag-and-drop, boas práticas (leitura em Z e F), SEO.\n\n\n3\nCopilot Studio — introdução\nO que é/não é chatbot; criação de chatbot simples; intents; trabalho em grupos por tema.\n\n\n4\nCopilot Studio — tópicos\nTópicos padrão e personalizados; scripts de conversação; fluxos condicionais; permissões e compartilhamento.\n\n\n5\nSharePoint / Power BI\nArmazenamento no SharePoint; importação no Power BI; limpeza e tratamento (Power Query/ETL); relacionamentos (fato × dimensão).\n\n\n6\nPower BI — DAX e relatório\nIntrodução ao DAX (agregação, iteração, tempo, lógica); medidas e variáveis; criação, publicação e atualização de relatório.\n\n\n7\nPower Automate\nConceitos (gatilhos, ações, conectores); automações de e-mail/arquivos; criação e monitoramento de fluxos.\n\n\n\n\nO PTD traz “sugestões de corte” de 2h dentro de cada aula, dando flexibilidade ao docente conforme o ritmo da turma.\n\n\n\n\nBásica (oficial — do PC)\n\nMicrosoft. O que é a Power Platform? — https://powerplatform.microsoft.com/pt-br/what-is-power-platform/\nMicrosoft. Documentação do Power BI — https://docs.microsoft.com/pt-br/power-bi/\nMicrosoft. Power Pages — https://learn.microsoft.com/pt-br/Power-Pages/\nMicrosoft. Copilot Studio — https://learn.microsoft.com/pt-br/microsoft-copilot-studio/\nMicrosoft. Power Automate — https://docs.microsoft.com/pt-br/power-automate/\nMicrosoft. Power Apps — https://learn.microsoft.com/pt-br/power-apps/\n\nComplementar (apoio)\n\nGartner. Forecast Analysis: Low-Code Development Technologies, Worldwide (2022).\nMicrosoft Power Platform Fundamentals in 15 Minutes (vídeo). · Referência da linguagem DAX — Microsoft Learn.\n\n\n\n\nEmenta oficial: Ementa — Microsoft Power Platform (.docx)\nAnálise de continuidade e materiais de aula (PPTX da Aula 1) disponíveis na pasta de origem do curso (cursos/power_plataform/ no repositório de trabalho da Cápsula).\nDatasets sugeridos: dados abertos / Kaggle (https://www.kaggle.com/) para estudos de caso de dashboards e chatbots."
+  },
+  {
+    "objectID": "cursos/power-platform/index.html#histórico-de-atualizações-deste-curso",
+    "href": "cursos/power-platform/index.html#histórico-de-atualizações-deste-curso",
+    "title": "Microsoft Power Platform",
+    "section": "Histórico de atualizações (deste curso)",
+    "text": "Histórico de atualizações (deste curso)\n\nHistórico do material deste curso.\n\n\n\n\n\n\n\nData\nO que mudou\nAutor\n\n\n\n\n2026-06-19\nPágina criada com PC e PTD completos a partir dos arquivos oficiais.\nCápsula de Inovação"
+  },
+  {
+    "objectID": "cursos/php-laravel/index.html",
+    "href": "cursos/php-laravel/index.html",
+    "title": "Programação em PHP com Laravel",
+    "section": "",
+    "text": "Status: ativo   ativo no catálogo  ·  Carga horária: 168h  ·  Origem: Catálogo público — mercado RJ\nMaterial: a preencher  ·  Última atualização: a preencher"
+  },
+  {
+    "objectID": "cursos/php-laravel/index.html#onde-este-curso-entra-nas-trilhas",
+    "href": "cursos/php-laravel/index.html#onde-este-curso-entra-nas-trilhas",
+    "title": "Programação em PHP com Laravel",
+    "section": "Onde este curso entra nas trilhas",
+    "text": "Onde este curso entra nas trilhas\nFaz parte de: Trilha 5 — Programação e Desenvolvimento.\n\nPreencha aqui o pré-requisito (curso anterior) e o próximo passo (call-to-action de upsell), conforme o diagrama da trilha. Ex.: “Vem de X · Próximo passo: Y”.\n\n\nPC — Plano de CursoPTD — Plano de Trabalho DocenteReferências BibliográficasMateriais Complementares\n\n\n\nA preencher. Resumo do Plano de Curso oficial. Linkar o .docx canônico. Sugestão de subtópicos: Identificação · Requisitos de acesso · Justificativa · Objetivo · Organização curricular (conhecimentos, habilidades, atitudes) · Orientações metodológicas · Avaliação · Instalações e recursos · Perfil docente · Certificação.\n\n\n\n\nA preencher. Situação de aprendizagem, indicador(es) da UC, planejamento das aulas (com sugestões de corte) e procedimentos/instrumentos de avaliação. Linkar o .docx canônico.\n\n\n\n\nA preencher. Bibliografia básica (oficial, do PC) e complementar (apoio).\n\n\n\n\nA preencher. Guias do instrutor, datasets/planilhas-exemplo, modelos, vídeos, prompts, tutoriais e demais apoios. Linkar arquivos da pasta de origem do curso, quando houver."
+  },
+  {
+    "objectID": "cursos/php-laravel/index.html#histórico-de-atualizações-deste-curso",
+    "href": "cursos/php-laravel/index.html#histórico-de-atualizações-deste-curso",
+    "title": "Programação em PHP com Laravel",
+    "section": "Histórico de atualizações (deste curso)",
+    "text": "Histórico de atualizações (deste curso)\n\nHistórico do material deste curso.\n\n\n\n\n\n\n\nData\nO que mudou\nAutor\n\n\n\n\na preencher\nCriação da página (scaffold).\nCápsula de Inovação"
+  },
+  {
+    "objectID": "cursos/mobile-react-native/index.html",
+    "href": "cursos/mobile-react-native/index.html",
+    "title": "Programação Mobile — React Native",
+    "section": "",
+    "text": "Status: ativo   ativo no catálogo  ·  Carga horária: 60h  ·  Origem: Catálogo público\nMaterial: a preencher  ·  Última atualização: a preencher"
+  },
+  {
+    "objectID": "cursos/mobile-react-native/index.html#onde-este-curso-entra-nas-trilhas",
+    "href": "cursos/mobile-react-native/index.html#onde-este-curso-entra-nas-trilhas",
+    "title": "Programação Mobile — React Native",
+    "section": "Onde este curso entra nas trilhas",
+    "text": "Onde este curso entra nas trilhas\nFaz parte de: Trilha 5 — Programação e Desenvolvimento.\n\nPreencha aqui o pré-requisito (curso anterior) e o próximo passo (call-to-action de upsell), conforme o diagrama da trilha. Ex.: “Vem de X · Próximo passo: Y”.\n\n\nPC — Plano de CursoPTD — Plano de Trabalho DocenteReferências BibliográficasMateriais Complementares\n\n\n\nA preencher. Resumo do Plano de Curso oficial. Linkar o .docx canônico. Sugestão de subtópicos: Identificação · Requisitos de acesso · Justificativa · Objetivo · Organização curricular (conhecimentos, habilidades, atitudes) · Orientações metodológicas · Avaliação · Instalações e recursos · Perfil docente · Certificação.\n\n\n\n\nA preencher. Situação de aprendizagem, indicador(es) da UC, planejamento das aulas (com sugestões de corte) e procedimentos/instrumentos de avaliação. Linkar o .docx canônico.\n\n\n\n\nA preencher. Bibliografia básica (oficial, do PC) e complementar (apoio).\n\n\n\n\nA preencher. Guias do instrutor, datasets/planilhas-exemplo, modelos, vídeos, prompts, tutoriais e demais apoios. Linkar arquivos da pasta de origem do curso, quando houver."
+  },
+  {
+    "objectID": "cursos/mobile-react-native/index.html#histórico-de-atualizações-deste-curso",
+    "href": "cursos/mobile-react-native/index.html#histórico-de-atualizações-deste-curso",
+    "title": "Programação Mobile — React Native",
+    "section": "Histórico de atualizações (deste curso)",
+    "text": "Histórico de atualizações (deste curso)\n\nHistórico do material deste curso.\n\n\n\n\n\n\n\nData\nO que mudou\nAutor\n\n\n\n\na preencher\nCriação da página (scaffold).\nCápsula de Inovação"
+  },
+  {
+    "objectID": "cursos/lgpd-governanca-dados/index.html",
+    "href": "cursos/lgpd-governanca-dados/index.html",
+    "title": "LGPD e Governança de Dados",
+    "section": "",
+    "text": "Status: novo   novo — proposta a validar (GT Tech) · Código: NC-05  ·  Carga horária: 24h  ·  Origem: Proposta 2027 — isca de governança\nMaterial: a preencher  ·  Última atualização: a preencher"
+  },
+  {
+    "objectID": "cursos/lgpd-governanca-dados/index.html#onde-este-curso-entra-nas-trilhas",
+    "href": "cursos/lgpd-governanca-dados/index.html#onde-este-curso-entra-nas-trilhas",
+    "title": "LGPD e Governança de Dados",
+    "section": "Onde este curso entra nas trilhas",
+    "text": "Onde este curso entra nas trilhas\nFaz parte de: Trilha 4 — Cibersegurança.\n\nPreencha aqui o pré-requisito (curso anterior) e o próximo passo (call-to-action de upsell), conforme o diagrama da trilha. Ex.: “Vem de X · Próximo passo: Y”.\n\n\nPC — Plano de CursoPTD — Plano de Trabalho DocenteReferências BibliográficasMateriais Complementares\n\n\n\nA preencher. Resumo do Plano de Curso oficial. Linkar o .docx canônico. Sugestão de subtópicos: Identificação · Requisitos de acesso · Justificativa · Objetivo · Organização curricular (conhecimentos, habilidades, atitudes) · Orientações metodológicas · Avaliação · Instalações e recursos · Perfil docente · Certificação.\n\n\n\n\nA preencher. Situação de aprendizagem, indicador(es) da UC, planejamento das aulas (com sugestões de corte) e procedimentos/instrumentos de avaliação. Linkar o .docx canônico.\n\n\n\n\nA preencher. Bibliografia básica (oficial, do PC) e complementar (apoio).\n\n\n\n\nA preencher. Guias do instrutor, datasets/planilhas-exemplo, modelos, vídeos, prompts, tutoriais e demais apoios. Linkar arquivos da pasta de origem do curso, quando houver."
+  },
+  {
+    "objectID": "cursos/lgpd-governanca-dados/index.html#histórico-de-atualizações-deste-curso",
+    "href": "cursos/lgpd-governanca-dados/index.html#histórico-de-atualizações-deste-curso",
+    "title": "LGPD e Governança de Dados",
+    "section": "Histórico de atualizações (deste curso)",
+    "text": "Histórico de atualizações (deste curso)\n\nHistórico do material deste curso.\n\n\n\n\n\n\n\nData\nO que mudou\nAutor\n\n\n\n\na preencher\nCriação da página (scaffold).\nCápsula de Inovação"
+  },
+  {
+    "objectID": "cursos/informatica-fundamental-ia/index.html",
+    "href": "cursos/informatica-fundamental-ia/index.html",
+    "title": "Informática Fundamental com IA",
+    "section": "",
+    "text": "Status: ativo   ativo no catálogo  ·  Carga horária: 60h  ·  Origem: Aluno-base das trilhas de Dados\nMaterial: a preencher  ·  Última atualização: a preencher"
+  },
+  {
+    "objectID": "cursos/informatica-fundamental-ia/index.html#onde-este-curso-entra-nas-trilhas",
+    "href": "cursos/informatica-fundamental-ia/index.html#onde-este-curso-entra-nas-trilhas",
+    "title": "Informática Fundamental com IA",
+    "section": "Onde este curso entra nas trilhas",
+    "text": "Onde este curso entra nas trilhas\nFaz parte de: Trilha 2 — Dados · Trilha 6 — Produtividade e Citizen Development.\n\nPreencha aqui o pré-requisito (curso anterior) e o próximo passo (call-to-action de upsell), conforme o diagrama da trilha. Ex.: “Vem de X · Próximo passo: Y”.\n\n\nPC — Plano de CursoPTD — Plano de Trabalho DocenteReferências BibliográficasMateriais Complementares\n\n\n\nA preencher. Resumo do Plano de Curso oficial. Linkar o .docx canônico. Sugestão de subtópicos: Identificação · Requisitos de acesso · Justificativa · Objetivo · Organização curricular (conhecimentos, habilidades, atitudes) · Orientações metodológicas · Avaliação · Instalações e recursos · Perfil docente · Certificação.\n\n\n\n\nA preencher. Situação de aprendizagem, indicador(es) da UC, planejamento das aulas (com sugestões de corte) e procedimentos/instrumentos de avaliação. Linkar o .docx canônico.\n\n\n\n\nA preencher. Bibliografia básica (oficial, do PC) e complementar (apoio).\n\n\n\n\nA preencher. Guias do instrutor, datasets/planilhas-exemplo, modelos, vídeos, prompts, tutoriais e demais apoios. Linkar arquivos da pasta de origem do curso, quando houver."
+  },
+  {
+    "objectID": "cursos/informatica-fundamental-ia/index.html#histórico-de-atualizações-deste-curso",
+    "href": "cursos/informatica-fundamental-ia/index.html#histórico-de-atualizações-deste-curso",
+    "title": "Informática Fundamental com IA",
+    "section": "Histórico de atualizações (deste curso)",
+    "text": "Histórico de atualizações (deste curso)\n\nHistórico do material deste curso.\n\n\n\n\n\n\n\nData\nO que mudou\nAutor\n\n\n\n\na preencher\nCriação da página (scaffold).\nCápsula de Inovação"
+  },
+  {
+    "objectID": "cursos/ia-na-pratica/index.html",
+    "href": "cursos/ia-na-pratica/index.html",
+    "title": "Inteligência Artificial na Prática",
+    "section": "",
+    "text": "Status: ativo   canal próprio (ONDA1) · Código: SGA 14149 / DN 1745.29  ·  Carga horária: 8h  ·  Tipo: Aperfeiçoamento\nMaterial: completo  ·  Última atualização: 2026-06-19"
+  },
+  {
+    "objectID": "cursos/ia-na-pratica/index.html#onde-este-curso-entra-nas-trilhas",
+    "href": "cursos/ia-na-pratica/index.html#onde-este-curso-entra-nas-trilhas",
+    "title": "Inteligência Artificial na Prática",
+    "section": "Onde este curso entra nas trilhas",
+    "text": "Onde este curso entra nas trilhas\nFaz parte de: Trilha 1 — IA Aplicada.\n\nVem de: porta de entrada gratuita (isca da trilha) · Próximo passo: IA Sem Mistério (16h). Decisão a validar: nomear formalmente como isca, com call-to-action explícito ao fim da oferta.\n\n\nPC — Plano de CursoPTD — Plano de Trabalho DocenteReferências BibliográficasMateriais Complementares\n\n\nFonte oficial: PC — IA na Prática (.docx)\n\n1. Identificação\n\nEixo: Informação e Comunicação · Segmento: Tecnologia da Informação\nTipo: Aperfeiçoamento · Carga horária: 8 horas · Código DN: 1745.29 · SENAC RJ: 14149\n\n\n\n2. Requisitos de acesso\n\nIdade mínima: 14 anos · Escolaridade: não há.\nNoções básicas de informática (Windows e navegação na internet).\nDocumentos: identidade, CPF, comprovante/autodeclaração de conhecimento específico.\n\n\n\n3. Justificativa\nA adoção de IA no ambiente profissional cresce rapidamente — mais de 57% dos brasileiros já usam IA generativa, posicionando o país entre os líderes globais. O curso oferece introdução prática aos fundamentos de IA (incluindo a diferença entre IA Generativa e Preditiva) e à sua aplicação para produtividade e eficiência no trabalho.\n\n\n4. Objetivo\nEnsinar estratégias para usar IA generativa na elaboração de textos e imagens, com ferramentas diversas. Destinado a todas as áreas, profissões e cargos.\n\n\n5. Organização curricular\nUnidade Curricular: Inteligência Artificial na Prática — 8h. Indicador: Elabora prompts por meio da IA generativa para a criação de textos e imagens.\n\n\n\n\n\n\n\nElemento\nConteúdo\n\n\n\n\nConhecimentos\nConceitos de IA: Generativa e Preditiva; uso de ChatGPT e Gemini para geração de textos e imagens; Engenharia de Comandos (Prompt Engineering): ajuste de perguntas/comandos para respostas mais precisas.\n\n\nHabilidades\nCriar textos e imagens usando prompts no ChatGPT e Gemini.\n\n\n\n\n\n6. Orientações metodológicas\nAtividades baseadas em situações reais: usar IA para construir textos, laudas, apresentações, imagens e marketing, otimizando tempo e qualidade das entregas.\n\n\n7. Avaliação\nMenções no processo (A/PA/NA) e ao final (A/NA). Concluiu (C) com frequência ≥ 75%.\n\n\n8–11. Recursos, perfil e certificação\n1 computador por participante (i5 10ª geração+, Windows 10, 8 GB RAM, navegadores Chrome/Edge/Opera GX). Docente com experiência em IA generativa para produtividade e automação. Certificado de participação.\n\n\n\nFonte oficial: PTD — IA na Prática (.docx)\nO PTD detalha a condução das 8h com foco em engenharia de comandos aplicada à geração de textos e imagens (ChatGPT, Gemini), partindo de problemas reais do cotidiano profissional do aluno. Consulte o arquivo oficial para o planejamento aula a aula e os instrumentos de avaliação.\n\n\nComplementar (apoio)\n\nOpenAI — ChatGPT (https://chat.openai.com/); Google — Gemini (https://gemini.google.com/).\nBoas práticas de prompt engineering para geração de texto e imagem.\n\n\n\n\nExemplos de prompts por área (texto, apresentação, imagem, marketing) — a consolidar a partir do PTD.\nComo curso de canal próprio (subdomínio dedicado, ~5 mil vagas), é a principal isca de topo de funil da Trilha IA Aplicada."
+  },
+  {
+    "objectID": "cursos/ia-na-pratica/index.html#histórico-de-atualizações-deste-curso",
+    "href": "cursos/ia-na-pratica/index.html#histórico-de-atualizações-deste-curso",
+    "title": "Inteligência Artificial na Prática",
+    "section": "Histórico de atualizações (deste curso)",
+    "text": "Histórico de atualizações (deste curso)\n\nHistórico do material deste curso.\n\n\n\n\n\n\n\nData\nO que mudou\nAutor\n\n\n\n\n2026-06-19\nPágina criada com PC completo e PTD referenciado.\nCápsula de Inovação"
+  },
+  {
+    "objectID": "cursos/ia-generativa-negocios/index.html",
+    "href": "cursos/ia-generativa-negocios/index.html",
+    "title": "IA Generativa Aplicada a Negócios",
+    "section": "",
+    "text": "Status: novo   novo — proposta a validar (GT Tech) · Código: NC-01  ·  Carga horária: 24h  ·  Origem: Proposta — isca comum\nMaterial: a preencher  ·  Última atualização: a preencher"
+  },
+  {
+    "objectID": "cursos/ia-generativa-negocios/index.html#onde-este-curso-entra-nas-trilhas",
+    "href": "cursos/ia-generativa-negocios/index.html#onde-este-curso-entra-nas-trilhas",
+    "title": "IA Generativa Aplicada a Negócios",
+    "section": "Onde este curso entra nas trilhas",
+    "text": "Onde este curso entra nas trilhas\nFaz parte de: Trilha 2 — Dados · Trilha 5 — Programação e Desenvolvimento.\n\nPreencha aqui o pré-requisito (curso anterior) e o próximo passo (call-to-action de upsell), conforme o diagrama da trilha. Ex.: “Vem de X · Próximo passo: Y”.\n\n\nPC — Plano de CursoPTD — Plano de Trabalho DocenteReferências BibliográficasMateriais Complementares\n\n\n\nA preencher. Resumo do Plano de Curso oficial. Linkar o .docx canônico. Sugestão de subtópicos: Identificação · Requisitos de acesso · Justificativa · Objetivo · Organização curricular (conhecimentos, habilidades, atitudes) · Orientações metodológicas · Avaliação · Instalações e recursos · Perfil docente · Certificação.\n\n\n\n\nA preencher. Situação de aprendizagem, indicador(es) da UC, planejamento das aulas (com sugestões de corte) e procedimentos/instrumentos de avaliação. Linkar o .docx canônico.\n\n\n\n\nA preencher. Bibliografia básica (oficial, do PC) e complementar (apoio).\n\n\n\n\nA preencher. Guias do instrutor, datasets/planilhas-exemplo, modelos, vídeos, prompts, tutoriais e demais apoios. Linkar arquivos da pasta de origem do curso, quando houver."
+  },
+  {
+    "objectID": "cursos/ia-generativa-negocios/index.html#histórico-de-atualizações-deste-curso",
+    "href": "cursos/ia-generativa-negocios/index.html#histórico-de-atualizações-deste-curso",
+    "title": "IA Generativa Aplicada a Negócios",
+    "section": "Histórico de atualizações (deste curso)",
+    "text": "Histórico de atualizações (deste curso)\n\nHistórico do material deste curso.\n\n\n\n\n\n\n\nData\nO que mudou\nAutor\n\n\n\n\na preencher\nCriação da página (scaffold).\nCápsula de Inovação"
+  },
+  {
+    "objectID": "cursos/google-cloud-foundations/index.html",
+    "href": "cursos/google-cloud-foundations/index.html",
+    "title": "Google Cloud Foundations",
+    "section": "",
+    "text": "Status: ativo   ativo no catálogo  ·  Carga horária: 76h  ·  Origem: Catálogo público\nMaterial: a preencher  ·  Última atualização: a preencher"
+  },
+  {
+    "objectID": "cursos/google-cloud-foundations/index.html#onde-este-curso-entra-nas-trilhas",
+    "href": "cursos/google-cloud-foundations/index.html#onde-este-curso-entra-nas-trilhas",
+    "title": "Google Cloud Foundations",
+    "section": "Onde este curso entra nas trilhas",
+    "text": "Onde este curso entra nas trilhas\nFaz parte de: Trilha 3 — Infraestrutura, Cloud e Redes.\n\nPreencha aqui o pré-requisito (curso anterior) e o próximo passo (call-to-action de upsell), conforme o diagrama da trilha. Ex.: “Vem de X · Próximo passo: Y”.\n\n\nPC — Plano de CursoPTD — Plano de Trabalho DocenteReferências BibliográficasMateriais Complementares\n\n\n\nA preencher. Resumo do Plano de Curso oficial. Linkar o .docx canônico. Sugestão de subtópicos: Identificação · Requisitos de acesso · Justificativa · Objetivo · Organização curricular (conhecimentos, habilidades, atitudes) · Orientações metodológicas · Avaliação · Instalações e recursos · Perfil docente · Certificação.\n\n\n\n\nA preencher. Situação de aprendizagem, indicador(es) da UC, planejamento das aulas (com sugestões de corte) e procedimentos/instrumentos de avaliação. Linkar o .docx canônico.\n\n\n\n\nA preencher. Bibliografia básica (oficial, do PC) e complementar (apoio).\n\n\n\n\nA preencher. Guias do instrutor, datasets/planilhas-exemplo, modelos, vídeos, prompts, tutoriais e demais apoios. Linkar arquivos da pasta de origem do curso, quando houver."
+  },
+  {
+    "objectID": "cursos/google-cloud-foundations/index.html#histórico-de-atualizações-deste-curso",
+    "href": "cursos/google-cloud-foundations/index.html#histórico-de-atualizações-deste-curso",
+    "title": "Google Cloud Foundations",
+    "section": "Histórico de atualizações (deste curso)",
+    "text": "Histórico de atualizações (deste curso)\n\nHistórico do material deste curso.\n\n\n\n\n\n\n\nData\nO que mudou\nAutor\n\n\n\n\na preencher\nCriação da página (scaffold).\nCápsula de Inovação"
+  },
+  {
+    "objectID": "cursos/full-stack-java/index.html",
+    "href": "cursos/full-stack-java/index.html",
+    "title": "Programador Full Stack — Formação com Java",
+    "section": "",
+    "text": "Status: ativo   ativo no catálogo  ·  Carga horária: 360h  ·  Origem: Catálogo público — rota Web/Full Stack\nMaterial: a preencher  ·  Última atualização: a preencher"
+  },
+  {
+    "objectID": "cursos/full-stack-java/index.html#onde-este-curso-entra-nas-trilhas",
+    "href": "cursos/full-stack-java/index.html#onde-este-curso-entra-nas-trilhas",
+    "title": "Programador Full Stack — Formação com Java",
+    "section": "Onde este curso entra nas trilhas",
+    "text": "Onde este curso entra nas trilhas\nFaz parte de: Trilha 5 — Programação e Desenvolvimento.\n\nPreencha aqui o pré-requisito (curso anterior) e o próximo passo (call-to-action de upsell), conforme o diagrama da trilha. Ex.: “Vem de X · Próximo passo: Y”.\n\n\nPC — Plano de CursoPTD — Plano de Trabalho DocenteReferências BibliográficasMateriais Complementares\n\n\n\nA preencher. Resumo do Plano de Curso oficial. Linkar o .docx canônico. Sugestão de subtópicos: Identificação · Requisitos de acesso · Justificativa · Objetivo · Organização curricular (conhecimentos, habilidades, atitudes) · Orientações metodológicas · Avaliação · Instalações e recursos · Perfil docente · Certificação.\n\n\n\n\nA preencher. Situação de aprendizagem, indicador(es) da UC, planejamento das aulas (com sugestões de corte) e procedimentos/instrumentos de avaliação. Linkar o .docx canônico.\n\n\n\n\nA preencher. Bibliografia básica (oficial, do PC) e complementar (apoio).\n\n\n\n\nA preencher. Guias do instrutor, datasets/planilhas-exemplo, modelos, vídeos, prompts, tutoriais e demais apoios. Linkar arquivos da pasta de origem do curso, quando houver."
+  },
+  {
+    "objectID": "cursos/full-stack-java/index.html#histórico-de-atualizações-deste-curso",
+    "href": "cursos/full-stack-java/index.html#histórico-de-atualizações-deste-curso",
+    "title": "Programador Full Stack — Formação com Java",
+    "section": "Histórico de atualizações (deste curso)",
+    "text": "Histórico de atualizações (deste curso)\n\nHistórico do material deste curso.\n\n\n\n\n\n\n\nData\nO que mudou\nAutor\n\n\n\n\na preencher\nCriação da página (scaffold).\nCápsula de Inovação"
+  },
+  {
+    "objectID": "cursos/excel-com-ia/index.html",
+    "href": "cursos/excel-com-ia/index.html",
+    "title": "Excel com IA",
+    "section": "",
+    "text": "Status: ativo   ativo no catálogo  ·  Carga horária: 28h  ·  Origem: Catálogo público\nMaterial: a preencher  ·  Última atualização: a preencher"
+  },
+  {
+    "objectID": "cursos/excel-com-ia/index.html#onde-este-curso-entra-nas-trilhas",
+    "href": "cursos/excel-com-ia/index.html#onde-este-curso-entra-nas-trilhas",
+    "title": "Excel com IA",
+    "section": "Onde este curso entra nas trilhas",
+    "text": "Onde este curso entra nas trilhas\nFaz parte de: Trilha 2 — Dados · Trilha 6 — Produtividade e Citizen Development.\n\nPreencha aqui o pré-requisito (curso anterior) e o próximo passo (call-to-action de upsell), conforme o diagrama da trilha. Ex.: “Vem de X · Próximo passo: Y”.\n\n\nPC — Plano de CursoPTD — Plano de Trabalho DocenteReferências BibliográficasMateriais Complementares\n\n\n\nA preencher. Resumo do Plano de Curso oficial. Linkar o .docx canônico. Sugestão de subtópicos: Identificação · Requisitos de acesso · Justificativa · Objetivo · Organização curricular (conhecimentos, habilidades, atitudes) · Orientações metodológicas · Avaliação · Instalações e recursos · Perfil docente · Certificação.\n\n\n\n\nA preencher. Situação de aprendizagem, indicador(es) da UC, planejamento das aulas (com sugestões de corte) e procedimentos/instrumentos de avaliação. Linkar o .docx canônico.\n\n\n\n\nA preencher. Bibliografia básica (oficial, do PC) e complementar (apoio).\n\n\n\n\nA preencher. Guias do instrutor, datasets/planilhas-exemplo, modelos, vídeos, prompts, tutoriais e demais apoios. Linkar arquivos da pasta de origem do curso, quando houver."
+  },
+  {
+    "objectID": "cursos/excel-com-ia/index.html#histórico-de-atualizações-deste-curso",
+    "href": "cursos/excel-com-ia/index.html#histórico-de-atualizações-deste-curso",
+    "title": "Excel com IA",
+    "section": "Histórico de atualizações (deste curso)",
+    "text": "Histórico de atualizações (deste curso)\n\nHistórico do material deste curso.\n\n\n\n\n\n\n\nData\nO que mudou\nAutor\n\n\n\n\na preencher\nCriação da página (scaffold).\nCápsula de Inovação"
+  },
+  {
+    "objectID": "cursos/excel-avancado-ia/index.html",
+    "href": "cursos/excel-avancado-ia/index.html",
+    "title": "Excel Avançado com IA — Automação e Dados",
+    "section": "",
+    "text": "Status: ativo   ativo no catálogo  ·  Carga horária: 36h  ·  Origem: Catálogo público\nMaterial: a preencher  ·  Última atualização: a preencher"
+  },
+  {
+    "objectID": "cursos/excel-avancado-ia/index.html#onde-este-curso-entra-nas-trilhas",
+    "href": "cursos/excel-avancado-ia/index.html#onde-este-curso-entra-nas-trilhas",
+    "title": "Excel Avançado com IA — Automação e Dados",
+    "section": "Onde este curso entra nas trilhas",
+    "text": "Onde este curso entra nas trilhas\nFaz parte de: Trilha 2 — Dados · Trilha 6 — Produtividade e Citizen Development.\n\nPreencha aqui o pré-requisito (curso anterior) e o próximo passo (call-to-action de upsell), conforme o diagrama da trilha. Ex.: “Vem de X · Próximo passo: Y”.\n\n\nPC — Plano de CursoPTD — Plano de Trabalho DocenteReferências BibliográficasMateriais Complementares\n\n\n\nA preencher. Resumo do Plano de Curso oficial. Linkar o .docx canônico. Sugestão de subtópicos: Identificação · Requisitos de acesso · Justificativa · Objetivo · Organização curricular (conhecimentos, habilidades, atitudes) · Orientações metodológicas · Avaliação · Instalações e recursos · Perfil docente · Certificação.\n\n\n\n\nA preencher. Situação de aprendizagem, indicador(es) da UC, planejamento das aulas (com sugestões de corte) e procedimentos/instrumentos de avaliação. Linkar o .docx canônico.\n\n\n\n\nA preencher. Bibliografia básica (oficial, do PC) e complementar (apoio).\n\n\n\n\nA preencher. Guias do instrutor, datasets/planilhas-exemplo, modelos, vídeos, prompts, tutoriais e demais apoios. Linkar arquivos da pasta de origem do curso, quando houver."
+  },
+  {
+    "objectID": "cursos/excel-avancado-ia/index.html#histórico-de-atualizações-deste-curso",
+    "href": "cursos/excel-avancado-ia/index.html#histórico-de-atualizações-deste-curso",
+    "title": "Excel Avançado com IA — Automação e Dados",
+    "section": "Histórico de atualizações (deste curso)",
+    "text": "Histórico de atualizações (deste curso)\n\nHistórico do material deste curso.\n\n\n\n\n\n\n\nData\nO que mudou\nAutor\n\n\n\n\na preencher\nCriação da página (scaffold).\nCápsula de Inovação"
+  },
+  {
+    "objectID": "cursos/cloud-fundamentos-azure/index.html",
+    "href": "cursos/cloud-fundamentos-azure/index.html",
+    "title": "Cloud Fundamentos com Azure",
+    "section": "",
+    "text": "Status: novo   novo — proposta a validar (GT Tech) · Código: NC-08  ·  Carga horária: 40h  ·  Origem: Proposta 2027 — gap Azure\nMaterial: a preencher  ·  Última atualização: a preencher"
+  },
+  {
+    "objectID": "cursos/cloud-fundamentos-azure/index.html#onde-este-curso-entra-nas-trilhas",
+    "href": "cursos/cloud-fundamentos-azure/index.html#onde-este-curso-entra-nas-trilhas",
+    "title": "Cloud Fundamentos com Azure",
+    "section": "Onde este curso entra nas trilhas",
+    "text": "Onde este curso entra nas trilhas\nFaz parte de: Trilha 3 — Infraestrutura, Cloud e Redes.\n\nPreencha aqui o pré-requisito (curso anterior) e o próximo passo (call-to-action de upsell), conforme o diagrama da trilha. Ex.: “Vem de X · Próximo passo: Y”.\n\n\nPC — Plano de CursoPTD — Plano de Trabalho DocenteReferências BibliográficasMateriais Complementares\n\n\n\nA preencher. Resumo do Plano de Curso oficial. Linkar o .docx canônico. Sugestão de subtópicos: Identificação · Requisitos de acesso · Justificativa · Objetivo · Organização curricular (conhecimentos, habilidades, atitudes) · Orientações metodológicas · Avaliação · Instalações e recursos · Perfil docente · Certificação.\n\n\n\n\nA preencher. Situação de aprendizagem, indicador(es) da UC, planejamento das aulas (com sugestões de corte) e procedimentos/instrumentos de avaliação. Linkar o .docx canônico.\n\n\n\n\nA preencher. Bibliografia básica (oficial, do PC) e complementar (apoio).\n\n\n\n\nA preencher. Guias do instrutor, datasets/planilhas-exemplo, modelos, vídeos, prompts, tutoriais e demais apoios. Linkar arquivos da pasta de origem do curso, quando houver."
+  },
+  {
+    "objectID": "cursos/cloud-fundamentos-azure/index.html#histórico-de-atualizações-deste-curso",
+    "href": "cursos/cloud-fundamentos-azure/index.html#histórico-de-atualizações-deste-curso",
+    "title": "Cloud Fundamentos com Azure",
+    "section": "Histórico de atualizações (deste curso)",
+    "text": "Histórico de atualizações (deste curso)\n\nHistórico do material deste curso.\n\n\n\n\n\n\n\nData\nO que mudou\nAutor\n\n\n\n\na preencher\nCriação da página (scaffold).\nCápsula de Inovação"
+  },
+  {
+    "objectID": "cursos/ciberseguranca-cisco/index.html",
+    "href": "cursos/ciberseguranca-cisco/index.html",
+    "title": "Cibersegurança Cisco",
+    "section": "",
+    "text": "Status: ativo   ativo no catálogo  ·  Carga horária: 100h  ·  Origem: Parceria Cisco — núcleo técnico\nMaterial: a preencher  ·  Última atualização: a preencher"
+  },
+  {
+    "objectID": "cursos/ciberseguranca-cisco/index.html#onde-este-curso-entra-nas-trilhas",
+    "href": "cursos/ciberseguranca-cisco/index.html#onde-este-curso-entra-nas-trilhas",
+    "title": "Cibersegurança Cisco",
+    "section": "Onde este curso entra nas trilhas",
+    "text": "Onde este curso entra nas trilhas\nFaz parte de: Trilha 4 — Cibersegurança.\n\nPreencha aqui o pré-requisito (curso anterior) e o próximo passo (call-to-action de upsell), conforme o diagrama da trilha. Ex.: “Vem de X · Próximo passo: Y”.\n\n\nPC — Plano de CursoPTD — Plano de Trabalho DocenteReferências BibliográficasMateriais Complementares\n\n\n\nA preencher. Resumo do Plano de Curso oficial. Linkar o .docx canônico. Sugestão de subtópicos: Identificação · Requisitos de acesso · Justificativa · Objetivo · Organização curricular (conhecimentos, habilidades, atitudes) · Orientações metodológicas · Avaliação · Instalações e recursos · Perfil docente · Certificação.\n\n\n\n\nA preencher. Situação de aprendizagem, indicador(es) da UC, planejamento das aulas (com sugestões de corte) e procedimentos/instrumentos de avaliação. Linkar o .docx canônico.\n\n\n\n\nA preencher. Bibliografia básica (oficial, do PC) e complementar (apoio).\n\n\n\n\nA preencher. Guias do instrutor, datasets/planilhas-exemplo, modelos, vídeos, prompts, tutoriais e demais apoios. Linkar arquivos da pasta de origem do curso, quando houver."
+  },
+  {
+    "objectID": "cursos/ciberseguranca-cisco/index.html#histórico-de-atualizações-deste-curso",
+    "href": "cursos/ciberseguranca-cisco/index.html#histórico-de-atualizações-deste-curso",
+    "title": "Cibersegurança Cisco",
+    "section": "Histórico de atualizações (deste curso)",
+    "text": "Histórico de atualizações (deste curso)\n\nHistórico do material deste curso.\n\n\n\n\n\n\n\nData\nO que mudou\nAutor\n\n\n\n\na preencher\nCriação da página (scaffold).\nCápsula de Inovação"
+  },
+  {
+    "objectID": "cursos/back-end-java/index.html",
+    "href": "cursos/back-end-java/index.html",
+    "title": "Desenvolvedor Back-End Java",
+    "section": "",
+    "text": "Status: ativo   ativo no catálogo  ·  Carga horária: 84h  ·  Origem: Catálogo público — rota Back-End\nMaterial: a preencher  ·  Última atualização: a preencher"
+  },
+  {
+    "objectID": "cursos/back-end-java/index.html#onde-este-curso-entra-nas-trilhas",
+    "href": "cursos/back-end-java/index.html#onde-este-curso-entra-nas-trilhas",
+    "title": "Desenvolvedor Back-End Java",
+    "section": "Onde este curso entra nas trilhas",
+    "text": "Onde este curso entra nas trilhas\nFaz parte de: Trilha 5 — Programação e Desenvolvimento.\n\nPreencha aqui o pré-requisito (curso anterior) e o próximo passo (call-to-action de upsell), conforme o diagrama da trilha. Ex.: “Vem de X · Próximo passo: Y”.\n\n\nPC — Plano de CursoPTD — Plano de Trabalho DocenteReferências BibliográficasMateriais Complementares\n\n\n\nA preencher. Resumo do Plano de Curso oficial. Linkar o .docx canônico. Sugestão de subtópicos: Identificação · Requisitos de acesso · Justificativa · Objetivo · Organização curricular (conhecimentos, habilidades, atitudes) · Orientações metodológicas · Avaliação · Instalações e recursos · Perfil docente · Certificação.\n\n\n\n\nA preencher. Situação de aprendizagem, indicador(es) da UC, planejamento das aulas (com sugestões de corte) e procedimentos/instrumentos de avaliação. Linkar o .docx canônico.\n\n\n\n\nA preencher. Bibliografia básica (oficial, do PC) e complementar (apoio).\n\n\n\n\nA preencher. Guias do instrutor, datasets/planilhas-exemplo, modelos, vídeos, prompts, tutoriais e demais apoios. Linkar arquivos da pasta de origem do curso, quando houver."
+  },
+  {
+    "objectID": "cursos/back-end-java/index.html#histórico-de-atualizações-deste-curso",
+    "href": "cursos/back-end-java/index.html#histórico-de-atualizações-deste-curso",
+    "title": "Desenvolvedor Back-End Java",
+    "section": "Histórico de atualizações (deste curso)",
+    "text": "Histórico de atualizações (deste curso)\n\nHistórico do material deste curso.\n\n\n\n\n\n\n\nData\nO que mudou\nAutor\n\n\n\n\na preencher\nCriação da página (scaffold).\nCápsula de Inovação"
+  },
+  {
+    "objectID": "cursos/apresentacoes-dinamicas-ia/index.html",
+    "href": "cursos/apresentacoes-dinamicas-ia/index.html",
+    "title": "Apresentações Dinâmicas com IA Generativa",
+    "section": "",
+    "text": "Status: ativo   ativo no catálogo  ·  Carga horária: 32h  ·  Origem: Catálogo público\nMaterial: a preencher  ·  Última atualização: a preencher"
+  },
+  {
+    "objectID": "cursos/apresentacoes-dinamicas-ia/index.html#onde-este-curso-entra-nas-trilhas",
+    "href": "cursos/apresentacoes-dinamicas-ia/index.html#onde-este-curso-entra-nas-trilhas",
+    "title": "Apresentações Dinâmicas com IA Generativa",
+    "section": "Onde este curso entra nas trilhas",
+    "text": "Onde este curso entra nas trilhas\nFaz parte de: Trilha 1 — IA Aplicada.\n\nPreencha aqui o pré-requisito (curso anterior) e o próximo passo (call-to-action de upsell), conforme o diagrama da trilha. Ex.: “Vem de X · Próximo passo: Y”.\n\n\nPC — Plano de CursoPTD — Plano de Trabalho DocenteReferências BibliográficasMateriais Complementares\n\n\n\nA preencher. Resumo do Plano de Curso oficial. Linkar o .docx canônico. Sugestão de subtópicos: Identificação · Requisitos de acesso · Justificativa · Objetivo · Organização curricular (conhecimentos, habilidades, atitudes) · Orientações metodológicas · Avaliação · Instalações e recursos · Perfil docente · Certificação.\n\n\n\n\nA preencher. Situação de aprendizagem, indicador(es) da UC, planejamento das aulas (com sugestões de corte) e procedimentos/instrumentos de avaliação. Linkar o .docx canônico.\n\n\n\n\nA preencher. Bibliografia básica (oficial, do PC) e complementar (apoio).\n\n\n\n\nA preencher. Guias do instrutor, datasets/planilhas-exemplo, modelos, vídeos, prompts, tutoriais e demais apoios. Linkar arquivos da pasta de origem do curso, quando houver."
+  },
+  {
+    "objectID": "cursos/apresentacoes-dinamicas-ia/index.html#histórico-de-atualizações-deste-curso",
+    "href": "cursos/apresentacoes-dinamicas-ia/index.html#histórico-de-atualizações-deste-curso",
+    "title": "Apresentações Dinâmicas com IA Generativa",
+    "section": "Histórico de atualizações (deste curso)",
+    "text": "Histórico de atualizações (deste curso)\n\nHistórico do material deste curso.\n\n\n\n\n\n\n\nData\nO que mudou\nAutor\n\n\n\n\na preencher\nCriação da página (scaffold).\nCápsula de Inovação"
+  },
+  {
+    "objectID": "como-atualizar.html",
+    "href": "como-atualizar.html",
+    "title": "Como atualizar o repositório",
+    "section": "",
+    "text": "Este repositório é um documento vivo, atualizado conforme novas tecnologias entram no portfólio. Este guia explica como fazer as três operações mais comuns. Não é preciso ser programador — tudo é texto (.qmd e Markdown)."
+  },
+  {
+    "objectID": "como-atualizar.html#pré-requisitos-uma-vez",
+    "href": "como-atualizar.html#pré-requisitos-uma-vez",
+    "title": "Como atualizar o repositório",
+    "section": "Pré-requisitos (uma vez)",
+    "text": "Pré-requisitos (uma vez)\n\nQuarto instalado (mesma ferramenta dos demais documentos da Cápsula).\nPython 3 (só para o scaffolder de novos cursos — não usa bibliotecas externas).\nUm editor de texto (VS Code recomendado, com a extensão Quarto).\n\nPara visualizar o site localmente enquanto edita:\ncd repositorio_materiais\nquarto preview          # abre o site no navegador e recarrega ao salvar\nPara gerar a versão final (pasta _site/):\nquarto render"
+  },
+  {
+    "objectID": "como-atualizar.html#atualizar-o-material-de-um-curso-existente",
+    "href": "como-atualizar.html#atualizar-o-material-de-um-curso-existente",
+    "title": "Como atualizar o repositório",
+    "section": "1. Atualizar o material de um curso existente",
+    "text": "1. Atualizar o material de um curso existente\n\nAbra cursos/&lt;slug&gt;/index.qmd (ou navegue até o curso e use o link de edição).\nEdite os blocos nas abas PC, PTD, Referências e Materiais Complementares.\nAtualize, no topo da página, Material (completo / parcial / a preencher) e Última atualização.\nAcrescente uma linha na tabela Histórico de atualizações ao final da página.\nRegistre a mudança no Changelog."
+  },
+  {
+    "objectID": "como-atualizar.html#adicionar-um-curso-novo-nova-tecnologia",
+    "href": "como-atualizar.html#adicionar-um-curso-novo-nova-tecnologia",
+    "title": "Como atualizar o repositório",
+    "section": "2. Adicionar um curso novo (nova tecnologia)",
+    "text": "2. Adicionar um curso novo (nova tecnologia)\nO jeito recomendado usa o scaffolder, que cria a página já no padrão:\n\nAbra scripts/gerar_cursos.py e acrescente um item na lista CURSOS (copie um existente como modelo). Campos:\ndict(slug=\"meu-curso-novo\", titulo=\"Meu Curso Novo\",\n     ch=\"40h\", status=\"novo\", trilhas=[\"t3\"],\n     origem=\"Proposta 2027\", codigo=\"NC-10\"),\n\nslug: nome da pasta (sem espaços/acentos, use hífens).\nstatus: ativo · novo · retorno · futuro.\ntrilhas: um ou mais entre t1…t6 (veja a tabela abaixo).\n\nRode o gerador (ele nunca sobrescreve páginas existentes):\ncd repositorio_materiais\npython scripts/gerar_cursos.py\nEdite o cursos/meu-curso-novo/index.qmd gerado e preencha os blocos (use o gabarito-padrão como referência).\nInclua o curso no diagrama da trilha (trilhas/trilha-*.qmd) e no fluxograma mestre — adicione o nó e a seta no bloco Mermaid.\nRegistre no Changelog.\n\n\nIdentificadores de trilha usados no registro.\n\n\n\n\n\n\nid\nTrilha\n\n\n\n\nt1\nIA Aplicada\n\n\nt2\nDados\n\n\nt3\nInfraestrutura, Cloud e Redes\n\n\nt4\nCibersegurança\n\n\nt5\nProgramação e Desenvolvimento\n\n\nt6\nProdutividade e Citizen Development"
+  },
+  {
+    "objectID": "como-atualizar.html#editar-o-fluxograma-das-trilhas",
+    "href": "como-atualizar.html#editar-o-fluxograma-das-trilhas",
+    "title": "Como atualizar o repositório",
+    "section": "3. Editar o fluxograma das trilhas",
+    "text": "3. Editar o fluxograma das trilhas\nOs diagramas são escritos em Mermaid (texto), dentro de blocos ```{mermaid}. Para adicionar um curso ao fluxo:\nflowchart LR\n  anterior[\"Curso Anterior&lt;br/&gt;&lt;small&gt;Xh&lt;/small&gt;\"] --&gt; novo[\"Curso Novo&lt;br/&gt;&lt;small&gt;Yh&lt;/small&gt;\"]\n  class novo novo\n\nCada nó tem um id (novo) e um rótulo entre aspas; use &lt;br/&gt; para quebrar linha e &lt;small&gt;…&lt;/small&gt; para a carga horária.\nA seta --&gt; representa o upsell (pré-requisito → próximo). Use -. texto .-&gt; para pontes entre trilhas.\nA linha class novo novo aplica a cor de status (ativo, novo, futuro, retorno).\n\nAs paletas de status (classDef …) já estão no fim de cada diagrama — basta reusar."
+  },
+  {
+    "objectID": "como-atualizar.html#convenções-de-conteúdo",
+    "href": "como-atualizar.html#convenções-de-conteúdo",
+    "title": "Como atualizar o repositório",
+    "section": "Convenções de conteúdo",
+    "text": "Convenções de conteúdo\n\nIdioma: português do Brasil.\nFonte canônica: o PC/PTD oficial (.docx) é a fonte; este repositório é a camada navegável. Sempre que possível, linke o arquivo oficial no bloco correspondente.\nStatus honesto: trilhas e cursos novos (NC-xx) são propostas a validar — mantenha o selo correto.\nVersionamento: changelog + histórico por curso, datas em AAAA-MM-DD."
+  },
+  {
+    "objectID": "como-atualizar.html#publicar-o-site-hospedagem",
+    "href": "como-atualizar.html#publicar-o-site-hospedagem",
+    "title": "Como atualizar o repositório",
+    "section": "Publicar o site (hospedagem)",
+    "text": "Publicar o site (hospedagem)\nO site é estático (pasta _site/ após quarto render). Pode ser publicado em GitHub Pages, servidor interno ou compartilhado em rede. Alternativa portátil: ativar embed-resources: true para gerar páginas HTML autocontidas."
+  },
+  {
+    "objectID": "changelog.html",
+    "href": "changelog.html",
+    "title": "Changelog",
+    "section": "",
+    "text": "Registro de todas as mudanças relevantes do repositório — novos cursos, atualização de PC/PTD, mudanças de trilha, correções. Toda alteração de conteúdo deve gerar uma linha aqui.\nFormato baseado em Keep a Changelog. Datas em AAAA-MM-DD. Os tipos de mudança são: Adicionado, Alterado, Corrigido, Removido, Depreciado."
+  },
+  {
+    "objectID": "changelog.html#v0-1-0",
+    "href": "changelog.html#v0-1-0",
+    "title": "Changelog",
+    "section": "[0.1.0] — 2026-06-19",
+    "text": "[0.1.0] — 2026-06-19\nVersão inicial do repositório de materiais.\nAdicionado\n\nEstrutura do site Quarto navegável (início, fluxograma, trilhas, cursos, changelog, guia de atualização).\nFluxograma mestre das 6 trilhas em Mermaid, com pré-requisitos e pontes entre trilhas.\nPáginas das 6 trilhas (IA Aplicada, Dados, Infraestrutura, Cibersegurança, Programação, Produtividade), cada uma com diagrama Mermaid próprio e tabela de cursos.\n35 páginas de curso geradas a partir do registro (scripts/gerar_cursos.py), com gabarito-padrão (PC · PTD · Referências · Materiais Complementares).\nConteúdo real preenchido em 4 cursos-exemplo: Microsoft Power Platform, Excel com IA — Fundamentos, IA na Prática e IA — Muito Além do Prompt.\nGabarito-padrão de curso (_templates/gabarito-curso.qmd) e guia Como atualizar."
+  },
+  {
+    "objectID": "cursos/ai-901-azure/index.html",
+    "href": "cursos/ai-901-azure/index.html",
+    "title": "AI-901 — Inteligência Artificial com Azure",
+    "section": "",
+    "text": "Status: futuro   futuro — horizonte de expansão  ·  Carga horária: ~48h  ·  Origem: Em reformulação (sucede o AI-900)\nMaterial: a preencher  ·  Última atualização: a preencher"
+  },
+  {
+    "objectID": "cursos/ai-901-azure/index.html#onde-este-curso-entra-nas-trilhas",
+    "href": "cursos/ai-901-azure/index.html#onde-este-curso-entra-nas-trilhas",
+    "title": "AI-901 — Inteligência Artificial com Azure",
+    "section": "Onde este curso entra nas trilhas",
+    "text": "Onde este curso entra nas trilhas\nFaz parte de: Trilha 1 — IA Aplicada.\n\nPreencha aqui o pré-requisito (curso anterior) e o próximo passo (call-to-action de upsell), conforme o diagrama da trilha. Ex.: “Vem de X · Próximo passo: Y”.\n\n\nPC — Plano de CursoPTD — Plano de Trabalho DocenteReferências BibliográficasMateriais Complementares\n\n\n\nA preencher. Resumo do Plano de Curso oficial. Linkar o .docx canônico. Sugestão de subtópicos: Identificação · Requisitos de acesso · Justificativa · Objetivo · Organização curricular (conhecimentos, habilidades, atitudes) · Orientações metodológicas · Avaliação · Instalações e recursos · Perfil docente · Certificação.\n\n\n\n\nA preencher. Situação de aprendizagem, indicador(es) da UC, planejamento das aulas (com sugestões de corte) e procedimentos/instrumentos de avaliação. Linkar o .docx canônico.\n\n\n\n\nA preencher. Bibliografia básica (oficial, do PC) e complementar (apoio).\n\n\n\n\nA preencher. Guias do instrutor, datasets/planilhas-exemplo, modelos, vídeos, prompts, tutoriais e demais apoios. Linkar arquivos da pasta de origem do curso, quando houver."
+  },
+  {
+    "objectID": "cursos/ai-901-azure/index.html#histórico-de-atualizações-deste-curso",
+    "href": "cursos/ai-901-azure/index.html#histórico-de-atualizações-deste-curso",
+    "title": "AI-901 — Inteligência Artificial com Azure",
+    "section": "Histórico de atualizações (deste curso)",
+    "text": "Histórico de atualizações (deste curso)\n\nHistórico do material deste curso.\n\n\n\n\n\n\n\nData\nO que mudou\nAutor\n\n\n\n\na preencher\nCriação da página (scaffold).\nCápsula de Inovação"
+  },
+  {
+    "objectID": "cursos/aws-restart/index.html",
+    "href": "cursos/aws-restart/index.html",
+    "title": "AWS RE/START",
+    "section": "",
+    "text": "Status: ativo   ativo no catálogo  ·  Carga horária: 400h  ·  Origem: Canal próprio — parceria AWS (sazonal)\nMaterial: a preencher  ·  Última atualização: a preencher"
+  },
+  {
+    "objectID": "cursos/aws-restart/index.html#onde-este-curso-entra-nas-trilhas",
+    "href": "cursos/aws-restart/index.html#onde-este-curso-entra-nas-trilhas",
+    "title": "AWS RE/START",
+    "section": "Onde este curso entra nas trilhas",
+    "text": "Onde este curso entra nas trilhas\nFaz parte de: Trilha 3 — Infraestrutura, Cloud e Redes.\n\nPreencha aqui o pré-requisito (curso anterior) e o próximo passo (call-to-action de upsell), conforme o diagrama da trilha. Ex.: “Vem de X · Próximo passo: Y”.\n\n\nPC — Plano de CursoPTD — Plano de Trabalho DocenteReferências BibliográficasMateriais Complementares\n\n\n\nA preencher. Resumo do Plano de Curso oficial. Linkar o .docx canônico. Sugestão de subtópicos: Identificação · Requisitos de acesso · Justificativa · Objetivo · Organização curricular (conhecimentos, habilidades, atitudes) · Orientações metodológicas · Avaliação · Instalações e recursos · Perfil docente · Certificação.\n\n\n\n\nA preencher. Situação de aprendizagem, indicador(es) da UC, planejamento das aulas (com sugestões de corte) e procedimentos/instrumentos de avaliação. Linkar o .docx canônico.\n\n\n\n\nA preencher. Bibliografia básica (oficial, do PC) e complementar (apoio).\n\n\n\n\nA preencher. Guias do instrutor, datasets/planilhas-exemplo, modelos, vídeos, prompts, tutoriais e demais apoios. Linkar arquivos da pasta de origem do curso, quando houver."
+  },
+  {
+    "objectID": "cursos/aws-restart/index.html#histórico-de-atualizações-deste-curso",
+    "href": "cursos/aws-restart/index.html#histórico-de-atualizações-deste-curso",
+    "title": "AWS RE/START",
+    "section": "Histórico de atualizações (deste curso)",
+    "text": "Histórico de atualizações (deste curso)\n\nHistórico do material deste curso.\n\n\n\n\n\n\n\nData\nO que mudou\nAutor\n\n\n\n\na preencher\nCriação da página (scaffold).\nCápsula de Inovação"
+  },
+  {
+    "objectID": "cursos/banco-de-dados/index.html",
+    "href": "cursos/banco-de-dados/index.html",
+    "title": "Banco de Dados",
+    "section": "",
+    "text": "Status: ativo   ativo no catálogo  ·  Carga horária: 120h  ·  Origem: Catálogo (relação com SQL para Dados a definir)\nMaterial: a preencher  ·  Última atualização: a preencher"
+  },
+  {
+    "objectID": "cursos/banco-de-dados/index.html#onde-este-curso-entra-nas-trilhas",
+    "href": "cursos/banco-de-dados/index.html#onde-este-curso-entra-nas-trilhas",
+    "title": "Banco de Dados",
+    "section": "Onde este curso entra nas trilhas",
+    "text": "Onde este curso entra nas trilhas\nFaz parte de: Trilha 2 — Dados.\n\nPreencha aqui o pré-requisito (curso anterior) e o próximo passo (call-to-action de upsell), conforme o diagrama da trilha. Ex.: “Vem de X · Próximo passo: Y”.\n\n\nPC — Plano de CursoPTD — Plano de Trabalho DocenteReferências BibliográficasMateriais Complementares\n\n\n\nA preencher. Resumo do Plano de Curso oficial. Linkar o .docx canônico. Sugestão de subtópicos: Identificação · Requisitos de acesso · Justificativa · Objetivo · Organização curricular (conhecimentos, habilidades, atitudes) · Orientações metodológicas · Avaliação · Instalações e recursos · Perfil docente · Certificação.\n\n\n\n\nA preencher. Situação de aprendizagem, indicador(es) da UC, planejamento das aulas (com sugestões de corte) e procedimentos/instrumentos de avaliação. Linkar o .docx canônico.\n\n\n\n\nA preencher. Bibliografia básica (oficial, do PC) e complementar (apoio).\n\n\n\n\nA preencher. Guias do instrutor, datasets/planilhas-exemplo, modelos, vídeos, prompts, tutoriais e demais apoios. Linkar arquivos da pasta de origem do curso, quando houver."
+  },
+  {
+    "objectID": "cursos/banco-de-dados/index.html#histórico-de-atualizações-deste-curso",
+    "href": "cursos/banco-de-dados/index.html#histórico-de-atualizações-deste-curso",
+    "title": "Banco de Dados",
+    "section": "Histórico de atualizações (deste curso)",
+    "text": "Histórico de atualizações (deste curso)\n\nHistórico do material deste curso.\n\n\n\n\n\n\n\nData\nO que mudou\nAutor\n\n\n\n\na preencher\nCriação da página (scaffold).\nCápsula de Inovação"
+  },
+  {
+    "objectID": "cursos/cisco-ccna/index.html",
+    "href": "cursos/cisco-ccna/index.html",
+    "title": "Formação Cisco CCNA V7.0",
+    "section": "",
+    "text": "Status: ativo   ativo no catálogo  ·  Carga horária: 210h  ·  Origem: Catálogo público — parceria Cisco\nMaterial: a preencher  ·  Última atualização: a preencher"
+  },
+  {
+    "objectID": "cursos/cisco-ccna/index.html#onde-este-curso-entra-nas-trilhas",
+    "href": "cursos/cisco-ccna/index.html#onde-este-curso-entra-nas-trilhas",
+    "title": "Formação Cisco CCNA V7.0",
+    "section": "Onde este curso entra nas trilhas",
+    "text": "Onde este curso entra nas trilhas\nFaz parte de: Trilha 3 — Infraestrutura, Cloud e Redes.\n\nPreencha aqui o pré-requisito (curso anterior) e o próximo passo (call-to-action de upsell), conforme o diagrama da trilha. Ex.: “Vem de X · Próximo passo: Y”.\n\n\nPC — Plano de CursoPTD — Plano de Trabalho DocenteReferências BibliográficasMateriais Complementares\n\n\n\nA preencher. Resumo do Plano de Curso oficial. Linkar o .docx canônico. Sugestão de subtópicos: Identificação · Requisitos de acesso · Justificativa · Objetivo · Organização curricular (conhecimentos, habilidades, atitudes) · Orientações metodológicas · Avaliação · Instalações e recursos · Perfil docente · Certificação.\n\n\n\n\nA preencher. Situação de aprendizagem, indicador(es) da UC, planejamento das aulas (com sugestões de corte) e procedimentos/instrumentos de avaliação. Linkar o .docx canônico.\n\n\n\n\nA preencher. Bibliografia básica (oficial, do PC) e complementar (apoio).\n\n\n\n\nA preencher. Guias do instrutor, datasets/planilhas-exemplo, modelos, vídeos, prompts, tutoriais e demais apoios. Linkar arquivos da pasta de origem do curso, quando houver."
+  },
+  {
+    "objectID": "cursos/cisco-ccna/index.html#histórico-de-atualizações-deste-curso",
+    "href": "cursos/cisco-ccna/index.html#histórico-de-atualizações-deste-curso",
+    "title": "Formação Cisco CCNA V7.0",
+    "section": "Histórico de atualizações (deste curso)",
+    "text": "Histórico de atualizações (deste curso)\n\nHistórico do material deste curso.\n\n\n\n\n\n\n\nData\nO que mudou\nAutor\n\n\n\n\na preencher\nCriação da página (scaffold).\nCápsula de Inovação"
+  },
+  {
+    "objectID": "cursos/containers-kubernetes/index.html",
+    "href": "cursos/containers-kubernetes/index.html",
+    "title": "Containers e Kubernetes Essentials",
+    "section": "",
+    "text": "Status: novo   novo — proposta a validar (GT Tech) · Código: NC-09  ·  Carga horária: 60h  ·  Origem: Proposta 2027 — lacuna prioritária\nMaterial: a preencher  ·  Última atualização: a preencher"
+  },
+  {
+    "objectID": "cursos/containers-kubernetes/index.html#onde-este-curso-entra-nas-trilhas",
+    "href": "cursos/containers-kubernetes/index.html#onde-este-curso-entra-nas-trilhas",
+    "title": "Containers e Kubernetes Essentials",
+    "section": "Onde este curso entra nas trilhas",
+    "text": "Onde este curso entra nas trilhas\nFaz parte de: Trilha 3 — Infraestrutura, Cloud e Redes.\n\nPreencha aqui o pré-requisito (curso anterior) e o próximo passo (call-to-action de upsell), conforme o diagrama da trilha. Ex.: “Vem de X · Próximo passo: Y”.\n\n\nPC — Plano de CursoPTD — Plano de Trabalho DocenteReferências BibliográficasMateriais Complementares\n\n\n\nA preencher. Resumo do Plano de Curso oficial. Linkar o .docx canônico. Sugestão de subtópicos: Identificação · Requisitos de acesso · Justificativa · Objetivo · Organização curricular (conhecimentos, habilidades, atitudes) · Orientações metodológicas · Avaliação · Instalações e recursos · Perfil docente · Certificação.\n\n\n\n\nA preencher. Situação de aprendizagem, indicador(es) da UC, planejamento das aulas (com sugestões de corte) e procedimentos/instrumentos de avaliação. Linkar o .docx canônico.\n\n\n\n\nA preencher. Bibliografia básica (oficial, do PC) e complementar (apoio).\n\n\n\n\nA preencher. Guias do instrutor, datasets/planilhas-exemplo, modelos, vídeos, prompts, tutoriais e demais apoios. Linkar arquivos da pasta de origem do curso, quando houver."
+  },
+  {
+    "objectID": "cursos/containers-kubernetes/index.html#histórico-de-atualizações-deste-curso",
+    "href": "cursos/containers-kubernetes/index.html#histórico-de-atualizações-deste-curso",
+    "title": "Containers e Kubernetes Essentials",
+    "section": "Histórico de atualizações (deste curso)",
+    "text": "Histórico de atualizações (deste curso)\n\nHistórico do material deste curso.\n\n\n\n\n\n\n\nData\nO que mudou\nAutor\n\n\n\n\na preencher\nCriação da página (scaffold).\nCápsula de Inovação"
+  },
+  {
+    "objectID": "cursos/excel-com-ia-fundamentos/index.html",
+    "href": "cursos/excel-com-ia-fundamentos/index.html",
+    "title": "Excel com IA — Fundamentos",
+    "section": "",
+    "text": "Status: ativo   isca (ONDA2) · Código: SGA 14758 / DN 991.50  ·  Carga horária: 8h (4 aulas de 2h)  ·  Tipo: Instrumental · Remoto ou Presencial\nMaterial: completo  ·  Última atualização: 2026-06-19"
+  },
+  {
+    "objectID": "cursos/excel-com-ia-fundamentos/index.html#onde-este-curso-entra-nas-trilhas",
+    "href": "cursos/excel-com-ia-fundamentos/index.html#onde-este-curso-entra-nas-trilhas",
+    "title": "Excel com IA — Fundamentos",
+    "section": "Onde este curso entra nas trilhas",
+    "text": "Onde este curso entra nas trilhas\nFaz parte de: Trilha 6 — Produtividade e Citizen Development.\n\nVem de: porta de entrada (isca ONDA) · Próximo passo: Excel com IA (28h) → Excel Avançado com IA. Conecta também com a Trilha Dados via Power BI.\n\n\nPC — Plano de CursoPTD — Plano de Trabalho DocenteReferências BibliográficasMateriais Complementares\n\n\nFonte oficial: PC — Excel com IA Fundamentos (.docx)\n\n1. Identificação\n\nEixo: Informação e Comunicação · Segmento: Tecnologia da Informação\nTipo: Instrumental · Carga horária: 8 horas · Código DN: 991.50\n\n\n\n2. Requisitos de acesso\n\nIdade mínima: 14 anos · Escolaridade: não há.\nConhecimentos básicos de informática (sistema operacional e internet).\nDocumentos: identidade, CPF, autodeclaração de conhecimentos básicos.\n\n\n\n3. Justificativa\nO Excel é uma das ferramentas mais populares do mercado para manipular planilhas, gráficos e conectar fontes de dados. O curso proporciona melhor colocação profissional pela análise qualitativa de dados e criação de gráficos, integrando recursos de IA generativa ao fluxo de trabalho.\n\n\n4. Objetivo\nPermitir que os participantes elaborem planilhas com recursos de formatação e cálculos, apoiados por IA.\n\n\n5. Organização curricular\nUnidade Curricular: Excel com IA — Fundamentos — 8h.\n\n\n\n\n\n\n\nElemento\nConteúdo\n\n\n\n\nConhecimentos\nLayout e modos de exibição; gerenciamento de guias; formatação (números, alinhamento, fonte, bordas, preenchimento); fórmulas e funções — SOMA, HOJE/AGORA, MÉDIA/MÁXIMO/MÍNIMO; classificação e filtragem; gráficos básicos (linhas e colunas); configurações de página; ferramentas de IA: ChatGPT, Gemini e Copilot.\n\n\nHabilidades\nConstruir planilhas integradas à Inteligência Artificial.\n\n\n\n\n\n6. Orientações metodológicas\nO instrutor apresenta recursos de IA interagindo com o Excel (ChatGPT, Gemini, Copilot) para: sugerir fórmulas e explicações; formatar planilhas; criar gráficos; e validar fórmulas a partir de comandos em linguagem natural. Apoio em casos reais/fictícios e nos recursos do Espaço Docente (Cachola, Cubus, Anuário de Tecnologias Educacionais).\n\n\n7. Avaliação\nAprovação com frequência igual a 100% da carga horária. Menções Concluiu (C) / Não concluiu (NC).\n\n\n8–11. Recursos, perfil e certificação\n1 computador por aluno com Excel 2019+ e internet. Docente com domínio de Excel e IA generativa. Certificado instrumental em Excel com IA — Fundamentos, validade nacional.\n\n\n\nFonte oficial: PTD — Excel com IA Fundamentos (.docx)\nIdeia central: a IA não fica dentro do Excel. O fluxo é — o aluno descreve o problema em português → a IA responde com a fórmula/explicação → o aluno copia para a célula e confere. É a competência Engenharia de Comandos: pensar com a tecnologia, não decorar fórmula.\n\nPlanejamento das aulas (4 × 2h)\n\n\n\n\n\n\n\n\nAula\nFoco\nOnde a IA entra\n\n\n\n\n1\nInterface, guias e formatação\nTour pelo Excel; entrega do modelo pronto (planilha da Mariana); apresentação do Claude/ChatGPT/Gemini. Sem fórmula ainda.\n\n\n2\nFórmulas: SOMA, HOJE, AGORA\nPedir à IA a fórmula da coluna Total e as funções de data/hora automáticas.\n\n\n3\nEstatística, classificar e filtrar\nMÉDIA/MÁXIMO/MÍNIMO via IA; validar a organização da planilha; classificar e filtrar (ex.: vendas no Pix).\n\n\n4\nGráficos, página e avaliação\nEscolher o gráfico com apoio da IA; preparar para impressão; atividade avaliativa: reconstruir a planilha da Mariana.\n\n\n\n\n\nBoas práticas com IA (combinar com a turma)\nA IA pode errar — toda fórmula é testada; separador de argumentos em PT costuma ser ;; LGPD: não colar dados reais/sensíveis na IA (usar dados de exemplo); fazer logoff das contas ao fim de cada aula.\n\n\n\nBásica (oficial — do PC)\n\nMicrosoft. Suporte do Office Excel — https://support.microsoft.com/pt-br/excel\n\nComplementar (apoio)\n\nFerramentas de IA generativa: ChatGPT, Google Gemini, Microsoft Copilot, Claude.\nEspaço Docente Senac — plataformas Cachola e Cubus; Anuário de Tecnologias Educacionais.\n\n\n\n\nGuia do Instrutor — Demonstração com IA: Guia_Instrutor_Demonstracao_IA.md — roteiro pronto, aula a aula, com os prompts para montar a planilha da persona Mariana usando IA externa.\nPlanilha-exemplo (3 abas: Antes / Depois / Como pedir ao Claude): Exemplo_Planilha_Inteligente_Mariana.xlsx\nGerador da planilha (gerar_planilha_exemplo.py, openpyxl) na pasta de origem, para criar variações por turma."
+  },
+  {
+    "objectID": "cursos/excel-com-ia-fundamentos/index.html#histórico-de-atualizações-deste-curso",
+    "href": "cursos/excel-com-ia-fundamentos/index.html#histórico-de-atualizações-deste-curso",
+    "title": "Excel com IA — Fundamentos",
+    "section": "Histórico de atualizações (deste curso)",
+    "text": "Histórico de atualizações (deste curso)\n\nHistórico do material deste curso.\n\n\n\n\n\n\n\nData\nO que mudou\nAutor\n\n\n\n\n2026-06-19\nPágina criada com PC, PTD (resumo) e materiais de apoio.\nCápsula de Inovação"
+  },
+  {
+    "objectID": "cursos/excel-dashboard/index.html",
+    "href": "cursos/excel-dashboard/index.html",
+    "title": "Excel Dashboard — Planilhas Gerenciais",
+    "section": "",
+    "text": "Status: ativo   ativo no catálogo  ·  Carga horária: 24h  ·  Origem: Ramo lateral opcional\nMaterial: a preencher  ·  Última atualização: a preencher"
+  },
+  {
+    "objectID": "cursos/excel-dashboard/index.html#onde-este-curso-entra-nas-trilhas",
+    "href": "cursos/excel-dashboard/index.html#onde-este-curso-entra-nas-trilhas",
+    "title": "Excel Dashboard — Planilhas Gerenciais",
+    "section": "Onde este curso entra nas trilhas",
+    "text": "Onde este curso entra nas trilhas\nFaz parte de: Trilha 2 — Dados · Trilha 6 — Produtividade e Citizen Development.\n\nPreencha aqui o pré-requisito (curso anterior) e o próximo passo (call-to-action de upsell), conforme o diagrama da trilha. Ex.: “Vem de X · Próximo passo: Y”.\n\n\nPC — Plano de CursoPTD — Plano de Trabalho DocenteReferências BibliográficasMateriais Complementares\n\n\n\nA preencher. Resumo do Plano de Curso oficial. Linkar o .docx canônico. Sugestão de subtópicos: Identificação · Requisitos de acesso · Justificativa · Objetivo · Organização curricular (conhecimentos, habilidades, atitudes) · Orientações metodológicas · Avaliação · Instalações e recursos · Perfil docente · Certificação.\n\n\n\n\nA preencher. Situação de aprendizagem, indicador(es) da UC, planejamento das aulas (com sugestões de corte) e procedimentos/instrumentos de avaliação. Linkar o .docx canônico.\n\n\n\n\nA preencher. Bibliografia básica (oficial, do PC) e complementar (apoio).\n\n\n\n\nA preencher. Guias do instrutor, datasets/planilhas-exemplo, modelos, vídeos, prompts, tutoriais e demais apoios. Linkar arquivos da pasta de origem do curso, quando houver."
+  },
+  {
+    "objectID": "cursos/excel-dashboard/index.html#histórico-de-atualizações-deste-curso",
+    "href": "cursos/excel-dashboard/index.html#histórico-de-atualizações-deste-curso",
+    "title": "Excel Dashboard — Planilhas Gerenciais",
+    "section": "Histórico de atualizações (deste curso)",
+    "text": "Histórico de atualizações (deste curso)\n\nHistórico do material deste curso.\n\n\n\n\n\n\n\nData\nO que mudou\nAutor\n\n\n\n\na preencher\nCriação da página (scaffold).\nCápsula de Inovação"
+  },
+  {
+    "objectID": "cursos/fundamentos-engenharia-dados/index.html",
+    "href": "cursos/fundamentos-engenharia-dados/index.html",
+    "title": "Fundamentos de Engenharia de Dados",
+    "section": "",
+    "text": "Status: novo   novo — proposta a validar (GT Tech) · Código: NC-03  ·  Carga horária: 120h  ·  Origem: Proposta 2027 (candidata: parceria Semantix)\nMaterial: a preencher  ·  Última atualização: a preencher"
+  },
+  {
+    "objectID": "cursos/fundamentos-engenharia-dados/index.html#onde-este-curso-entra-nas-trilhas",
+    "href": "cursos/fundamentos-engenharia-dados/index.html#onde-este-curso-entra-nas-trilhas",
+    "title": "Fundamentos de Engenharia de Dados",
+    "section": "Onde este curso entra nas trilhas",
+    "text": "Onde este curso entra nas trilhas\nFaz parte de: Trilha 2 — Dados.\n\nPreencha aqui o pré-requisito (curso anterior) e o próximo passo (call-to-action de upsell), conforme o diagrama da trilha. Ex.: “Vem de X · Próximo passo: Y”.\n\n\nPC — Plano de CursoPTD — Plano de Trabalho DocenteReferências BibliográficasMateriais Complementares\n\n\n\nA preencher. Resumo do Plano de Curso oficial. Linkar o .docx canônico. Sugestão de subtópicos: Identificação · Requisitos de acesso · Justificativa · Objetivo · Organização curricular (conhecimentos, habilidades, atitudes) · Orientações metodológicas · Avaliação · Instalações e recursos · Perfil docente · Certificação.\n\n\n\n\nA preencher. Situação de aprendizagem, indicador(es) da UC, planejamento das aulas (com sugestões de corte) e procedimentos/instrumentos de avaliação. Linkar o .docx canônico.\n\n\n\n\nA preencher. Bibliografia básica (oficial, do PC) e complementar (apoio).\n\n\n\n\nA preencher. Guias do instrutor, datasets/planilhas-exemplo, modelos, vídeos, prompts, tutoriais e demais apoios. Linkar arquivos da pasta de origem do curso, quando houver."
+  },
+  {
+    "objectID": "cursos/fundamentos-engenharia-dados/index.html#histórico-de-atualizações-deste-curso",
+    "href": "cursos/fundamentos-engenharia-dados/index.html#histórico-de-atualizações-deste-curso",
+    "title": "Fundamentos de Engenharia de Dados",
+    "section": "Histórico de atualizações (deste curso)",
+    "text": "Histórico de atualizações (deste curso)\n\nHistórico do material deste curso.\n\n\n\n\n\n\n\nData\nO que mudou\nAutor\n\n\n\n\na preencher\nCriação da página (scaffold).\nCápsula de Inovação"
+  },
+  {
+    "objectID": "cursos/ia-aplicada-avancada/index.html",
+    "href": "cursos/ia-aplicada-avancada/index.html",
+    "title": "IA Aplicada Avançada — Multiagent, RAG e LLM Ops",
+    "section": "",
+    "text": "Status: novo   novo — proposta a validar (GT Tech) · Código: NC-04  ·  Carga horária: 80h  ·  Origem: Proposta 2027\nMaterial: a preencher  ·  Última atualização: a preencher"
+  },
+  {
+    "objectID": "cursos/ia-aplicada-avancada/index.html#onde-este-curso-entra-nas-trilhas",
+    "href": "cursos/ia-aplicada-avancada/index.html#onde-este-curso-entra-nas-trilhas",
+    "title": "IA Aplicada Avançada — Multiagent, RAG e LLM Ops",
+    "section": "Onde este curso entra nas trilhas",
+    "text": "Onde este curso entra nas trilhas\nFaz parte de: Trilha 1 — IA Aplicada.\n\nPreencha aqui o pré-requisito (curso anterior) e o próximo passo (call-to-action de upsell), conforme o diagrama da trilha. Ex.: “Vem de X · Próximo passo: Y”.\n\n\nPC — Plano de CursoPTD — Plano de Trabalho DocenteReferências BibliográficasMateriais Complementares\n\n\n\nA preencher. Resumo do Plano de Curso oficial. Linkar o .docx canônico. Sugestão de subtópicos: Identificação · Requisitos de acesso · Justificativa · Objetivo · Organização curricular (conhecimentos, habilidades, atitudes) · Orientações metodológicas · Avaliação · Instalações e recursos · Perfil docente · Certificação.\n\n\n\n\nA preencher. Situação de aprendizagem, indicador(es) da UC, planejamento das aulas (com sugestões de corte) e procedimentos/instrumentos de avaliação. Linkar o .docx canônico.\n\n\n\n\nA preencher. Bibliografia básica (oficial, do PC) e complementar (apoio).\n\n\n\n\nA preencher. Guias do instrutor, datasets/planilhas-exemplo, modelos, vídeos, prompts, tutoriais e demais apoios. Linkar arquivos da pasta de origem do curso, quando houver."
+  },
+  {
+    "objectID": "cursos/ia-aplicada-avancada/index.html#histórico-de-atualizações-deste-curso",
+    "href": "cursos/ia-aplicada-avancada/index.html#histórico-de-atualizações-deste-curso",
+    "title": "IA Aplicada Avançada — Multiagent, RAG e LLM Ops",
+    "section": "Histórico de atualizações (deste curso)",
+    "text": "Histórico de atualizações (deste curso)\n\nHistórico do material deste curso.\n\n\n\n\n\n\n\nData\nO que mudou\nAutor\n\n\n\n\na preencher\nCriação da página (scaffold).\nCápsula de Inovação"
+  },
+  {
+    "objectID": "cursos/ia-muito-alem-do-prompt/index.html",
+    "href": "cursos/ia-muito-alem-do-prompt/index.html",
+    "title": "Inteligência Artificial — Muito Além do Prompt",
+    "section": "",
+    "text": "Status: ativo   catálogo público  ·  Carga horária: 24h (6 aulas de 4h)  ·  Tipo: Aperfeiçoamento\nMaterial: completo  ·  Última atualização: 2026-06-19"
+  },
+  {
+    "objectID": "cursos/ia-muito-alem-do-prompt/index.html#onde-este-curso-entra-nas-trilhas",
+    "href": "cursos/ia-muito-alem-do-prompt/index.html#onde-este-curso-entra-nas-trilhas",
+    "title": "Inteligência Artificial — Muito Além do Prompt",
+    "section": "Onde este curso entra nas trilhas",
+    "text": "Onde este curso entra nas trilhas\nFaz parte de: Trilha 1 — IA Aplicada · Trilha 2 — Dados.\n\nNa Trilha IA Aplicada: aprofundamento conceitual após IA Sem Mistério. Na Trilha Dados (2A): intercalado antes do Excel Avançado com IA, reforçando competência em IA generativa ao longo da jornada de dados.\n\n\nPC — Plano de CursoPTD — Plano de Trabalho DocenteReferências BibliográficasMateriais Complementares\n\n\n\nFonte oficial: o PC consolidado deve ser linkado aqui quando disponível. Os elementos de competência abaixo derivam do PTD oficial.\n\n\nTipo: Aperfeiçoamento · Carga horária: 24h.\nIndicador da UC: Utiliza prompts para a criação de agentes virtuais durante a elaboração de processos e práticas de interação textual.\nConhecimentos: conceitos de Modelos de Linguagem (chatbots, geração de texto, tradução, resumo); Engenharia de Comandos; desenvolvimento de AI Agentes (interação eficaz e natural com usuários).\nHabilidades: criar agentes de IA usando prompts e modelos de linguagem para interações inteligentes e personalizadas.\n\n\n\nFonte oficial: PTD — IA Muito Além do Prompt (.docx)\nOrientação geral: aulas em navegação guiada (o docente acompanha de perto cada atividade). Reforçar o uso de conta Gmail (necessária para o Dialogflow nas aulas seguintes).\n\nSituação de Aprendizagem\n\nA empresa Digi-S Solutions quer criar um agente virtual inteligente para suporte ao cliente em múltiplos canais (WhatsApp, Telegram, etc.), com interações para dúvidas comuns, integração em várias plataformas e comunicação amigável e inclusiva. Como criar um agente eficiente, com respostas claras e adaptadas a cada usuário?\n\nInstrumentos de avaliação: exercícios práticos de criação de agentes com prompts; documento (Word/PowerPoint) elaborado com apoio de IA.\n\n\nPlanejamento das aulas (6 × 4h)\n\n\n\n\n\n\n\n\nAula\nFoco\nDestaques\n\n\n\n\n1\nConceitos e protótipo\nAgentes virtuais × chatbots; pesquisa de casos reais (apresentação no Gamma); protótipo de chatbot com ChatGPT/Gemini/Copilot; dinâmica de testes.\n\n\n2\nDialogflow ES\nO que é, ES × CX; criar e configurar agente; intents padrão (welcome, fallback); criar intent simples (frases de treinamento, ação/parâmetros, respostas).\n\n\n3\nDocumentação do agente\nPlanejar o agente no papel antes de implementar: finalidade, público, linguagem, canais, intents, fluxo de conversa (fluxograma), frases de treinamento e respostas.\n\n\n4\nImplementação\nRevisão do passo a passo; entidades; edição coletiva; backup em JSON; início da implementação da documentação.\n\n\n5\nDesenvolvimento e revisão\nContinuação do desenvolvimento; comparar documentação × projeto no Dialogflow; melhorias com base no feedback.\n\n\n6\nIntegração e análise\nIntegração nativa (Telegram, Slack, Messenger, Google Chat) e via Landbot (WhatsApp); análise de interações/sessões; apresentação final.\n\n\n\n\n\n\nComplementar (apoio)\n\nGoogle. Dialogflow ES / CX — documentação — https://cloud.google.com/dialogflow/docs\nLandbot (integração WhatsApp) — https://landbot.io/. · Gamma (apresentações com IA) — https://gamma.app/\nFerramentas de IA generativa: ChatGPT, Gemini, Copilot.\n\n\n\n\nModelo de documentação de Agente Virtual (sugerido no PTD) — consolidar como template reutilizável.\nLinks de apoio das aulas (vídeos sobre chatbots, variação linguística) catalogados no PTD oficial."
+  },
+  {
+    "objectID": "cursos/ia-muito-alem-do-prompt/index.html#histórico-de-atualizações-deste-curso",
+    "href": "cursos/ia-muito-alem-do-prompt/index.html#histórico-de-atualizações-deste-curso",
+    "title": "Inteligência Artificial — Muito Além do Prompt",
+    "section": "Histórico de atualizações (deste curso)",
+    "text": "Histórico de atualizações (deste curso)\n\nHistórico do material deste curso.\n\n\n\n\n\n\n\nData\nO que mudou\nAutor\n\n\n\n\n2026-06-19\nPágina criada a partir do PTD oficial (PC consolidado pendente de link).\nCápsula de Inovação"
+  },
+  {
+    "objectID": "cursos/ia-sem-misterio/index.html",
+    "href": "cursos/ia-sem-misterio/index.html",
+    "title": "IA Sem Mistério: Turbinando Sua Produtividade",
+    "section": "",
+    "text": "Status: ativo   ativo no catálogo  ·  Carga horária: 16h  ·  Origem: Catálogo público\nMaterial: a preencher  ·  Última atualização: a preencher"
+  },
+  {
+    "objectID": "cursos/ia-sem-misterio/index.html#onde-este-curso-entra-nas-trilhas",
+    "href": "cursos/ia-sem-misterio/index.html#onde-este-curso-entra-nas-trilhas",
+    "title": "IA Sem Mistério: Turbinando Sua Produtividade",
+    "section": "Onde este curso entra nas trilhas",
+    "text": "Onde este curso entra nas trilhas\nFaz parte de: Trilha 1 — IA Aplicada · Trilha 2 — Dados.\n\nPreencha aqui o pré-requisito (curso anterior) e o próximo passo (call-to-action de upsell), conforme o diagrama da trilha. Ex.: “Vem de X · Próximo passo: Y”.\n\n\nPC — Plano de CursoPTD — Plano de Trabalho DocenteReferências BibliográficasMateriais Complementares\n\n\n\nA preencher. Resumo do Plano de Curso oficial. Linkar o .docx canônico. Sugestão de subtópicos: Identificação · Requisitos de acesso · Justificativa · Objetivo · Organização curricular (conhecimentos, habilidades, atitudes) · Orientações metodológicas · Avaliação · Instalações e recursos · Perfil docente · Certificação.\n\n\n\n\nA preencher. Situação de aprendizagem, indicador(es) da UC, planejamento das aulas (com sugestões de corte) e procedimentos/instrumentos de avaliação. Linkar o .docx canônico.\n\n\n\n\nA preencher. Bibliografia básica (oficial, do PC) e complementar (apoio).\n\n\n\n\nA preencher. Guias do instrutor, datasets/planilhas-exemplo, modelos, vídeos, prompts, tutoriais e demais apoios. Linkar arquivos da pasta de origem do curso, quando houver."
+  },
+  {
+    "objectID": "cursos/ia-sem-misterio/index.html#histórico-de-atualizações-deste-curso",
+    "href": "cursos/ia-sem-misterio/index.html#histórico-de-atualizações-deste-curso",
+    "title": "IA Sem Mistério: Turbinando Sua Produtividade",
+    "section": "Histórico de atualizações (deste curso)",
+    "text": "Histórico de atualizações (deste curso)\n\nHistórico do material deste curso.\n\n\n\n\n\n\n\nData\nO que mudou\nAutor\n\n\n\n\na preencher\nCriação da página (scaffold).\nCápsula de Inovação"
+  },
+  {
+    "objectID": "cursos/informatica-melhor-idade/index.html",
+    "href": "cursos/informatica-melhor-idade/index.html",
+    "title": "Informática Básica para Melhor Idade",
+    "section": "",
+    "text": "Status: ativo   ativo no catálogo  ·  Carga horária: 60h  ·  Origem: Ramo de inclusão digital\nMaterial: a preencher  ·  Última atualização: a preencher"
+  },
+  {
+    "objectID": "cursos/informatica-melhor-idade/index.html#onde-este-curso-entra-nas-trilhas",
+    "href": "cursos/informatica-melhor-idade/index.html#onde-este-curso-entra-nas-trilhas",
+    "title": "Informática Básica para Melhor Idade",
+    "section": "Onde este curso entra nas trilhas",
+    "text": "Onde este curso entra nas trilhas\nFaz parte de: Trilha 6 — Produtividade e Citizen Development.\n\nPreencha aqui o pré-requisito (curso anterior) e o próximo passo (call-to-action de upsell), conforme o diagrama da trilha. Ex.: “Vem de X · Próximo passo: Y”.\n\n\nPC — Plano de CursoPTD — Plano de Trabalho DocenteReferências BibliográficasMateriais Complementares\n\n\n\nA preencher. Resumo do Plano de Curso oficial. Linkar o .docx canônico. Sugestão de subtópicos: Identificação · Requisitos de acesso · Justificativa · Objetivo · Organização curricular (conhecimentos, habilidades, atitudes) · Orientações metodológicas · Avaliação · Instalações e recursos · Perfil docente · Certificação.\n\n\n\n\nA preencher. Situação de aprendizagem, indicador(es) da UC, planejamento das aulas (com sugestões de corte) e procedimentos/instrumentos de avaliação. Linkar o .docx canônico.\n\n\n\n\nA preencher. Bibliografia básica (oficial, do PC) e complementar (apoio).\n\n\n\n\nA preencher. Guias do instrutor, datasets/planilhas-exemplo, modelos, vídeos, prompts, tutoriais e demais apoios. Linkar arquivos da pasta de origem do curso, quando houver."
+  },
+  {
+    "objectID": "cursos/informatica-melhor-idade/index.html#histórico-de-atualizações-deste-curso",
+    "href": "cursos/informatica-melhor-idade/index.html#histórico-de-atualizações-deste-curso",
+    "title": "Informática Básica para Melhor Idade",
+    "section": "Histórico de atualizações (deste curso)",
+    "text": "Histórico de atualizações (deste curso)\n\nHistórico do material deste curso.\n\n\n\n\n\n\n\nData\nO que mudou\nAutor\n\n\n\n\na preencher\nCriação da página (scaffold).\nCápsula de Inovação"
+  },
+  {
+    "objectID": "cursos/linux-profissionais-ti/index.html",
+    "href": "cursos/linux-profissionais-ti/index.html",
+    "title": "Linux para Profissionais de TI",
+    "section": "",
+    "text": "Status: novo   novo — proposta a validar (GT Tech) · Código: NC-07  ·  Carga horária: 40h  ·  Origem: Proposta 2027 — pré-requisito DevOps\nMaterial: a preencher  ·  Última atualização: a preencher"
+  },
+  {
+    "objectID": "cursos/linux-profissionais-ti/index.html#onde-este-curso-entra-nas-trilhas",
+    "href": "cursos/linux-profissionais-ti/index.html#onde-este-curso-entra-nas-trilhas",
+    "title": "Linux para Profissionais de TI",
+    "section": "Onde este curso entra nas trilhas",
+    "text": "Onde este curso entra nas trilhas\nFaz parte de: Trilha 3 — Infraestrutura, Cloud e Redes.\n\nPreencha aqui o pré-requisito (curso anterior) e o próximo passo (call-to-action de upsell), conforme o diagrama da trilha. Ex.: “Vem de X · Próximo passo: Y”.\n\n\nPC — Plano de CursoPTD — Plano de Trabalho DocenteReferências BibliográficasMateriais Complementares\n\n\n\nA preencher. Resumo do Plano de Curso oficial. Linkar o .docx canônico. Sugestão de subtópicos: Identificação · Requisitos de acesso · Justificativa · Objetivo · Organização curricular (conhecimentos, habilidades, atitudes) · Orientações metodológicas · Avaliação · Instalações e recursos · Perfil docente · Certificação.\n\n\n\n\nA preencher. Situação de aprendizagem, indicador(es) da UC, planejamento das aulas (com sugestões de corte) e procedimentos/instrumentos de avaliação. Linkar o .docx canônico.\n\n\n\n\nA preencher. Bibliografia básica (oficial, do PC) e complementar (apoio).\n\n\n\n\nA preencher. Guias do instrutor, datasets/planilhas-exemplo, modelos, vídeos, prompts, tutoriais e demais apoios. Linkar arquivos da pasta de origem do curso, quando houver."
+  },
+  {
+    "objectID": "cursos/linux-profissionais-ti/index.html#histórico-de-atualizações-deste-curso",
+    "href": "cursos/linux-profissionais-ti/index.html#histórico-de-atualizações-deste-curso",
+    "title": "Linux para Profissionais de TI",
+    "section": "Histórico de atualizações (deste curso)",
+    "text": "Histórico de atualizações (deste curso)\n\nHistórico do material deste curso.\n\n\n\n\n\n\n\nData\nO que mudou\nAutor\n\n\n\n\na preencher\nCriação da página (scaffold).\nCápsula de Inovação"
+  },
+  {
+    "objectID": "cursos/pentest-fundamentos/index.html",
+    "href": "cursos/pentest-fundamentos/index.html",
+    "title": "Pentest Fundamentos",
+    "section": "",
+    "text": "Status: novo   novo — proposta a validar (GT Tech) · Código: NC-06  ·  Carga horária: 60h  ·  Origem: Proposta 2027 — isca ofensiva\nMaterial: a preencher  ·  Última atualização: a preencher"
+  },
+  {
+    "objectID": "cursos/pentest-fundamentos/index.html#onde-este-curso-entra-nas-trilhas",
+    "href": "cursos/pentest-fundamentos/index.html#onde-este-curso-entra-nas-trilhas",
+    "title": "Pentest Fundamentos",
+    "section": "Onde este curso entra nas trilhas",
+    "text": "Onde este curso entra nas trilhas\nFaz parte de: Trilha 4 — Cibersegurança.\n\nPreencha aqui o pré-requisito (curso anterior) e o próximo passo (call-to-action de upsell), conforme o diagrama da trilha. Ex.: “Vem de X · Próximo passo: Y”.\n\n\nPC — Plano de CursoPTD — Plano de Trabalho DocenteReferências BibliográficasMateriais Complementares\n\n\n\nA preencher. Resumo do Plano de Curso oficial. Linkar o .docx canônico. Sugestão de subtópicos: Identificação · Requisitos de acesso · Justificativa · Objetivo · Organização curricular (conhecimentos, habilidades, atitudes) · Orientações metodológicas · Avaliação · Instalações e recursos · Perfil docente · Certificação.\n\n\n\n\nA preencher. Situação de aprendizagem, indicador(es) da UC, planejamento das aulas (com sugestões de corte) e procedimentos/instrumentos de avaliação. Linkar o .docx canônico.\n\n\n\n\nA preencher. Bibliografia básica (oficial, do PC) e complementar (apoio).\n\n\n\n\nA preencher. Guias do instrutor, datasets/planilhas-exemplo, modelos, vídeos, prompts, tutoriais e demais apoios. Linkar arquivos da pasta de origem do curso, quando houver."
+  },
+  {
+    "objectID": "cursos/pentest-fundamentos/index.html#histórico-de-atualizações-deste-curso",
+    "href": "cursos/pentest-fundamentos/index.html#histórico-de-atualizações-deste-curso",
+    "title": "Pentest Fundamentos",
+    "section": "Histórico de atualizações (deste curso)",
+    "text": "Histórico de atualizações (deste curso)\n\nHistórico do material deste curso.\n\n\n\n\n\n\n\nData\nO que mudou\nAutor\n\n\n\n\na preencher\nCriação da página (scaffold).\nCápsula de Inovação"
+  },
+  {
+    "objectID": "cursos/power-bi/index.html",
+    "href": "cursos/power-bi/index.html",
+    "title": "Power BI",
+    "section": "",
+    "text": "Status: ativo   ativo no catálogo  ·  Carga horária: 60h  ·  Origem: Catálogo público\nMaterial: a preencher  ·  Última atualização: a preencher"
+  },
+  {
+    "objectID": "cursos/power-bi/index.html#onde-este-curso-entra-nas-trilhas",
+    "href": "cursos/power-bi/index.html#onde-este-curso-entra-nas-trilhas",
+    "title": "Power BI",
+    "section": "Onde este curso entra nas trilhas",
+    "text": "Onde este curso entra nas trilhas\nFaz parte de: Trilha 2 — Dados.\n\nPreencha aqui o pré-requisito (curso anterior) e o próximo passo (call-to-action de upsell), conforme o diagrama da trilha. Ex.: “Vem de X · Próximo passo: Y”.\n\n\nPC — Plano de CursoPTD — Plano de Trabalho DocenteReferências BibliográficasMateriais Complementares\n\n\n\nA preencher. Resumo do Plano de Curso oficial. Linkar o .docx canônico. Sugestão de subtópicos: Identificação · Requisitos de acesso · Justificativa · Objetivo · Organização curricular (conhecimentos, habilidades, atitudes) · Orientações metodológicas · Avaliação · Instalações e recursos · Perfil docente · Certificação.\n\n\n\n\nA preencher. Situação de aprendizagem, indicador(es) da UC, planejamento das aulas (com sugestões de corte) e procedimentos/instrumentos de avaliação. Linkar o .docx canônico.\n\n\n\n\nA preencher. Bibliografia básica (oficial, do PC) e complementar (apoio).\n\n\n\n\nA preencher. Guias do instrutor, datasets/planilhas-exemplo, modelos, vídeos, prompts, tutoriais e demais apoios. Linkar arquivos da pasta de origem do curso, quando houver."
+  },
+  {
+    "objectID": "cursos/power-bi/index.html#histórico-de-atualizações-deste-curso",
+    "href": "cursos/power-bi/index.html#histórico-de-atualizações-deste-curso",
+    "title": "Power BI",
+    "section": "Histórico de atualizações (deste curso)",
+    "text": "Histórico de atualizações (deste curso)\n\nHistórico do material deste curso.\n\n\n\n\n\n\n\nData\nO que mudou\nAutor\n\n\n\n\na preencher\nCriação da página (scaffold).\nCápsula de Inovação"
+  },
+  {
+    "objectID": "cursos/programacao-node/index.html",
+    "href": "cursos/programacao-node/index.html",
+    "title": "Programação NODE",
+    "section": "",
+    "text": "Status: futuro   futuro — horizonte de expansão  ·  Carga horária: 100h  ·  Origem: Cronograma 2026 (ainda não publicado)\nMaterial: a preencher  ·  Última atualização: a preencher"
+  },
+  {
+    "objectID": "cursos/programacao-node/index.html#onde-este-curso-entra-nas-trilhas",
+    "href": "cursos/programacao-node/index.html#onde-este-curso-entra-nas-trilhas",
+    "title": "Programação NODE",
+    "section": "Onde este curso entra nas trilhas",
+    "text": "Onde este curso entra nas trilhas\nFaz parte de: Trilha 5 — Programação e Desenvolvimento.\n\nPreencha aqui o pré-requisito (curso anterior) e o próximo passo (call-to-action de upsell), conforme o diagrama da trilha. Ex.: “Vem de X · Próximo passo: Y”.\n\n\nPC — Plano de CursoPTD — Plano de Trabalho DocenteReferências BibliográficasMateriais Complementares\n\n\n\nA preencher. Resumo do Plano de Curso oficial. Linkar o .docx canônico. Sugestão de subtópicos: Identificação · Requisitos de acesso · Justificativa · Objetivo · Organização curricular (conhecimentos, habilidades, atitudes) · Orientações metodológicas · Avaliação · Instalações e recursos · Perfil docente · Certificação.\n\n\n\n\nA preencher. Situação de aprendizagem, indicador(es) da UC, planejamento das aulas (com sugestões de corte) e procedimentos/instrumentos de avaliação. Linkar o .docx canônico.\n\n\n\n\nA preencher. Bibliografia básica (oficial, do PC) e complementar (apoio).\n\n\n\n\nA preencher. Guias do instrutor, datasets/planilhas-exemplo, modelos, vídeos, prompts, tutoriais e demais apoios. Linkar arquivos da pasta de origem do curso, quando houver."
+  },
+  {
+    "objectID": "cursos/programacao-node/index.html#histórico-de-atualizações-deste-curso",
+    "href": "cursos/programacao-node/index.html#histórico-de-atualizações-deste-curso",
+    "title": "Programação NODE",
+    "section": "Histórico de atualizações (deste curso)",
+    "text": "Histórico de atualizações (deste curso)\n\nHistórico do material deste curso.\n\n\n\n\n\n\n\nData\nO que mudou\nAutor\n\n\n\n\na preencher\nCriação da página (scaffold).\nCápsula de Inovação"
+  },
+  {
+    "objectID": "cursos/python-avancado-ia/index.html",
+    "href": "cursos/python-avancado-ia/index.html",
+    "title": "Programação Avançada em Python com IA",
+    "section": "",
+    "text": "Status: ativo   ativo no catálogo  ·  Carga horária: 100h  ·  Origem: Catálogo público — ponte para Dados\nMaterial: a preencher  ·  Última atualização: a preencher"
+  },
+  {
+    "objectID": "cursos/python-avancado-ia/index.html#onde-este-curso-entra-nas-trilhas",
+    "href": "cursos/python-avancado-ia/index.html#onde-este-curso-entra-nas-trilhas",
+    "title": "Programação Avançada em Python com IA",
+    "section": "Onde este curso entra nas trilhas",
+    "text": "Onde este curso entra nas trilhas\nFaz parte de: Trilha 5 — Programação e Desenvolvimento.\n\nPreencha aqui o pré-requisito (curso anterior) e o próximo passo (call-to-action de upsell), conforme o diagrama da trilha. Ex.: “Vem de X · Próximo passo: Y”.\n\n\nPC — Plano de CursoPTD — Plano de Trabalho DocenteReferências BibliográficasMateriais Complementares\n\n\n\nA preencher. Resumo do Plano de Curso oficial. Linkar o .docx canônico. Sugestão de subtópicos: Identificação · Requisitos de acesso · Justificativa · Objetivo · Organização curricular (conhecimentos, habilidades, atitudes) · Orientações metodológicas · Avaliação · Instalações e recursos · Perfil docente · Certificação.\n\n\n\n\nA preencher. Situação de aprendizagem, indicador(es) da UC, planejamento das aulas (com sugestões de corte) e procedimentos/instrumentos de avaliação. Linkar o .docx canônico.\n\n\n\n\nA preencher. Bibliografia básica (oficial, do PC) e complementar (apoio).\n\n\n\n\nA preencher. Guias do instrutor, datasets/planilhas-exemplo, modelos, vídeos, prompts, tutoriais e demais apoios. Linkar arquivos da pasta de origem do curso, quando houver."
+  },
+  {
+    "objectID": "cursos/python-avancado-ia/index.html#histórico-de-atualizações-deste-curso",
+    "href": "cursos/python-avancado-ia/index.html#histórico-de-atualizações-deste-curso",
+    "title": "Programação Avançada em Python com IA",
+    "section": "Histórico de atualizações (deste curso)",
+    "text": "Histórico de atualizações (deste curso)\n\nHistórico do material deste curso.\n\n\n\n\n\n\n\nData\nO que mudou\nAutor\n\n\n\n\na preencher\nCriação da página (scaffold).\nCápsula de Inovação"
+  },
+  {
+    "objectID": "cursos/sql-para-dados/index.html",
+    "href": "cursos/sql-para-dados/index.html",
+    "title": "SQL para Dados",
+    "section": "",
+    "text": "Status: novo   novo — proposta a validar (GT Tech) · Código: NC-02  ·  Carga horária: 60h  ·  Origem: Proposta 2027\nMaterial: a preencher  ·  Última atualização: a preencher"
+  },
+  {
+    "objectID": "cursos/sql-para-dados/index.html#onde-este-curso-entra-nas-trilhas",
+    "href": "cursos/sql-para-dados/index.html#onde-este-curso-entra-nas-trilhas",
+    "title": "SQL para Dados",
+    "section": "Onde este curso entra nas trilhas",
+    "text": "Onde este curso entra nas trilhas\nFaz parte de: Trilha 2 — Dados.\n\nPreencha aqui o pré-requisito (curso anterior) e o próximo passo (call-to-action de upsell), conforme o diagrama da trilha. Ex.: “Vem de X · Próximo passo: Y”.\n\n\nPC — Plano de CursoPTD — Plano de Trabalho DocenteReferências BibliográficasMateriais Complementares\n\n\n\nA preencher. Resumo do Plano de Curso oficial. Linkar o .docx canônico. Sugestão de subtópicos: Identificação · Requisitos de acesso · Justificativa · Objetivo · Organização curricular (conhecimentos, habilidades, atitudes) · Orientações metodológicas · Avaliação · Instalações e recursos · Perfil docente · Certificação.\n\n\n\n\nA preencher. Situação de aprendizagem, indicador(es) da UC, planejamento das aulas (com sugestões de corte) e procedimentos/instrumentos de avaliação. Linkar o .docx canônico.\n\n\n\n\nA preencher. Bibliografia básica (oficial, do PC) e complementar (apoio).\n\n\n\n\nA preencher. Guias do instrutor, datasets/planilhas-exemplo, modelos, vídeos, prompts, tutoriais e demais apoios. Linkar arquivos da pasta de origem do curso, quando houver."
+  },
+  {
+    "objectID": "cursos/sql-para-dados/index.html#histórico-de-atualizações-deste-curso",
+    "href": "cursos/sql-para-dados/index.html#histórico-de-atualizações-deste-curso",
+    "title": "SQL para Dados",
+    "section": "Histórico de atualizações (deste curso)",
+    "text": "Histórico de atualizações (deste curso)\n\nHistórico do material deste curso.\n\n\n\n\n\n\n\nData\nO que mudou\nAutor\n\n\n\n\na preencher\nCriação da página (scaffold).\nCápsula de Inovação"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Repositório de Materiais — Cursos de Tecnologia",
+    "section": "",
+    "text": "Este é o repositório de referência dos cursos de Tecnologia do SENAC RJ, mantido pela Cápsula de Inovação — Coordenação de Tecnologias. Reúne, por curso, os quatro blocos de material que o instrutor precisa para planejar e ministrar a oferta:\nCada curso está posicionado dentro de uma das 6 trilhas do portfólio, com os pré-requisitos e o próximo passo explícitos — para que o instrutor enxergue não só o curso, mas a jornada do aluno."
+  },
+  {
+    "objectID": "index.html#as-6-trilhas",
+    "href": "index.html#as-6-trilhas",
+    "title": "Repositório de Materiais — Cursos de Tecnologia",
+    "section": "As 6 trilhas",
+    "text": "As 6 trilhas\n\n\n1 — IA Aplicada\nDa produtividade pessoal com IA até IA aplicada profissionalmente.\n\n\n2 — Dados\nDo aluno-base a Analista de Dados (2A) e Engenheiro de Dados (2B).\n\n\n3 — Infraestrutura, Cloud e Redes\nDa TI tradicional ao cloud native (AWS, Azure, GCP, Kubernetes).\n\n\n4 — Cibersegurança\nGovernança, defesa e ofensiva — da LGPD ao Pentest.\n\n\n5 — Programação e Desenvolvimento\nDa primeira linguagem ao Full Stack, com pontes para Dados e IA.\n\n\n6 — Produtividade e Citizen Development\nExcel, Power Platform e inclusão digital para o público não-técnico."
+  },
+  {
+    "objectID": "index.html#como-usar-este-repositório",
+    "href": "index.html#como-usar-este-repositório",
+    "title": "Repositório de Materiais — Cursos de Tecnologia",
+    "section": "Como usar este repositório",
+    "text": "Como usar este repositório\n\n\n\nSe você é…\nComece por…\n\n\n\n\nInstrutor de um curso\nA página do seu curso (busca no topo ou pela trilha). Lá estão PC, PTD, referências e materiais de apoio.\n\n\nCoordenação / GT Tech\nO Fluxograma das trilhas e as páginas de trilha, para enxergar lacunas e progressão.\n\n\nQuem vai criar/atualizar curso\nO guia Como atualizar — gabarito-padrão, scaffolder e regras de versionamento.\n\n\n\n\n\n\n\n\n\nNota\n\n\n\nSobre o status do material. Cada curso exibe um selo: ativo (no catálogo), novo (proposta a validar no GT Tech), retorno (em atualização para voltar) e futuro (horizonte de expansão). As trilhas e os cursos novos (NC-01…NC-09) são propostas em validação — não decisões consolidadas."
+  },
+  {
+    "objectID": "index.html#convenções",
+    "href": "index.html#convenções",
+    "title": "Repositório de Materiais — Cursos de Tecnologia",
+    "section": "Convenções",
+    "text": "Convenções\n\nIdioma: português do Brasil.\nFonte canônica do PC/PTD: os arquivos oficiais (.docx) ficam linkados em cada curso; este repositório é a camada navegável e versionada por cima deles.\nToda alteração relevante entra no Changelog e no histórico da própria página do curso.\n\n\nMantido pela Cápsula de Inovação — Coordenação de Tecnologias, SENAC RJ. Documento vivo, atualizado conforme o portfólio evolui."
+  },
+  {
+    "objectID": "trilhas/trilha-1-ia-aplicada.html",
+    "href": "trilhas/trilha-1-ia-aplicada.html",
+    "title": "Trilha 1 — IA Aplicada",
+    "section": "",
+    "text": "Pergunta que responde: como o profissional não-técnico — ou o que ainda não trabalha com IA — entra no portfólio SENAC e progride até dominar IA aplicada profissionalmente?"
+  },
+  {
+    "objectID": "trilhas/trilha-1-ia-aplicada.html#fluxo-da-trilha",
+    "href": "trilhas/trilha-1-ia-aplicada.html#fluxo-da-trilha",
+    "title": "Trilha 1 — IA Aplicada",
+    "section": "Fluxo da trilha",
+    "text": "Fluxo da trilha\n\n\n\n\n\n\nflowchart LR\n  n1[\"IA na Prática&lt;br/&gt;&lt;small&gt;8h · isca grátis&lt;/small&gt;\"]\n  n2[\"IA Sem Mistério&lt;br/&gt;&lt;small&gt;16h&lt;/small&gt;\"]\n  n3[\"IA Muito Além&lt;br/&gt;do Prompt&lt;br/&gt;&lt;small&gt;24h&lt;/small&gt;\"]\n  n4[\"Apresentações&lt;br/&gt;Dinâmicas com IA&lt;br/&gt;&lt;small&gt;32h&lt;/small&gt;\"]\n  n5[\"AI-901 — IA&lt;br/&gt;com Azure&lt;br/&gt;&lt;small&gt;~48h · futuro&lt;/small&gt;\"]\n  n6[\"IA Aplicada Avançada&lt;br/&gt;Multiagent · RAG · LLM Ops&lt;br/&gt;&lt;small&gt;80h · NC-04&lt;/small&gt;\"]\n  P[\"Faculdade Senac&lt;br/&gt;Grad. Tec. IA / MBA IA\"]\n\n  n1 --&gt; n2 --&gt; n3 --&gt; n4 --&gt; n5 --&gt; n6 --&gt; P\n\n  class n1,n2,n3,n4 ativo\n  class n5 futuro\n  class n6 novo\n  class P prof\n\n  classDef ativo fill:#e3f5e8,stroke:#1b7a3d,color:#13361f;\n  classDef novo fill:#fff0e0,stroke:#b5560a,stroke-dasharray:4 3,color:#5a2c05;\n  classDef futuro fill:#eef0f3,stroke:#5a6573,stroke-dasharray:2 2,color:#2f3640;\n  classDef prof fill:#e7f0fb,stroke:#1f5fa8,stroke-width:2px,color:#0f3a6b;\n\n\n\n\nFigura 1: Trilha IA Aplicada — da isca gratuita à IA aplicada avançada."
+  },
+  {
+    "objectID": "trilhas/trilha-1-ia-aplicada.html#cursos-da-trilha",
+    "href": "trilhas/trilha-1-ia-aplicada.html#cursos-da-trilha",
+    "title": "Trilha 1 — IA Aplicada",
+    "section": "Cursos da trilha",
+    "text": "Cursos da trilha\n\nCursos da Trilha IA Aplicada.\n\n\n\n\n\n\n\n\nCamada\nCurso\nCH\nStatus\n\n\n\n\nIsca (gratuita)\nInteligência Artificial na Prática\n8h\nativo\n\n\nIsca paga curta\nIA Sem Mistério\n16h\nativo\n\n\nAprofundamento\nIA — Muito Além do Prompt\n24h\nativo\n\n\nAplicação específica\nApresentações Dinâmicas com IA Generativa\n32h\nativo\n\n\nCertificação\nAI-901 — IA com Azure\n~48h\nfuturo\n\n\nAvançado / mercado\nIA Aplicada Avançada — Multiagent, RAG e LLM Ops\n80h\nnovo\n\n\n\nPontes para a Faculdade Senac RJ: Graduação Tecnológica em IA e Ciência de Dados → MBA em IA e Análise de Dados."
+  },
+  {
+    "objectID": "trilhas/trilha-1-ia-aplicada.html#decisões-a-validar-no-gt-tech",
+    "href": "trilhas/trilha-1-ia-aplicada.html#decisões-a-validar-no-gt-tech",
+    "title": "Trilha 1 — IA Aplicada",
+    "section": "Decisões a validar no GT Tech",
+    "text": "Decisões a validar no GT Tech\n\nIA na Prática deve ser formalmente nomeada como isca da trilha, com call-to-action explícito para “IA Sem Mistério”.\nApresentações Dinâmicas entra como aplicação específica ou ramo lateral? Depende de escuta de público.\nA aprovação de IA Aplicada Avançada (NC-04) é o ponto que tira a trilha do nível “iscas” e gera LTV."
+  },
+  {
+    "objectID": "trilhas/trilha-3-infraestrutura.html",
+    "href": "trilhas/trilha-3-infraestrutura.html",
+    "title": "Trilha 3 — Infraestrutura, Cloud e Redes",
+    "section": "",
+    "text": "Pergunta que responde: como um profissional de TI tradicional (redes, suporte, servidores) faz a transição para cloud native moderno, com competências validadas pelos três hyperscalers?"
+  },
+  {
+    "objectID": "trilhas/trilha-3-infraestrutura.html#fluxo-da-trilha",
+    "href": "trilhas/trilha-3-infraestrutura.html#fluxo-da-trilha",
+    "title": "Trilha 3 — Infraestrutura, Cloud e Redes",
+    "section": "Fluxo da trilha",
+    "text": "Fluxo da trilha\n\n\n\n\n\n\nflowchart LR\n  l[\"Linux para&lt;br/&gt;Profissionais de TI&lt;br/&gt;&lt;small&gt;40h · NC-07&lt;/small&gt;\"]\n  az[\"Cloud Fundamentos&lt;br/&gt;com Azure&lt;br/&gt;&lt;small&gt;40h · NC-08&lt;/small&gt;\"]\n  gcp[\"Google Cloud&lt;br/&gt;Foundations&lt;br/&gt;&lt;small&gt;76h&lt;/small&gt;\"]\n  aws[\"AWS RE/START&lt;br/&gt;&lt;small&gt;400h · parceria&lt;/small&gt;\"]\n  cisco[\"Cisco CCNA V7.0&lt;br/&gt;&lt;small&gt;210h · redes&lt;/small&gt;\"]\n  k8s[\"Containers e&lt;br/&gt;Kubernetes&lt;br/&gt;&lt;small&gt;60h · NC-09&lt;/small&gt;\"]\n  P[\"Faculdade Senac&lt;br/&gt;Grad. Tec. ADS\"]\n\n  l --&gt; az --&gt; gcp\n  az --&gt; aws\n  cisco --&gt; az\n  gcp --&gt; k8s\n  aws --&gt; k8s\n  k8s --&gt; P\n\n  class gcp,aws,cisco ativo\n  class l,az,k8s novo\n  class P prof\n  classDef ativo fill:#e3f5e8,stroke:#1b7a3d,color:#13361f;\n  classDef novo fill:#fff0e0,stroke:#b5560a,stroke-dasharray:4 3,color:#5a2c05;\n  classDef prof fill:#e7f0fb,stroke:#1f5fa8,stroke-width:2px,color:#0f3a6b;\n\n\n\n\nFigura 1: Trilha Infraestrutura — iscas Linux/Azure, núcleo cloud e redes, fechamento em Kubernetes."
+  },
+  {
+    "objectID": "trilhas/trilha-3-infraestrutura.html#cursos-da-trilha",
+    "href": "trilhas/trilha-3-infraestrutura.html#cursos-da-trilha",
+    "title": "Trilha 3 — Infraestrutura, Cloud e Redes",
+    "section": "Cursos da trilha",
+    "text": "Cursos da trilha\n\nCursos da Trilha Infraestrutura, Cloud e Redes.\n\n\n\n\n\n\n\n\nCamada\nCurso\nCH\nStatus\n\n\n\n\nIsca — Linux\nLinux para Profissionais de TI\n40h\nnovo\n\n\nIsca — Cloud Azure\nCloud Fundamentos com Azure\n40h\nnovo\n\n\nCloud — Google\nGoogle Cloud Foundations\n76h\nativo\n\n\nCloud — AWS (parceria)\nAWS RE/START\n400h\nativo\n\n\nRedes\nFormação Cisco CCNA V7.0\n210h\nativo\n\n\nCloud Native\nContainers e Kubernetes Essentials\n60h\nnovo\n\n\n\nPontes para a Faculdade Senac RJ: Graduação Tecnológica em Análise e Desenvolvimento de Sistemas."
+  },
+  {
+    "objectID": "trilhas/trilha-3-infraestrutura.html#decisões-a-validar-no-gt-tech",
+    "href": "trilhas/trilha-3-infraestrutura.html#decisões-a-validar-no-gt-tech",
+    "title": "Trilha 3 — Infraestrutura, Cloud e Redes",
+    "section": "Decisões a validar no GT Tech",
+    "text": "Decisões a validar no GT Tech\n\nApresentar como trilha única com três ramos (Redes, Servidores/On-prem, Cloud Native) ou três trilhas separadas?\nAWS RE/START (parceria sazonal, 400h) posicionada como destino de aprofundamento premium.\nContainers e Kubernetes fecha o gap de cloud native; DevOps na ponta segue como pendência."
+  },
+  {
+    "objectID": "trilhas/trilha-5-programacao.html",
+    "href": "trilhas/trilha-5-programacao.html",
+    "title": "Trilha 5 — Programação e Desenvolvimento",
+    "section": "",
+    "text": "Pergunta que responde: como um aspirante a desenvolvedor encontra uma jornada coerente, da primeira linguagem à especialização Full Stack — com pontes claras para Dados e IA?\nÉ o maior eixo do portfólio. O problema não é falta de cursos, é falta de progressão visível. A trilha organiza os cursos em três rotas que partem de uma isca comum."
+  },
+  {
+    "objectID": "trilhas/trilha-5-programacao.html#fluxo-da-trilha",
+    "href": "trilhas/trilha-5-programacao.html#fluxo-da-trilha",
+    "title": "Trilha 5 — Programação e Desenvolvimento",
+    "section": "Fluxo da trilha",
+    "text": "Fluxo da trilha\n\n\n\n\n\n\nflowchart LR\n  iscaA[\"IA Generativa&lt;br/&gt;Aplicada a Negócios&lt;br/&gt;&lt;small&gt;24h · NC-01&lt;/small&gt;\"]\n  iscaB[\"Programador&lt;br/&gt;Front-End com IA&lt;br/&gt;&lt;small&gt;80h&lt;/small&gt;\"]\n\n  fs[\"Full Stack com Java&lt;br/&gt;&lt;small&gt;360h&lt;/small&gt;\"]\n  mob[\"Mobile —&lt;br/&gt;React Native&lt;br/&gt;&lt;small&gt;60h&lt;/small&gt;\"]\n  be[\"Back-End Java&lt;br/&gt;&lt;small&gt;84h&lt;/small&gt;\"]\n  node[\"Programação NODE&lt;br/&gt;&lt;small&gt;100h · cronograma&lt;/small&gt;\"]\n  php[\"PHP com Laravel&lt;br/&gt;&lt;small&gt;168h&lt;/small&gt;\"]\n  py[\"Python com Django&lt;br/&gt;&lt;small&gt;168h&lt;/small&gt;\"]\n  pyia[\"Python Avançado&lt;br/&gt;com IA&lt;br/&gt;&lt;small&gt;100h&lt;/small&gt;\"]\n\n  iscaA --&gt; iscaB\n  iscaB --&gt; fs --&gt; mob\n  iscaB --&gt; be --&gt; node\n  iscaB --&gt; php\n  iscaB --&gt; py --&gt; pyia\n  pyia -. ponte p/ Dados .-&gt; dados[\"SQL para Dados /&lt;br/&gt;Eng. de Dados\"]\n\n  class iscaB,fs,mob,be,php,py,pyia ativo\n  class iscaA novo\n  class node futuro\n  class dados ponte\n  classDef ativo fill:#e3f5e8,stroke:#1b7a3d,color:#13361f;\n  classDef novo fill:#fff0e0,stroke:#b5560a,stroke-dasharray:4 3,color:#5a2c05;\n  classDef futuro fill:#eef0f3,stroke:#5a6573,stroke-dasharray:2 2,color:#2f3640;\n  classDef ponte fill:#e7f0fb,stroke:#1f5fa8,stroke-dasharray:3 3,color:#0f3a6b;\n\n\n\n\nFigura 1: Trilha Programação — isca comum e três rotas (Web/Full Stack, Back-End, Python/IA)."
+  },
+  {
+    "objectID": "trilhas/trilha-5-programacao.html#cursos-da-trilha",
+    "href": "trilhas/trilha-5-programacao.html#cursos-da-trilha",
+    "title": "Trilha 5 — Programação e Desenvolvimento",
+    "section": "Cursos da trilha",
+    "text": "Cursos da trilha\n\nCursos da Trilha Programação e Desenvolvimento.\n\n\n\n\n\n\n\n\nRota\nCurso\nCH\nStatus\n\n\n\n\nIsca comum\nIA Generativa Aplicada a Negócios\n24h\nnovo\n\n\nIsca comum\nProgramador Front-End com IA\n80h\nativo\n\n\nWeb/Full Stack\nProgramador Full Stack — Formação com Java\n360h\nativo\n\n\nWeb/Mobile\nProgramação Mobile — React Native\n60h\nativo\n\n\nBack-End\nDesenvolvedor Back-End Java\n84h\nativo\n\n\nBack-End\nProgramação NODE\n100h\nfuturo\n\n\nBack-End — PHP\nProgramação em PHP com Laravel\n168h\nativo\n\n\nPython/IA\nProgramação em Python com Django\n168h\nativo\n\n\nPython/IA\nProgramação Avançada em Python com IA\n100h\nativo\n\n\n\nPontes para a Faculdade Senac RJ: Graduação Tecnológica em ADS → MBA em Gestão de Produtos, Growth e IA (perfil gestor)."
+  },
+  {
+    "objectID": "trilhas/trilha-5-programacao.html#decisões-a-validar-no-gt-tech",
+    "href": "trilhas/trilha-5-programacao.html#decisões-a-validar-no-gt-tech",
+    "title": "Trilha 5 — Programação e Desenvolvimento",
+    "section": "Decisões a validar no GT Tech",
+    "text": "Decisões a validar no GT Tech\n\nPython com Django × Python Avançado com IA — explicitar como sequência (proposta) ou rota paralela.\nA Rota Python/IA é ponte natural para a Trilha Dados — costurar com SQL para Dados / Engenharia de Dados.\nNODE confirmado no cronograma 2026; posição (após Back-End Java/.NET) é proposta editorial.\nDevOps para devs e Testing/QA ficam para a fase 2."
+  },
+  {
+    "objectID": "index.html#sec-catalogo",
+    "href": "index.html#sec-catalogo",
+    "title": "Repositório de Materiais — Cursos de Tecnologia",
+    "section": "Catálogo de cursos",
+    "text": "Catálogo de cursos\nCursos com PC, PTD e materiais já publicados neste repositório. Clique no nome para abrir a página do curso — lá estão o Plano de Curso, o Plano de Trabalho Docente, as referências e os materiais complementares (com os arquivos .docx oficiais para download).\n\n\n\nTabela 1: Cursos com material publicado. Código no formato SENAC RJ (SGA) / DN.\n\n\n\n\n\n\n\n\n\n\n\n\n\nCurso\nCódigo (SGA / DN)\nCH\nTrilha\nTipo\nStatus\n\n\n\n\nExcel com IA — Fundamentos\n14758 / 991.50\n8h\n6 — Produtividade\nInstrumental\nativo\n\n\nInteligência Artificial na Prática\n14149 / 1745.29\n8h\n1 — IA Aplicada\nAperfeiçoamento\nativo\n\n\nIA — Muito Além do Prompt\na cadastrar\n24h\n1 — IA Aplicada · 2 — Dados\nAperfeiçoamento\nativo\n\n\nMicrosoft Power Platform\n13192 / 1746.48\n48h\n6 — Produtividade\nAperfeiçoamento\nretorno\n\n\n\n\n\n\n\nOs demais cursos das 6 trilhas já têm página criada (estrutura PC · PTD · Referências · Materiais) e estão sendo preenchidos de forma contínua — navegue por eles nas trilhas abaixo."
+  }
+]
