@@ -1,0 +1,51 @@
+---
+title: "IA Sem Mistério: Turbinando Sua Produtividade"
+subtitle: "16h · Trilha 1 — IA Aplicada, Trilha 2 — Dados"
+---
+
+::: {.callout-note appearance="simple"}
+**Status:** <span class="status-pill status-ativo">ativo</span> &nbsp; ativo no catálogo
+&nbsp;·&nbsp; **Carga horária:** 16h &nbsp;·&nbsp; **Origem:** Catálogo público
+
+**Material:** *a preencher* &nbsp;·&nbsp; **Última atualização:** *a preencher*
+:::
+
+## Onde este curso entra nas trilhas
+
+Faz parte de: [Trilha 1 — IA Aplicada](../../trilhas/trilha-1-ia-aplicada.qmd) · [Trilha 2 — Dados](../../trilhas/trilha-2-dados.qmd).
+
+> *Preencha aqui o pré-requisito (curso anterior) e o próximo passo (call-to-action de upsell),
+> conforme o diagrama da trilha. Ex.: "Vem de **X** · Próximo passo: **Y**".*
+
+::: {.panel-tabset}
+
+## PC — Plano de Curso
+
+> *A preencher.* Resumo do Plano de Curso oficial. Linkar o `.docx` canônico.
+> Sugestão de subtópicos: Identificação · Requisitos de acesso · Justificativa ·
+> Objetivo · Organização curricular (conhecimentos, habilidades, atitudes) ·
+> Orientações metodológicas · Avaliação · Instalações e recursos · Perfil docente · Certificação.
+
+## PTD — Plano de Trabalho Docente
+
+> *A preencher.* Situação de aprendizagem, indicador(es) da UC, planejamento das aulas
+> (com sugestões de corte) e procedimentos/instrumentos de avaliação. Linkar o `.docx` canônico.
+
+## Referências Bibliográficas
+
+> *A preencher.* Bibliografia básica (oficial, do PC) e complementar (apoio).
+
+## Materiais Complementares
+
+> *A preencher.* Guias do instrutor, datasets/planilhas-exemplo, modelos, vídeos, prompts,
+> tutoriais e demais apoios. Linkar arquivos da pasta de origem do curso, quando houver.
+
+:::
+
+## Histórico de atualizações (deste curso)
+
+| Data | O que mudou | Autor |
+|------|-------------|-------|
+| *a preencher* | Criação da página (scaffold). | Cápsula de Inovação |
+
+: Histórico do material deste curso. {tbl-colwidths="[18,62,20]"}

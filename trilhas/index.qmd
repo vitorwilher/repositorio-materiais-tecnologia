@@ -1,0 +1,37 @@
+---
+title: "Visão geral das 6 trilhas"
+subtitle: "Como o portfólio de Tecnologia se organiza em jornadas"
+---
+
+O portfólio FIC de Tecnologia está organizado em **6 trilhas**. Cada trilha é uma **jornada**:
+parte de onde o aluno já está (curso popular de captação), avança curso-a-curso com um
+*call-to-action* de continuidade ao fim de cada etapa, e termina em uma **profissão nomeada** ou
+em uma ponte para a Faculdade Senac RJ.
+
+Para o mapa completo com todos os cursos e pré-requisitos, veja o
+**[Fluxograma das trilhas](../fluxograma.qmd)**.
+
+## Mapa-resumo
+
+| # | Trilha | Foco | Página |
+|---|--------|------|--------|
+| 1 | **IA Aplicada** | Da produtividade pessoal com IA à IA aplicada profissionalmente | [abrir](trilha-1-ia-aplicada.qmd) |
+| 2 | **Dados** | Aluno-base → Analista de Dados (2A) e Engenheiro de Dados (2B) | [abrir](trilha-2-dados.qmd) |
+| 3 | **Infraestrutura, Cloud e Redes** | TI tradicional → cloud native (AWS, Azure, GCP, K8s) | [abrir](trilha-3-infraestrutura.qmd) |
+| 4 | **Cibersegurança** | Governança, defesa e ofensiva | [abrir](trilha-4-ciberseguranca.qmd) |
+| 5 | **Programação e Desenvolvimento** | Primeira linguagem → Full Stack, com pontes p/ Dados e IA | [abrir](trilha-5-programacao.qmd) |
+| 6 | **Produtividade e Citizen Development** | Público não-técnico: Excel, Power Platform, inclusão | [abrir](trilha-6-produtividade.qmd) |
+
+: As 6 trilhas do portfólio de Tecnologia. {tbl-colwidths="[5,28,52,15]"}
+
+## Princípios de desenho
+
+- **Aluno-base → profissão.** Toda trilha começa num curso de captação e termina em perfil nomeado.
+- **Upsell explícito.** Ao concluir um curso, o aluno é apresentado à próxima oferta da trilha.
+- **Pedagogia vendor-agnóstica;** certificação/infra ancora em Microsoft quando faz sentido.
+- **IA atravessa as trilhas** — não é um silo; aparece como competência ao longo da jornada.
+
+::: {.callout-important}
+As trilhas e os cursos novos (NC-01…NC-09) são **propostas em validação** no GT Tech e com a
+coordenação — não decisões consolidadas. Trate este repositório como **documento vivo**.
+:::

@@ -1,0 +1,50 @@
+---
+title: "Trilha 4 — Cibersegurança"
+subtitle: "Governança, defesa e ofensiva — da LGPD ao Pentest"
+---
+
+**Pergunta que responde:** *como o SENAC RJ deixa de oferecer "um curso de segurança" e passa a
+oferecer uma jornada que cobre governança, defesa e ofensiva?*
+
+É o eixo **mais sub-dimensionado** do portfólio (1 curso atual contra 4 lacunas mapeadas). A trilha
+proposta (fase 1) abre 2 cursos novos como porta de entrada e mantém o Cisco como núcleo técnico.
+
+## Fluxo da trilha
+
+```{mermaid}
+%%| label: fig-trilha4
+%%| fig-cap: "Trilha Cibersegurança (fase 1) — iscas de governança e ofensiva + núcleo Cisco."
+flowchart LR
+  lgpd["LGPD e Governança<br/>de Dados<br/><small>24h · NC-05</small>"]
+  pentest["Pentest<br/>Fundamentos<br/><small>60h · NC-06</small>"]
+  cisco["Cibersegurança<br/>Cisco<br/><small>100h · núcleo</small>"]
+  P["MBA / Especialização<br/>em Seg. da Informação<br/><small>a propor c/ a Faculdade</small>"]
+
+  lgpd --> cisco
+  pentest --> cisco
+  cisco --> P
+
+  class cisco ativo
+  class lgpd,pentest novo
+  class P prof
+  classDef ativo fill:#e3f5e8,stroke:#1b7a3d,color:#13361f;
+  classDef novo fill:#fff0e0,stroke:#b5560a,stroke-dasharray:4 3,color:#5a2c05;
+  classDef prof fill:#e7f0fb,stroke:#1f5fa8,stroke-width:2px,color:#0f3a6b;
+```
+
+## Cursos da trilha
+
+| Camada | Curso | CH | Status |
+|--------|-------|---:|--------|
+| Isca — governança | [LGPD e Governança de Dados](../cursos/lgpd-governanca-dados/index.qmd) | 24h | <span class="status-pill status-novo">novo</span> |
+| Isca — ofensiva | [Pentest Fundamentos](../cursos/pentest-fundamentos/index.qmd) | 60h | <span class="status-pill status-novo">novo</span> |
+| Núcleo técnico | [Cibersegurança Cisco](../cursos/ciberseguranca-cisco/index.qmd) | 100h | <span class="status-pill status-ativo">ativo</span> |
+
+: Cursos da Trilha Cibersegurança (fase 1). {tbl-colwidths="[22,46,10,22]"}
+
+**Pontes para a Faculdade Senac RJ:** sem destino direto hoje — **proposta:** pleitear MBA/Especialização em Segurança da Informação.
+
+## Decisões a validar no GT Tech
+
+- **Fase 2** depende de escolha estratégica: crescimento orgânico (Zero Trust, SOC, DevSecOps) **ou** parceria (CompTIA, Offensive Security).
+- **Pentest Fundamentos** exige *positioning* ético explícito; escuta de mercado deve envolver profissionais de segurança ofensiva da região.

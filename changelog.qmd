@@ -1,0 +1,55 @@
+---
+title: "Changelog"
+subtitle: "Histórico de mudanças do repositório de materiais"
+toc: true
+---
+
+Registro de todas as mudanças relevantes do repositório — novos cursos, atualização de PC/PTD,
+mudanças de trilha, correções. **Toda alteração de conteúdo deve gerar uma linha aqui.**
+
+Formato baseado em [Keep a Changelog](https://keepachangelog.com/pt-BR/1.1.0/). Datas em `AAAA-MM-DD`.
+Os tipos de mudança são: **Adicionado**, **Alterado**, **Corrigido**, **Removido**, **Depreciado**.
+
+---
+
+## [0.1.0] — 2026-06-19 {#v0-1-0}
+
+Versão inicial do repositório de materiais.
+
+**Adicionado**
+
+- Estrutura do site Quarto navegável (início, fluxograma, trilhas, cursos, changelog, guia de atualização).
+- **Fluxograma mestre** das 6 trilhas em Mermaid, com pré-requisitos e pontes entre trilhas.
+- Páginas das **6 trilhas** (IA Aplicada, Dados, Infraestrutura, Cibersegurança, Programação, Produtividade),
+  cada uma com diagrama Mermaid próprio e tabela de cursos.
+- **35 páginas de curso** geradas a partir do registro (`scripts/gerar_cursos.py`), com gabarito-padrão
+  (PC · PTD · Referências · Materiais Complementares).
+- Conteúdo real preenchido em **4 cursos-exemplo**: Microsoft Power Platform, Excel com IA — Fundamentos,
+  IA na Prática e IA — Muito Além do Prompt.
+- Gabarito-padrão de curso (`_templates/gabarito-curso.qmd`) e guia **Como atualizar**.
+
+---
+
+<!--
+COMO ADICIONAR UMA ENTRADA
+==========================
+Copie o bloco-modelo abaixo para o TOPO da lista (logo abaixo do título "Changelog",
+acima da versão anterior), preencha a data e os itens, e remova este comentário do exemplo
+caso o copie por engano.
+
+## [X.Y.Z] — AAAA-MM-DD
+
+**Adicionado**
+- ...
+
+**Alterado**
+- ...
+
+**Corrigido**
+- ...
+
+Convenção de versão (semântica simplificada):
+- X (maior): reestruturação do repositório ou das trilhas.
+- Y (menor): novo curso, nova trilha, ou preenchimento relevante de material.
+- Z (correção): ajustes pontuais de conteúdo, links, typos.
+-->

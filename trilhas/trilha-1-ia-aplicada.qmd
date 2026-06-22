@@ -1,0 +1,55 @@
+---
+title: "Trilha 1 — IA Aplicada"
+subtitle: "Da produtividade pessoal com IA à IA aplicada profissionalmente"
+---
+
+**Pergunta que responde:** *como o profissional não-técnico — ou o que ainda não trabalha com IA —
+entra no portfólio SENAC e progride até dominar IA aplicada profissionalmente?*
+
+## Fluxo da trilha
+
+```{mermaid}
+%%| label: fig-trilha1
+%%| fig-cap: "Trilha IA Aplicada — da isca gratuita à IA aplicada avançada."
+flowchart LR
+  n1["IA na Prática<br/><small>8h · isca grátis</small>"]
+  n2["IA Sem Mistério<br/><small>16h</small>"]
+  n3["IA Muito Além<br/>do Prompt<br/><small>24h</small>"]
+  n4["Apresentações<br/>Dinâmicas com IA<br/><small>32h</small>"]
+  n5["AI-901 — IA<br/>com Azure<br/><small>~48h · futuro</small>"]
+  n6["IA Aplicada Avançada<br/>Multiagent · RAG · LLM Ops<br/><small>80h · NC-04</small>"]
+  P["Faculdade Senac<br/>Grad. Tec. IA / MBA IA"]
+
+  n1 --> n2 --> n3 --> n4 --> n5 --> n6 --> P
+
+  class n1,n2,n3,n4 ativo
+  class n5 futuro
+  class n6 novo
+  class P prof
+
+  classDef ativo fill:#e3f5e8,stroke:#1b7a3d,color:#13361f;
+  classDef novo fill:#fff0e0,stroke:#b5560a,stroke-dasharray:4 3,color:#5a2c05;
+  classDef futuro fill:#eef0f3,stroke:#5a6573,stroke-dasharray:2 2,color:#2f3640;
+  classDef prof fill:#e7f0fb,stroke:#1f5fa8,stroke-width:2px,color:#0f3a6b;
+```
+
+## Cursos da trilha
+
+| Camada | Curso | CH | Status |
+|--------|-------|---:|--------|
+| Isca (gratuita) | [Inteligência Artificial na Prática](../cursos/ia-na-pratica/index.qmd) | 8h | <span class="status-pill status-ativo">ativo</span> |
+| Isca paga curta | [IA Sem Mistério](../cursos/ia-sem-misterio/index.qmd) | 16h | <span class="status-pill status-ativo">ativo</span> |
+| Aprofundamento | [IA — Muito Além do Prompt](../cursos/ia-muito-alem-do-prompt/index.qmd) | 24h | <span class="status-pill status-ativo">ativo</span> |
+| Aplicação específica | [Apresentações Dinâmicas com IA Generativa](../cursos/apresentacoes-dinamicas-ia/index.qmd) | 32h | <span class="status-pill status-ativo">ativo</span> |
+| Certificação | [AI-901 — IA com Azure](../cursos/ai-901-azure/index.qmd) | ~48h | <span class="status-pill status-futuro">futuro</span> |
+| Avançado / mercado | [IA Aplicada Avançada — Multiagent, RAG e LLM Ops](../cursos/ia-aplicada-avancada/index.qmd) | 80h | <span class="status-pill status-novo">novo</span> |
+
+: Cursos da Trilha IA Aplicada. {tbl-colwidths="[22,46,10,22]"}
+
+**Pontes para a Faculdade Senac RJ:** Graduação Tecnológica em IA e Ciência de Dados → MBA em IA e Análise de Dados.
+
+## Decisões a validar no GT Tech
+
+- IA na Prática deve ser **formalmente nomeada como isca da trilha**, com *call-to-action* explícito para "IA Sem Mistério".
+- Apresentações Dinâmicas entra como **aplicação específica** ou ramo lateral? Depende de escuta de público.
+- A aprovação de **IA Aplicada Avançada (NC-04)** é o ponto que tira a trilha do nível "iscas" e gera LTV.

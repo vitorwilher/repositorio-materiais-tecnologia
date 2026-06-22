@@ -1,0 +1,69 @@
+---
+title: "Trilha 5 — Programação e Desenvolvimento"
+subtitle: "Da primeira linguagem ao Full Stack, com pontes para Dados e IA"
+---
+
+**Pergunta que responde:** *como um aspirante a desenvolvedor encontra uma jornada coerente, da
+primeira linguagem à especialização Full Stack — com pontes claras para Dados e IA?*
+
+É o **maior eixo** do portfólio. O problema não é falta de cursos, é **falta de progressão visível**.
+A trilha organiza os cursos em **três rotas** que partem de uma isca comum.
+
+## Fluxo da trilha
+
+```{mermaid}
+%%| label: fig-trilha5
+%%| fig-cap: "Trilha Programação — isca comum e três rotas (Web/Full Stack, Back-End, Python/IA)."
+flowchart LR
+  iscaA["IA Generativa<br/>Aplicada a Negócios<br/><small>24h · NC-01</small>"]
+  iscaB["Programador<br/>Front-End com IA<br/><small>80h</small>"]
+
+  fs["Full Stack com Java<br/><small>360h</small>"]
+  mob["Mobile —<br/>React Native<br/><small>60h</small>"]
+  be["Back-End Java<br/><small>84h</small>"]
+  node["Programação NODE<br/><small>100h · cronograma</small>"]
+  php["PHP com Laravel<br/><small>168h</small>"]
+  py["Python com Django<br/><small>168h</small>"]
+  pyia["Python Avançado<br/>com IA<br/><small>100h</small>"]
+
+  iscaA --> iscaB
+  iscaB --> fs --> mob
+  iscaB --> be --> node
+  iscaB --> php
+  iscaB --> py --> pyia
+  pyia -. ponte p/ Dados .-> dados["SQL para Dados /<br/>Eng. de Dados"]
+
+  class iscaB,fs,mob,be,php,py,pyia ativo
+  class iscaA novo
+  class node futuro
+  class dados ponte
+  classDef ativo fill:#e3f5e8,stroke:#1b7a3d,color:#13361f;
+  classDef novo fill:#fff0e0,stroke:#b5560a,stroke-dasharray:4 3,color:#5a2c05;
+  classDef futuro fill:#eef0f3,stroke:#5a6573,stroke-dasharray:2 2,color:#2f3640;
+  classDef ponte fill:#e7f0fb,stroke:#1f5fa8,stroke-dasharray:3 3,color:#0f3a6b;
+```
+
+## Cursos da trilha
+
+| Rota | Curso | CH | Status |
+|------|-------|---:|--------|
+| Isca comum | [IA Generativa Aplicada a Negócios](../cursos/ia-generativa-negocios/index.qmd) | 24h | <span class="status-pill status-novo">novo</span> |
+| Isca comum | [Programador Front-End com IA](../cursos/programador-front-end-ia/index.qmd) | 80h | <span class="status-pill status-ativo">ativo</span> |
+| Web/Full Stack | [Programador Full Stack — Formação com Java](../cursos/full-stack-java/index.qmd) | 360h | <span class="status-pill status-ativo">ativo</span> |
+| Web/Mobile | [Programação Mobile — React Native](../cursos/mobile-react-native/index.qmd) | 60h | <span class="status-pill status-ativo">ativo</span> |
+| Back-End | [Desenvolvedor Back-End Java](../cursos/back-end-java/index.qmd) | 84h | <span class="status-pill status-ativo">ativo</span> |
+| Back-End | [Programação NODE](../cursos/programacao-node/index.qmd) | 100h | <span class="status-pill status-futuro">futuro</span> |
+| Back-End — PHP | [Programação em PHP com Laravel](../cursos/php-laravel/index.qmd) | 168h | <span class="status-pill status-ativo">ativo</span> |
+| Python/IA | [Programação em Python com Django](../cursos/python-django/index.qmd) | 168h | <span class="status-pill status-ativo">ativo</span> |
+| Python/IA | [Programação Avançada em Python com IA](../cursos/python-avancado-ia/index.qmd) | 100h | <span class="status-pill status-ativo">ativo</span> |
+
+: Cursos da Trilha Programação e Desenvolvimento. {tbl-colwidths="[20,48,10,22]"}
+
+**Pontes para a Faculdade Senac RJ:** Graduação Tecnológica em ADS → MBA em Gestão de Produtos, Growth e IA (perfil gestor).
+
+## Decisões a validar no GT Tech
+
+- **Python com Django × Python Avançado com IA** — explicitar como **sequência** (proposta) ou rota paralela.
+- A **Rota Python/IA é ponte natural para a Trilha Dados** — costurar com SQL para Dados / Engenharia de Dados.
+- **NODE** confirmado no cronograma 2026; posição (após Back-End Java/.NET) é proposta editorial.
+- **DevOps para devs** e **Testing/QA** ficam para a fase 2.

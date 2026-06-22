@@ -1,0 +1,79 @@
+project:
+  type: website
+  output-dir: _site
+  render:
+    - "*.qmd"
+    - "trilhas/*.qmd"
+    - "cursos/*/index.qmd"
+    - "!_templates/"
+
+lang: pt-BR
+
+website:
+  title: "Repositório de Materiais — Tecnologia"
+  description: "Repositório de PC, PTD, referências e materiais complementares dos cursos de Tecnologia do SENAC RJ."
+  site-url: ""
+  reader-mode: true
+  search:
+    location: navbar
+    type: overlay
+  page-navigation: true
+  back-to-top-navigation: true
+  navbar:
+    logo: assets/logo_senac.png
+    background: light
+    pinned: true
+    left:
+      - text: "Início"
+        href: index.qmd
+      - text: "Fluxograma das trilhas"
+        href: fluxograma.qmd
+      - text: "Trilhas"
+        menu:
+          - text: "Visão geral das 6 trilhas"
+            href: trilhas/index.qmd
+          - text: "1 — IA Aplicada"
+            href: trilhas/trilha-1-ia-aplicada.qmd
+          - text: "2 — Dados"
+            href: trilhas/trilha-2-dados.qmd
+          - text: "3 — Infraestrutura, Cloud e Redes"
+            href: trilhas/trilha-3-infraestrutura.qmd
+          - text: "4 — Cibersegurança"
+            href: trilhas/trilha-4-ciberseguranca.qmd
+          - text: "5 — Programação e Desenvolvimento"
+            href: trilhas/trilha-5-programacao.qmd
+          - text: "6 — Produtividade e Citizen Development"
+            href: trilhas/trilha-6-produtividade.qmd
+      - text: "Como atualizar"
+        href: como-atualizar.qmd
+      - text: "Changelog"
+        href: changelog.qmd
+    tools:
+      - icon: github
+        href: "#"
+        text: "Repositório"
+  page-footer:
+    left: "Cápsula de Inovação — Coordenação de Tecnologias, SENAC RJ"
+    right: "Atualizado de forma contínua · ver [Changelog](changelog.qmd)"
+
+format:
+  html:
+    theme:
+      - cosmo
+      - assets/estilo.scss
+    toc: true
+    toc-title: "Nesta página"
+    toc-depth: 3
+    number-sections: false
+    code-copy: true
+    fig-responsive: true
+    smooth-scroll: true
+    link-external-newwindow: true
+    grid:
+      sidebar-width: 280px
+      body-width: 900px
+
+execute:
+  echo: false
+  warning: false
+  freeze: auto

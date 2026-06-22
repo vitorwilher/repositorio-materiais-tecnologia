@@ -1,0 +1,61 @@
+---
+title: "Trilha 6 — Produtividade e Citizen Development"
+subtitle: "Público não-técnico: Excel, Power Platform e inclusão digital"
+---
+
+**Pergunta que responde:** *como o profissional não-técnico (gestor, analista de negócios,
+administrativo) usa o SENAC como porta para automação e produtividade com IA, sem virar desenvolvedor?*
+
+A trilha cobre o público não-técnico com forte vocação de isca, e oferece **rotas laterais** para a
+Trilha Dados (via Power BI) e para a Trilha IA Aplicada (via Copilot/IA generativa).
+
+## Fluxo da trilha
+
+```{mermaid}
+%%| label: fig-trilha6
+%%| fig-cap: "Trilha Produtividade — núcleo Excel, low-code (Power Platform) e ramo de inclusão."
+flowchart LR
+  onda["Excel com IA —<br/>Fundamentos<br/><small>8h · ONDA</small>"]
+  e1["Excel com IA<br/><small>28h</small>"]
+  e2["Excel Avançado<br/>com IA<br/><small>36h</small>"]
+  e3["Excel Dashboard<br/><small>24h</small>"]
+  pp["Microsoft<br/>Power Platform<br/><small>48h · retorno</small>"]
+  inc1["Informática<br/>Fundamental com IA<br/><small>60h</small>"]
+  inc2["Informática Básica<br/>p/ Melhor Idade<br/><small>60h</small>"]
+  dados["→ Trilha Dados<br/>(via Power BI)"]
+
+  onda --> e1 --> e2 --> e3
+  e3 --> pp
+  e3 -. lateral .-> dados
+  inc1 --> e1
+  inc2 -. inclusão .-> inc1
+
+  class onda,e1,e2,e3,inc1,inc2 ativo
+  class pp retorno
+  class dados ponte
+  classDef ativo fill:#e3f5e8,stroke:#1b7a3d,color:#13361f;
+  classDef retorno fill:#e7f0fb,stroke:#1f5fa8,color:#0f3a6b;
+  classDef ponte fill:#eef0f3,stroke:#5a6573,stroke-dasharray:3 3,color:#2f3640;
+```
+
+## Cursos da trilha
+
+| Camada | Curso | CH | Status |
+|--------|-------|---:|--------|
+| Isca (ONDA) | [Excel com IA — Fundamentos](../cursos/excel-com-ia-fundamentos/index.qmd) | 8h | <span class="status-pill status-ativo">ativo</span> |
+| Excel — nível 1 | [Excel com IA](../cursos/excel-com-ia/index.qmd) | 28h | <span class="status-pill status-ativo">ativo</span> |
+| Excel — nível 2 | [Excel Avançado com IA](../cursos/excel-avancado-ia/index.qmd) | 36h | <span class="status-pill status-ativo">ativo</span> |
+| Excel — nível 3 | [Excel Dashboard](../cursos/excel-dashboard/index.qmd) | 24h | <span class="status-pill status-ativo">ativo</span> |
+| Inclusão / letramento | [Informática Fundamental com IA](../cursos/informatica-fundamental-ia/index.qmd) | 60h | <span class="status-pill status-ativo">ativo</span> |
+| Inclusão / letramento | [Informática Básica para Melhor Idade](../cursos/informatica-melhor-idade/index.qmd) | 60h | <span class="status-pill status-ativo">ativo</span> |
+| Low-code corporativo | [Microsoft Power Platform](../cursos/power-platform/index.qmd) | 48h | <span class="status-pill status-retorno">retorno</span> |
+
+: Cursos da Trilha Produtividade e Citizen Development. {tbl-colwidths="[22,46,10,22]"}
+
+**Pontes:** Graduação Tecnológica em ADS / MBA em Gestão de Produtos (perfil gestor); ponte para a **Trilha Dados** via Power BI.
+
+## Decisões a validar no GT Tech
+
+- **Fusão administrativa dos pares com/sem IA** já consumada no catálogo — falta formalizar a saída da lista interna.
+- **Ramo de inclusão** mantido separado do núcleo corporativo — validar se a separação é exposta ao aluno ou só interna.
+- **Power Platform** precisa de retorno claro (atualizado para Copilot Studio e agentes) como porta de Citizen Development.

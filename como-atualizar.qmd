@@ -1,0 +1,114 @@
+---
+title: "Como atualizar o repositório"
+subtitle: "Guia para a Coordenação e instrutores"
+toc: true
+---
+
+Este repositório é um **documento vivo**, atualizado conforme novas tecnologias entram no portfólio.
+Este guia explica como fazer as três operações mais comuns. Não é preciso ser programador —
+tudo é texto (`.qmd` e Markdown).
+
+::: {.callout-important}
+**Regra de ouro:** toda mudança de conteúdo gera **uma linha no [Changelog](changelog.qmd)** e
+**uma linha no histórico da página do curso**. É isso que torna o repositório auditável ao longo do tempo.
+:::
+
+## Pré-requisitos (uma vez)
+
+- **Quarto** instalado (mesma ferramenta dos demais documentos da Cápsula).
+- **Python 3** (só para o scaffolder de novos cursos — não usa bibliotecas externas).
+- Um editor de texto (VS Code recomendado, com a extensão Quarto).
+
+Para visualizar o site localmente enquanto edita:
+
+```bash
+cd repositorio_materiais
+quarto preview          # abre o site no navegador e recarrega ao salvar
+```
+
+Para gerar a versão final (pasta `_site/`):
+
+```bash
+quarto render
+```
+
+## 1. Atualizar o material de um curso existente
+
+1. Abra `cursos/<slug>/index.qmd` (ou navegue até o curso e use o link de edição).
+2. Edite os blocos nas abas **PC**, **PTD**, **Referências** e **Materiais Complementares**.
+3. Atualize, no topo da página, **Material** (`completo` / `parcial` / `a preencher`) e **Última atualização**.
+4. Acrescente uma linha na tabela **Histórico de atualizações** ao final da página.
+5. Registre a mudança no [Changelog](changelog.qmd).
+
+## 2. Adicionar um curso novo (nova tecnologia)
+
+O jeito recomendado usa o **scaffolder**, que cria a página já no padrão:
+
+1. Abra `scripts/gerar_cursos.py` e acrescente um item na lista `CURSOS`
+   (copie um existente como modelo). Campos:
+
+   ```python
+   dict(slug="meu-curso-novo", titulo="Meu Curso Novo",
+        ch="40h", status="novo", trilhas=["t3"],
+        origem="Proposta 2027", codigo="NC-10"),
+   ```
+
+   - **slug**: nome da pasta (sem espaços/acentos, use hífens).
+   - **status**: `ativo` · `novo` · `retorno` · `futuro`.
+   - **trilhas**: um ou mais entre `t1`…`t6` (veja a tabela abaixo).
+
+2. Rode o gerador (ele **nunca sobrescreve** páginas existentes):
+
+   ```bash
+   cd repositorio_materiais
+   python scripts/gerar_cursos.py
+   ```
+
+3. Edite o `cursos/meu-curso-novo/index.qmd` gerado e preencha os blocos
+   (use o [gabarito-padrão](_templates/gabarito-curso.qmd) como referência).
+4. Inclua o curso **no diagrama da trilha** (`trilhas/trilha-*.qmd`) e **no [fluxograma mestre](fluxograma.qmd)** —
+   adicione o nó e a seta no bloco Mermaid.
+5. Registre no [Changelog](changelog.qmd).
+
+| id | Trilha |
+|----|--------|
+| `t1` | IA Aplicada |
+| `t2` | Dados |
+| `t3` | Infraestrutura, Cloud e Redes |
+| `t4` | Cibersegurança |
+| `t5` | Programação e Desenvolvimento |
+| `t6` | Produtividade e Citizen Development |
+
+: Identificadores de trilha usados no registro. {tbl-colwidths="[15,85]"}
+
+## 3. Editar o fluxograma das trilhas
+
+Os diagramas são escritos em **Mermaid** (texto), dentro de blocos ` ```{mermaid} `.
+Para adicionar um curso ao fluxo:
+
+```default
+flowchart LR
+  anterior["Curso Anterior<br/><small>Xh</small>"] --> novo["Curso Novo<br/><small>Yh</small>"]
+  class novo novo
+```
+
+- Cada nó tem um **id** (`novo`) e um **rótulo** entre aspas; use `<br/>` para quebrar linha
+  e `<small>…</small>` para a carga horária.
+- A seta `-->` representa o upsell (pré-requisito → próximo). Use `-. texto .->` para **pontes** entre trilhas.
+- A linha `class novo novo` aplica a cor de status (`ativo`, `novo`, `futuro`, `retorno`).
+
+As paletas de status (`classDef …`) já estão no fim de cada diagrama — basta reusar.
+
+## Convenções de conteúdo
+
+- **Idioma:** português do Brasil.
+- **Fonte canônica:** o PC/PTD oficial (`.docx`) é a fonte; este repositório é a camada navegável.
+  Sempre que possível, **linke o arquivo oficial** no bloco correspondente.
+- **Status honesto:** trilhas e cursos novos (NC-xx) são **propostas a validar** — mantenha o selo correto.
+- **Versionamento:** changelog + histórico por curso, datas em `AAAA-MM-DD`.
+
+## Publicar o site (hospedagem)
+
+O site é estático (pasta `_site/` após `quarto render`). Pode ser publicado em **GitHub Pages**,
+servidor interno ou compartilhado em rede. Alternativa portátil: ativar `embed-resources: true`
+para gerar páginas HTML autocontidas.

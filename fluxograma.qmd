@@ -1,0 +1,119 @@
+---
+title: "Fluxograma das trilhas"
+subtitle: "Mapa de todos os cursos, pré-requisitos e progressão"
+---
+
+Este é o **mapa completo do portfólio de Tecnologia**: cada trilha como uma sequência de
+*upsell* (curso → próximo curso), os **pré-requisitos**, e as **pontes entre trilhas** (linhas
+tracejadas). Para o detalhe de cada jornada, abra a página da trilha correspondente.
+
+::: {.callout-tip appearance="simple"}
+**Legenda de status:**
+<span class="status-pill status-ativo">ativo</span> no catálogo ·
+<span class="status-pill status-novo">novo</span> (proposta a validar) ·
+<span class="status-pill status-retorno">retorno</span> (em atualização) ·
+<span class="status-pill status-futuro">futuro</span> (horizonte). Caixas tracejadas = ainda não publicado.
+:::
+
+## Mapa geral
+
+```{mermaid}
+%%| label: fig-master
+%%| fig-cap: "Portfólio de Tecnologia — 6 trilhas, pré-requisitos e pontes. Setas cheias = upsell; tracejadas = ponte entre trilhas."
+flowchart TB
+
+  subgraph T1["Trilha 1 · IA Aplicada"]
+    direction LR
+    a1["IA na Prática<br/><small>8h</small>"] --> a2["IA Sem Mistério<br/><small>16h</small>"] --> a3["IA Muito Além<br/>do Prompt<br/><small>24h</small>"] --> a4["Apresentações<br/>Dinâmicas IA<br/><small>32h</small>"] --> a5["AI-901 Azure<br/><small>~48h</small>"] --> a6["IA Aplicada<br/>Avançada<br/><small>80h · NC-04</small>"]
+  end
+
+  subgraph T2["Trilha 2 · Dados"]
+    direction LR
+    b0["Informática<br/>Fundamental com IA<br/><small>60h · base</small>"]
+    b0 --> b1["Excel com IA<br/><small>28h</small>"]
+    b1 --> b2["Excel Avançado<br/>com IA<br/><small>36h</small>"] --> b3["Power BI<br/><small>60h</small>"] --> b4["ANALISTA<br/>DE DADOS"]
+    b1 --> b5["SQL para Dados<br/><small>60h · NC-02</small>"] --> b6["Fund. Engenharia<br/>de Dados<br/><small>120h · NC-03</small>"] --> b7["ENGENHEIRO<br/>DE DADOS"]
+  end
+
+  subgraph T3["Trilha 3 · Infra, Cloud e Redes"]
+    direction LR
+    c1["Linux p/ TI<br/><small>40h · NC-07</small>"] --> c2["Cloud Azure<br/><small>40h · NC-08</small>"] --> c3["Google Cloud<br/><small>76h</small>"] --> c5["Containers e<br/>Kubernetes<br/><small>60h · NC-09</small>"]
+    c2 --> c4["AWS RE/START<br/><small>400h</small>"] --> c5
+    c6["Cisco CCNA<br/><small>210h</small>"] --> c2
+  end
+
+  subgraph T4["Trilha 4 · Cibersegurança"]
+    direction LR
+    d1["LGPD e Governança<br/><small>24h · NC-05</small>"] --> d3["Cibersegurança<br/>Cisco<br/><small>100h</small>"]
+    d2["Pentest<br/>Fundamentos<br/><small>60h · NC-06</small>"] --> d3
+  end
+
+  subgraph T5["Trilha 5 · Programação"]
+    direction LR
+    e0["IA Generativa<br/>p/ Negócios<br/><small>24h · NC-01</small>"] --> e1["Front-End com IA<br/><small>80h</small>"]
+    e1 --> e2["Full Stack Java<br/><small>360h</small>"]
+    e1 --> e3["Back-End Java<br/><small>84h</small>"] --> e4["NODE<br/><small>100h</small>"]
+    e1 --> e5["PHP Laravel<br/><small>168h</small>"]
+    e1 --> e6["Python Django<br/><small>168h</small>"] --> e7["Python Avançado<br/>com IA<br/><small>100h</small>"]
+  end
+
+  subgraph T6["Trilha 6 · Produtividade"]
+    direction LR
+    f1["Excel com IA<br/>Fundamentos<br/><small>8h</small>"] --> f2["Excel com IA<br/><small>28h</small>"] --> f3["Excel Avançado<br/><small>36h</small>"] --> f4["Excel Dashboard<br/><small>24h</small>"]
+    f4 --> f5["Power Platform<br/><small>48h · retorno</small>"]
+    f6["Inf. Melhor Idade<br/><small>60h</small>"] --> g0b["Inf. Fundamental<br/>com IA<br/><small>60h</small>"]
+  end
+
+  %% --- Pontes entre trilhas (tracejadas) ---
+  e7 -. ponte p/ Dados .-> b5
+  f4 -. ponte p/ Dados .-> b3
+  a3 -. IA atravessa Dados .-> b2
+  e0 -. isca comum .-> a4
+
+  class a1,a2,a3,a4 ativo
+  class a5 futuro
+  class a6 novo
+  class b0,b1,b2,b3,b4,b7 ativo
+  class b5,b6 novo
+  class c3,c4,c6 ativo
+  class c1,c2,c5 novo
+  class d3 ativo
+  class d1,d2 novo
+  class e1,e2,e3,e5,e6,e7 ativo
+  class e0 novo
+  class e4 futuro
+  class f1,f2,f3,f4,f6,g0b ativo
+  class f5 retorno
+  class b4,b7 prof
+
+  classDef ativo fill:#e3f5e8,stroke:#1b7a3d,color:#13361f;
+  classDef novo fill:#fff0e0,stroke:#b5560a,stroke-dasharray:4 3,color:#5a2c05;
+  classDef futuro fill:#eef0f3,stroke:#5a6573,stroke-dasharray:2 2,color:#2f3640;
+  classDef retorno fill:#e7f0fb,stroke:#1f5fa8,color:#0f3a6b;
+  classDef prof fill:#dbe9fb,stroke:#1f5fa8,stroke-width:2px,color:#0f3a6b;
+```
+
+## Como ler o mapa
+
+- **Setas cheias** dentro de cada trilha = sequência de *upsell* (cada curso aponta para o próximo).
+- **Setas tracejadas** entre trilhas = **pontes**: pontos onde o aluno migra de uma trilha para outra
+  (ex.: quem termina *Python Avançado com IA* na Programação pode entrar em *SQL para Dados* na trilha Dados).
+- **Caixas azuis de destaque** (Analista / Engenheiro de Dados) = **profissões nomeadas** ao fim da trilha.
+- O **aluno-base** *Informática Fundamental com IA* alimenta tanto a Trilha Dados quanto a de Produtividade.
+
+## Detalhe por trilha
+
+Cada trilha tem seu próprio diagrama e tabela de cursos:
+
+[Trilha 1 — IA Aplicada](trilhas/trilha-1-ia-aplicada.qmd) ·
+[Trilha 2 — Dados](trilhas/trilha-2-dados.qmd) ·
+[Trilha 3 — Infraestrutura](trilhas/trilha-3-infraestrutura.qmd) ·
+[Trilha 4 — Cibersegurança](trilhas/trilha-4-ciberseguranca.qmd) ·
+[Trilha 5 — Programação](trilhas/trilha-5-programacao.qmd) ·
+[Trilha 6 — Produtividade](trilhas/trilha-6-produtividade.qmd)
+
+::: {.callout-note appearance="simple"}
+**Atualizar este mapa:** o fluxograma é escrito em **Mermaid** (texto) — para incluir um curso novo,
+edite o bloco ` ```{mermaid} ` acima (adicione o nó e a seta) e registre a mudança no
+[Changelog](changelog.qmd). Veja o passo a passo em **[Como atualizar](como-atualizar.qmd)**.
+:::

@@ -1,0 +1,181 @@
+---
+title: "Repositório de Materiais — Cursos de Tecnologia"
+subtitle: "PC · PTD · Referências Bibliográficas · Materiais Complementares"
+toc: false
+---
+
+Este é o **repositório de referência dos cursos de Tecnologia do SENAC RJ**, mantido pela
+**Cápsula de Inovação — Coordenação de Tecnologias**. Reúne, por curso, os quatro blocos de
+material que o instrutor precisa para planejar e ministrar a oferta:
+
+- **PC — Plano de Curso** (identificação, justificativa, objetivo, organização curricular, avaliação);
+- **PTD — Plano de Trabalho Docente** (situação de aprendizagem, planejamento das aulas, instrumentos de avaliação);
+- **Referências Bibliográficas** (oficiais e de apoio);
+- **Materiais Complementares** (guias do instrutor, datasets, modelos, vídeos, prompts).
+
+Cada curso está posicionado dentro de uma das **6 trilhas** do portfólio, com os
+**pré-requisitos** e o **próximo passo** explícitos — para que o instrutor enxergue não só o
+curso, mas a jornada do aluno.
+
+::: {.callout-tip appearance="simple"}
+**Para começar:** veja o **[Fluxograma das trilhas](fluxograma.qmd)** (mapa de todos os cursos,
+pré-requisitos e progressão), entre pela trilha do seu curso nos cartões abaixo ou consulte o
+**catálogo de cursos com material publicado** logo a seguir.
+:::
+
+## Catálogo de cursos {#sec-catalogo}
+
+Catálogo completo das **6 trilhas**. Clique no nome do curso para abrir sua página — com **PC**,
+**PTD**, **referências** e **materiais complementares**. A coluna **Material** indica o estágio:
+**✅ publicado** (PC/PTD e arquivos `.docx` oficiais já disponíveis para download) ou
+*estrutura* (página criada, conteúdo em preenchimento contínuo).
+
+::: {.callout-tip appearance="simple"}
+**Com material publicado hoje:** [Excel com IA — Fundamentos](cursos/excel-com-ia-fundamentos/index.qmd) ·
+[IA na Prática](cursos/ia-na-pratica/index.qmd) · [IA — Muito Além do Prompt](cursos/ia-muito-alem-do-prompt/index.qmd) ·
+[Microsoft Power Platform](cursos/power-platform/index.qmd).
+:::
+
+#### Trilha 1 — IA Aplicada
+
+| Curso | Código | CH | Status | Material |
+|-------|:------:|:--:|:------:|:--------:|
+| [Inteligência Artificial na Prática](cursos/ia-na-pratica/index.qmd) | 14149 / 1745.29 | 8h | <span class="status-pill status-ativo">ativo</span> | ✅ publicado |
+| [IA Sem Mistério: Turbinando Sua Produtividade](cursos/ia-sem-misterio/index.qmd) <small>(tb. T2)</small> | — | 16h | <span class="status-pill status-ativo">ativo</span> | estrutura |
+| [IA — Muito Além do Prompt](cursos/ia-muito-alem-do-prompt/index.qmd) <small>(tb. T2)</small> | *a cadastrar* | 24h | <span class="status-pill status-ativo">ativo</span> | ✅ publicado |
+| [Apresentações Dinâmicas com IA Generativa](cursos/apresentacoes-dinamicas-ia/index.qmd) | — | 32h | <span class="status-pill status-ativo">ativo</span> | estrutura |
+| [IA Aplicada Avançada — Multiagent, RAG e LLM Ops](cursos/ia-aplicada-avancada/index.qmd) | NC-04 | 80h | <span class="status-pill status-novo">novo</span> | estrutura |
+| [AI-901 — IA com Azure](cursos/ai-901-azure/index.qmd) | — | ~48h | <span class="status-pill status-futuro">futuro</span> | estrutura |
+
+: Trilha 1 — IA Aplicada. {tbl-colwidths="[46,16,8,15,15]"}
+
+#### Trilha 2 — Dados
+
+| Curso | Código | CH | Status | Material |
+|-------|:------:|:--:|:------:|:--------:|
+| [Informática Fundamental com IA](cursos/informatica-fundamental-ia/index.qmd) <small>(tb. T6)</small> | — | 60h | <span class="status-pill status-ativo">ativo</span> | estrutura |
+| [Excel com IA](cursos/excel-com-ia/index.qmd) <small>(tb. T6)</small> | — | 28h | <span class="status-pill status-ativo">ativo</span> | estrutura |
+| [Excel Avançado com IA — Automação e Dados](cursos/excel-avancado-ia/index.qmd) <small>(tb. T6)</small> | — | 36h | <span class="status-pill status-ativo">ativo</span> | estrutura |
+| [Excel Dashboard — Planilhas Gerenciais](cursos/excel-dashboard/index.qmd) <small>(tb. T6)</small> | — | 24h | <span class="status-pill status-ativo">ativo</span> | estrutura |
+| [Power BI](cursos/power-bi/index.qmd) | — | 60h | <span class="status-pill status-ativo">ativo</span> | estrutura |
+| [SQL para Dados](cursos/sql-para-dados/index.qmd) | NC-02 | 60h | <span class="status-pill status-novo">novo</span> | estrutura |
+| [Fundamentos de Engenharia de Dados](cursos/fundamentos-engenharia-dados/index.qmd) | NC-03 | 120h | <span class="status-pill status-novo">novo</span> | estrutura |
+| [Banco de Dados](cursos/banco-de-dados/index.qmd) | — | 120h | <span class="status-pill status-ativo">ativo</span> | estrutura |
+| [IA Generativa Aplicada a Negócios](cursos/ia-generativa-negocios/index.qmd) <small>(tb. T5)</small> | NC-01 | 24h | <span class="status-pill status-novo">novo</span> | estrutura |
+
+: Trilha 2 — Dados. {tbl-colwidths="[46,16,8,15,15]"}
+
+#### Trilha 3 — Infraestrutura, Cloud e Redes
+
+| Curso | Código | CH | Status | Material |
+|-------|:------:|:--:|:------:|:--------:|
+| [Linux para Profissionais de TI](cursos/linux-profissionais-ti/index.qmd) | NC-07 | 40h | <span class="status-pill status-novo">novo</span> | estrutura |
+| [Cloud Fundamentos com Azure](cursos/cloud-fundamentos-azure/index.qmd) | NC-08 | 40h | <span class="status-pill status-novo">novo</span> | estrutura |
+| [Containers e Kubernetes Essentials](cursos/containers-kubernetes/index.qmd) | NC-09 | 60h | <span class="status-pill status-novo">novo</span> | estrutura |
+| [Google Cloud Foundations](cursos/google-cloud-foundations/index.qmd) | — | 76h | <span class="status-pill status-ativo">ativo</span> | estrutura |
+| [Formação Cisco CCNA V7.0](cursos/cisco-ccna/index.qmd) | — | 210h | <span class="status-pill status-ativo">ativo</span> | estrutura |
+| [AWS RE/START](cursos/aws-restart/index.qmd) | — | 400h | <span class="status-pill status-ativo">ativo</span> | estrutura |
+
+: Trilha 3 — Infraestrutura, Cloud e Redes. {tbl-colwidths="[46,16,8,15,15]"}
+
+#### Trilha 4 — Cibersegurança
+
+| Curso | Código | CH | Status | Material |
+|-------|:------:|:--:|:------:|:--------:|
+| [LGPD e Governança de Dados](cursos/lgpd-governanca-dados/index.qmd) | NC-05 | 24h | <span class="status-pill status-novo">novo</span> | estrutura |
+| [Pentest Fundamentos](cursos/pentest-fundamentos/index.qmd) | NC-06 | 60h | <span class="status-pill status-novo">novo</span> | estrutura |
+| [Cibersegurança Cisco](cursos/ciberseguranca-cisco/index.qmd) | — | 100h | <span class="status-pill status-ativo">ativo</span> | estrutura |
+
+: Trilha 4 — Cibersegurança. {tbl-colwidths="[46,16,8,15,15]"}
+
+#### Trilha 5 — Programação e Desenvolvimento
+
+| Curso | Código | CH | Status | Material |
+|-------|:------:|:--:|:------:|:--------:|
+| [Programador Front-End com IA](cursos/programador-front-end-ia/index.qmd) | — | 80h | <span class="status-pill status-ativo">ativo</span> | estrutura |
+| [Programação Mobile — React Native](cursos/mobile-react-native/index.qmd) | — | 60h | <span class="status-pill status-ativo">ativo</span> | estrutura |
+| [Desenvolvedor Back-End Java](cursos/back-end-java/index.qmd) | — | 84h | <span class="status-pill status-ativo">ativo</span> | estrutura |
+| [Programação Avançada em Python com IA](cursos/python-avancado-ia/index.qmd) | — | 100h | <span class="status-pill status-ativo">ativo</span> | estrutura |
+| [Programação em Python com Django](cursos/python-django/index.qmd) | — | 168h | <span class="status-pill status-ativo">ativo</span> | estrutura |
+| [Programação em PHP com Laravel](cursos/php-laravel/index.qmd) | — | 168h | <span class="status-pill status-ativo">ativo</span> | estrutura |
+| [Programador Full Stack — Formação com Java](cursos/full-stack-java/index.qmd) | — | 360h | <span class="status-pill status-ativo">ativo</span> | estrutura |
+| [Programação NODE](cursos/programacao-node/index.qmd) | — | 100h | <span class="status-pill status-futuro">futuro</span> | estrutura |
+
+: Trilha 5 — Programação e Desenvolvimento. {tbl-colwidths="[46,16,8,15,15]"}
+
+#### Trilha 6 — Produtividade e Citizen Development
+
+| Curso | Código | CH | Status | Material |
+|-------|:------:|:--:|:------:|:--------:|
+| [Excel com IA — Fundamentos](cursos/excel-com-ia-fundamentos/index.qmd) | 14758 / 991.50 | 8h | <span class="status-pill status-ativo">ativo</span> | ✅ publicado |
+| [Microsoft Power Platform](cursos/power-platform/index.qmd) | 13192 / 1746.48 | 48h | <span class="status-pill status-retorno">retorno</span> | ✅ publicado |
+| [Informática Básica para Melhor Idade](cursos/informatica-melhor-idade/index.qmd) | — | 60h | <span class="status-pill status-ativo">ativo</span> | estrutura |
+
+: Trilha 6 — Produtividade e Citizen Development. {tbl-colwidths="[46,16,8,15,15]"}
+
+> **Código** no formato **SENAC RJ (SGA) / DN** para cursos já cadastrados, ou **NC-xx** para os
+> cursos novos (propostas a validar no GT Tech). Cursos que aparecem em mais de uma trilha estão
+> listados na trilha principal, com a marca *(tb. Tn)*.
+
+## As 6 trilhas
+
+::: {.grade-cards}
+
+::: {.card-trilha}
+### [1 — IA Aplicada](trilhas/trilha-1-ia-aplicada.qmd)
+<span class="meta">Da produtividade pessoal com IA até IA aplicada profissionalmente.</span>
+:::
+
+::: {.card-trilha}
+### [2 — Dados](trilhas/trilha-2-dados.qmd)
+<span class="meta">Do aluno-base a Analista de Dados (2A) e Engenheiro de Dados (2B).</span>
+:::
+
+::: {.card-trilha}
+### [3 — Infraestrutura, Cloud e Redes](trilhas/trilha-3-infraestrutura.qmd)
+<span class="meta">Da TI tradicional ao cloud native (AWS, Azure, GCP, Kubernetes).</span>
+:::
+
+::: {.card-trilha}
+### [4 — Cibersegurança](trilhas/trilha-4-ciberseguranca.qmd)
+<span class="meta">Governança, defesa e ofensiva — da LGPD ao Pentest.</span>
+:::
+
+::: {.card-trilha}
+### [5 — Programação e Desenvolvimento](trilhas/trilha-5-programacao.qmd)
+<span class="meta">Da primeira linguagem ao Full Stack, com pontes para Dados e IA.</span>
+:::
+
+::: {.card-trilha}
+### [6 — Produtividade e Citizen Development](trilhas/trilha-6-produtividade.qmd)
+<span class="meta">Excel, Power Platform e inclusão digital para o público não-técnico.</span>
+:::
+
+:::
+
+## Como usar este repositório
+
+| Se você é… | Comece por… |
+|---|---|
+| **Instrutor de um curso** | A página do seu curso (busca no topo ou pela trilha). Lá estão PC, PTD, referências e materiais de apoio. |
+| **Coordenação / GT Tech** | O [Fluxograma das trilhas](fluxograma.qmd) e as páginas de trilha, para enxergar lacunas e progressão. |
+| **Quem vai criar/atualizar curso** | O guia **[Como atualizar](como-atualizar.qmd)** — gabarito-padrão, scaffolder e regras de versionamento. |
+
+::: {.callout-note}
+**Sobre o status do material.** Cada curso exibe um selo: <span class="status-pill status-ativo">ativo</span>
+(no catálogo), <span class="status-pill status-novo">novo</span> (proposta a validar no GT Tech),
+<span class="status-pill status-retorno">retorno</span> (em atualização para voltar) e
+<span class="status-pill status-futuro">futuro</span> (horizonte de expansão). As trilhas e os cursos
+novos (NC-01…NC-09) são **propostas em validação** — não decisões consolidadas.
+:::
+
+## Convenções
+
+- **Idioma:** português do Brasil.
+- **Fonte canônica do PC/PTD:** os arquivos oficiais (`.docx`) ficam linkados em cada curso; este
+  repositório é a **camada navegável e versionada** por cima deles.
+- **Toda alteração relevante** entra no **[Changelog](changelog.qmd)** e no histórico da própria página do curso.
+
+---
+
+*Mantido pela Cápsula de Inovação — Coordenação de Tecnologias, SENAC RJ. Documento vivo, atualizado conforme o portfólio evolui.*

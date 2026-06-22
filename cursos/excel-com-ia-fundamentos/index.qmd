@@ -1,0 +1,111 @@
+---
+title: "Excel com IA — Fundamentos"
+subtitle: "8h · Trilha 6 — Produtividade e Citizen Development"
+---
+
+::: {.callout-note appearance="simple"}
+**Status:** <span class="status-pill status-ativo">ativo</span> &nbsp; isca (ONDA2) · Código: SGA 14758 / DN 991.50
+&nbsp;·&nbsp; **Carga horária:** 8h (4 aulas de 2h) &nbsp;·&nbsp; **Tipo:** Instrumental · Remoto ou Presencial
+
+**Material:** completo &nbsp;·&nbsp; **Última atualização:** 2026-06-19
+:::
+
+## Onde este curso entra nas trilhas
+
+Faz parte de: [Trilha 6 — Produtividade e Citizen Development](../../trilhas/trilha-6-produtividade.qmd).
+
+> **Vem de:** porta de entrada (isca ONDA) · **Próximo passo:** Excel com IA (28h) → Excel Avançado com IA.
+> Conecta também com a [Trilha Dados](../../trilhas/trilha-2-dados.qmd) via Power BI.
+
+::: {.panel-tabset}
+
+## PC — Plano de Curso
+
+**Fonte oficial:** [PC — Excel com IA Fundamentos (.docx)](fonte/PC - Excel com IA Fundamentos.docx)
+
+### 1. Identificação
+- **Eixo:** Informação e Comunicação · **Segmento:** Tecnologia da Informação
+- **Tipo:** Instrumental · **Carga horária:** 8 horas · **Código DN:** 991.50
+
+### 2. Requisitos de acesso
+- Idade mínima: 14 anos · Escolaridade: não há.
+- Conhecimentos básicos de informática (sistema operacional e internet).
+- Documentos: identidade, CPF, autodeclaração de conhecimentos básicos.
+
+### 3. Justificativa
+O Excel é uma das ferramentas mais populares do mercado para manipular planilhas, gráficos e conectar
+fontes de dados. O curso proporciona melhor colocação profissional pela análise qualitativa de dados e
+criação de gráficos, integrando recursos de **IA generativa** ao fluxo de trabalho.
+
+### 4. Objetivo
+Permitir que os participantes elaborem planilhas com recursos de formatação e cálculos, **apoiados por IA**.
+
+### 5. Organização curricular
+**Unidade Curricular:** Excel com IA — Fundamentos — 8h.
+
+| Elemento | Conteúdo |
+|----------|----------|
+| **Conhecimentos** | Layout e modos de exibição; gerenciamento de guias; formatação (números, alinhamento, fonte, bordas, preenchimento); fórmulas e funções — **SOMA**, **HOJE/AGORA**, **MÉDIA/MÁXIMO/MÍNIMO**; classificação e filtragem; gráficos básicos (linhas e colunas); configurações de página; **ferramentas de IA: ChatGPT, Gemini e Copilot**. |
+| **Habilidades** | Construir planilhas integradas à Inteligência Artificial. |
+
+### 6. Orientações metodológicas
+O instrutor apresenta recursos de IA **interagindo com o Excel** (ChatGPT, Gemini, Copilot) para:
+sugerir fórmulas e explicações; formatar planilhas; criar gráficos; e **validar fórmulas a partir de
+comandos em linguagem natural**. Apoio em casos reais/fictícios e nos recursos do Espaço Docente
+(Cachola, Cubus, Anuário de Tecnologias Educacionais).
+
+### 7. Avaliação
+Aprovação com **frequência igual a 100%** da carga horária. Menções **Concluiu (C)** / **Não concluiu (NC)**.
+
+### 8–11. Recursos, perfil e certificação
+1 computador por aluno com Excel 2019+ e internet. Docente com domínio de Excel e **IA generativa**.
+Certificado instrumental em *Excel com IA — Fundamentos*, validade nacional.
+
+## PTD — Plano de Trabalho Docente
+
+**Fonte oficial:** [PTD — Excel com IA Fundamentos (.docx)](fonte/PTD - Excel com IA Fundamentos.docx)
+
+**Ideia central:** a IA **não fica dentro do Excel**. O fluxo é — *o aluno descreve o problema em
+português → a IA responde com a fórmula/explicação → o aluno copia para a célula e confere*. É a
+competência **Engenharia de Comandos**: pensar com a tecnologia, não decorar fórmula.
+
+### Planejamento das aulas (4 × 2h)
+
+| Aula | Foco | Onde a IA entra |
+|-----:|------|-----------------|
+| 1 | Interface, guias e formatação | Tour pelo Excel; entrega do modelo pronto (planilha da Mariana); apresentação do Claude/ChatGPT/Gemini. *Sem fórmula ainda.* |
+| 2 | Fórmulas: SOMA, HOJE, AGORA | Pedir à IA a fórmula da coluna Total e as funções de data/hora automáticas. |
+| 3 | Estatística, classificar e filtrar | MÉDIA/MÁXIMO/MÍNIMO via IA; validar a organização da planilha; classificar e filtrar (ex.: vendas no Pix). |
+| 4 | Gráficos, página e avaliação | Escolher o gráfico com apoio da IA; preparar para impressão; **atividade avaliativa**: reconstruir a planilha da Mariana. |
+
+### Boas práticas com IA (combinar com a turma)
+A IA pode errar — toda fórmula é testada; separador de argumentos em PT costuma ser `;`; **LGPD**: não
+colar dados reais/sensíveis na IA (usar dados de exemplo); fazer logoff das contas ao fim de cada aula.
+
+## Referências Bibliográficas
+
+**Básica (oficial — do PC)**
+
+- Microsoft. *Suporte do Office Excel* — <https://support.microsoft.com/pt-br/excel>
+
+**Complementar (apoio)**
+
+- Ferramentas de IA generativa: ChatGPT, Google Gemini, Microsoft Copilot, Claude.
+- Espaço Docente Senac — plataformas Cachola e Cubus; Anuário de Tecnologias Educacionais.
+
+## Materiais Complementares
+
+- **Guia do Instrutor — Demonstração com IA:** [Guia_Instrutor_Demonstracao_IA.md](fonte/Guia_Instrutor_Demonstracao_IA.md)
+  — roteiro pronto, aula a aula, com os **prompts** para montar a planilha da persona *Mariana* usando IA externa.
+- **Planilha-exemplo (3 abas: Antes / Depois / Como pedir ao Claude):** [Exemplo_Planilha_Inteligente_Mariana.xlsx](fonte/Exemplo_Planilha_Inteligente_Mariana.xlsx)
+- **Gerador da planilha** (`gerar_planilha_exemplo.py`, openpyxl) na pasta de origem, para criar variações por turma.
+
+:::
+
+## Histórico de atualizações (deste curso)
+
+| Data | O que mudou | Autor |
+|------|-------------|-------|
+| 2026-06-19 | Página criada com PC, PTD (resumo) e materiais de apoio. | Cápsula de Inovação |
+
+: Histórico do material deste curso. {tbl-colwidths="[18,62,20]"}

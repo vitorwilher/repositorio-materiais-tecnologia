@@ -1,0 +1,90 @@
+---
+title: "NOME DO CURSO"
+subtitle: "CARGA HORÁRIA · TRILHA(S)"
+---
+
+<!--
+GABARITO-PADRÃO DE CURSO
+========================
+Este é o modelo de referência de uma página de curso. O scaffolder
+(scripts/gerar_cursos.py) gera uma versão deste arquivo automaticamente a partir
+do registro de cursos. Edite os blocos abaixo substituindo os trechos em itálico.
+
+NÃO renderize este arquivo: ele fica em _templates/ e é ignorado pelo site.
+-->
+
+::: {.callout-note appearance="simple"}
+**Status:** <span class="status-pill status-ativo">ativo</span> &nbsp; ativo no catálogo · Código: SGA XXXXX
+&nbsp;·&nbsp; **Carga horária:** XXh &nbsp;·&nbsp; **Origem:** Catálogo público
+
+**Material:** completo / parcial / a preencher &nbsp;·&nbsp; **Última atualização:** AAAA-MM-DD
+:::
+
+## Onde este curso entra nas trilhas
+
+Faz parte de: [Trilha N — Nome](../../trilhas/trilha-N-slug.qmd).
+
+> **Vem de:** *curso anterior* · **Próximo passo:** *curso seguinte (call-to-action de upsell)*.
+
+::: {.panel-tabset}
+
+## PC — Plano de Curso
+
+**Fonte oficial:** [`Nome do arquivo.docx`](caminho/para/arquivo.docx)
+
+### Identificação
+- **Eixo / Segmento / Tipo:** …
+- **Carga horária / Formato:** …
+- **Código DN / SENAC RJ:** …
+
+### Requisitos de acesso
+…
+
+### Justificativa
+…
+
+### Objetivo
+…
+
+### Organização curricular
+*Tabela de Conhecimentos · Habilidades · Atitudes/Valores, e indicador(es).*
+
+### Avaliação · Recursos · Perfil docente · Certificação
+…
+
+## PTD — Plano de Trabalho Docente
+
+**Fonte oficial:** [`Nome do PTD.docx`](caminho/para/ptd.docx)
+
+- **Indicador(es) da UC:** …
+- **Situação de aprendizagem:** …
+- **Planejamento das aulas:** *resumo aula a aula, com sugestões de corte.*
+- **Procedimentos e instrumentos de avaliação:** …
+
+## Referências Bibliográficas
+
+**Básica (oficial — do PC)**
+
+- …
+
+**Complementar (apoio)**
+
+- …
+
+## Materiais Complementares
+
+- **Guia do instrutor:** …
+- **Datasets / planilhas-exemplo:** …
+- **Modelos / templates:** …
+- **Vídeos / tutoriais:** …
+- **Prompts de IA:** …
+
+:::
+
+## Histórico de atualizações (deste curso)
+
+| Data | O que mudou | Autor |
+|------|-------------|-------|
+| AAAA-MM-DD | Criação da página. | Cápsula de Inovação |
+
+: Histórico do material deste curso. {tbl-colwidths="[18,62,20]"}

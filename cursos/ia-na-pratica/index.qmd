@@ -1,0 +1,93 @@
+---
+title: "Inteligência Artificial na Prática"
+subtitle: "8h · Trilha 1 — IA Aplicada"
+---
+
+::: {.callout-note appearance="simple"}
+**Status:** <span class="status-pill status-ativo">ativo</span> &nbsp; canal próprio (ONDA1) · Código: SGA 14149 / DN 1745.29
+&nbsp;·&nbsp; **Carga horária:** 8h &nbsp;·&nbsp; **Tipo:** Aperfeiçoamento
+
+**Material:** completo &nbsp;·&nbsp; **Última atualização:** 2026-06-19
+:::
+
+## Onde este curso entra nas trilhas
+
+Faz parte de: [Trilha 1 — IA Aplicada](../../trilhas/trilha-1-ia-aplicada.qmd).
+
+> **Vem de:** porta de entrada gratuita (isca da trilha) · **Próximo passo:** IA Sem Mistério (16h).
+> *Decisão a validar:* nomear formalmente como isca, com call-to-action explícito ao fim da oferta.
+
+::: {.panel-tabset}
+
+## PC — Plano de Curso
+
+**Fonte oficial:** [PC — IA na Prática (.docx)](fonte/PC - IA na Pratica.docx)
+
+### 1. Identificação
+- **Eixo:** Informação e Comunicação · **Segmento:** Tecnologia da Informação
+- **Tipo:** Aperfeiçoamento · **Carga horária:** 8 horas · **Código DN:** 1745.29 · **SENAC RJ:** 14149
+
+### 2. Requisitos de acesso
+- Idade mínima: 14 anos · Escolaridade: não há.
+- Noções básicas de informática (Windows e navegação na internet).
+- Documentos: identidade, CPF, comprovante/autodeclaração de conhecimento específico.
+
+### 3. Justificativa
+A adoção de IA no ambiente profissional cresce rapidamente — mais de 57% dos brasileiros já usam IA
+generativa, posicionando o país entre os líderes globais. O curso oferece introdução prática aos
+fundamentos de IA (incluindo a diferença entre **IA Generativa e Preditiva**) e à sua aplicação para
+produtividade e eficiência no trabalho.
+
+### 4. Objetivo
+Ensinar estratégias para usar **IA generativa na elaboração de textos e imagens**, com ferramentas
+diversas. Destinado a todas as áreas, profissões e cargos.
+
+### 5. Organização curricular
+**Unidade Curricular:** Inteligência Artificial na Prática — 8h.
+**Indicador:** *Elabora prompts por meio da IA generativa para a criação de textos e imagens.*
+
+| Elemento | Conteúdo |
+|----------|----------|
+| **Conhecimentos** | Conceitos de IA: Generativa e Preditiva; uso de ChatGPT e Gemini para geração de textos e imagens; **Engenharia de Comandos** (Prompt Engineering): ajuste de perguntas/comandos para respostas mais precisas. |
+| **Habilidades** | Criar textos e imagens usando prompts no ChatGPT e Gemini. |
+
+### 6. Orientações metodológicas
+Atividades baseadas em situações reais: usar IA para construir textos, laudas, apresentações, imagens
+e marketing, otimizando tempo e qualidade das entregas.
+
+### 7. Avaliação
+Menções no processo (**A**/**PA**/**NA**) e ao final (**A**/**NA**). **Concluiu (C)** com frequência ≥ 75%.
+
+### 8–11. Recursos, perfil e certificação
+1 computador por participante (i5 10ª geração+, Windows 10, 8 GB RAM, navegadores Chrome/Edge/Opera GX).
+Docente com experiência em IA generativa para produtividade e automação. Certificado de participação.
+
+## PTD — Plano de Trabalho Docente
+
+**Fonte oficial:** [PTD — IA na Prática (.docx)](fonte/PTD - IA na Pratica.docx)
+
+O PTD detalha a condução das 8h com foco em **engenharia de comandos** aplicada à geração de textos e
+imagens (ChatGPT, Gemini), partindo de problemas reais do cotidiano profissional do aluno. Consulte o
+arquivo oficial para o planejamento aula a aula e os instrumentos de avaliação.
+
+## Referências Bibliográficas
+
+**Complementar (apoio)**
+
+- OpenAI — ChatGPT (<https://chat.openai.com/>); Google — Gemini (<https://gemini.google.com/>).
+- Boas práticas de *prompt engineering* para geração de texto e imagem.
+
+## Materiais Complementares
+
+- Exemplos de prompts por área (texto, apresentação, imagem, marketing) — a consolidar a partir do PTD.
+- Como curso de **canal próprio** (subdomínio dedicado, ~5 mil vagas), é a principal isca de topo de funil da Trilha IA Aplicada.
+
+:::
+
+## Histórico de atualizações (deste curso)
+
+| Data | O que mudou | Autor |
+|------|-------------|-------|
+| 2026-06-19 | Página criada com PC completo e PTD referenciado. | Cápsula de Inovação |
+
+: Histórico do material deste curso. {tbl-colwidths="[18,62,20]"}

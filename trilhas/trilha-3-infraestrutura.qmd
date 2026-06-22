@@ -1,0 +1,57 @@
+---
+title: "Trilha 3 — Infraestrutura, Cloud e Redes"
+subtitle: "Da TI tradicional ao cloud native (AWS, Azure, GCP, Kubernetes)"
+---
+
+**Pergunta que responde:** *como um profissional de TI tradicional (redes, suporte, servidores)
+faz a transição para cloud native moderno, com competências validadas pelos três hyperscalers?*
+
+## Fluxo da trilha
+
+```{mermaid}
+%%| label: fig-trilha3
+%%| fig-cap: "Trilha Infraestrutura — iscas Linux/Azure, núcleo cloud e redes, fechamento em Kubernetes."
+flowchart LR
+  l["Linux para<br/>Profissionais de TI<br/><small>40h · NC-07</small>"]
+  az["Cloud Fundamentos<br/>com Azure<br/><small>40h · NC-08</small>"]
+  gcp["Google Cloud<br/>Foundations<br/><small>76h</small>"]
+  aws["AWS RE/START<br/><small>400h · parceria</small>"]
+  cisco["Cisco CCNA V7.0<br/><small>210h · redes</small>"]
+  k8s["Containers e<br/>Kubernetes<br/><small>60h · NC-09</small>"]
+  P["Faculdade Senac<br/>Grad. Tec. ADS"]
+
+  l --> az --> gcp
+  az --> aws
+  cisco --> az
+  gcp --> k8s
+  aws --> k8s
+  k8s --> P
+
+  class gcp,aws,cisco ativo
+  class l,az,k8s novo
+  class P prof
+  classDef ativo fill:#e3f5e8,stroke:#1b7a3d,color:#13361f;
+  classDef novo fill:#fff0e0,stroke:#b5560a,stroke-dasharray:4 3,color:#5a2c05;
+  classDef prof fill:#e7f0fb,stroke:#1f5fa8,stroke-width:2px,color:#0f3a6b;
+```
+
+## Cursos da trilha
+
+| Camada | Curso | CH | Status |
+|--------|-------|---:|--------|
+| Isca — Linux | [Linux para Profissionais de TI](../cursos/linux-profissionais-ti/index.qmd) | 40h | <span class="status-pill status-novo">novo</span> |
+| Isca — Cloud Azure | [Cloud Fundamentos com Azure](../cursos/cloud-fundamentos-azure/index.qmd) | 40h | <span class="status-pill status-novo">novo</span> |
+| Cloud — Google | [Google Cloud Foundations](../cursos/google-cloud-foundations/index.qmd) | 76h | <span class="status-pill status-ativo">ativo</span> |
+| Cloud — AWS (parceria) | [AWS RE/START](../cursos/aws-restart/index.qmd) | 400h | <span class="status-pill status-ativo">ativo</span> |
+| Redes | [Formação Cisco CCNA V7.0](../cursos/cisco-ccna/index.qmd) | 210h | <span class="status-pill status-ativo">ativo</span> |
+| Cloud Native | [Containers e Kubernetes Essentials](../cursos/containers-kubernetes/index.qmd) | 60h | <span class="status-pill status-novo">novo</span> |
+
+: Cursos da Trilha Infraestrutura, Cloud e Redes. {tbl-colwidths="[22,46,10,22]"}
+
+**Pontes para a Faculdade Senac RJ:** Graduação Tecnológica em Análise e Desenvolvimento de Sistemas.
+
+## Decisões a validar no GT Tech
+
+- Apresentar como **trilha única com três ramos** (Redes, Servidores/On-prem, Cloud Native) ou **três trilhas separadas**?
+- **AWS RE/START** (parceria sazonal, 400h) posicionada como **destino de aprofundamento** premium.
+- **Containers e Kubernetes** fecha o gap de cloud native; DevOps na ponta segue como pendência.

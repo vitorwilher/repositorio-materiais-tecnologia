@@ -1,0 +1,95 @@
+---
+title: "Trilha 2 — Dados"
+subtitle: "Do aluno-base a Analista de Dados (2A) e Engenheiro de Dados (2B)"
+---
+
+**Pergunta que responde:** *como o aluno-base do SENAC (entra por Informática Fundamental com IA)
+avança até uma profissão de dados sem sair da instituição?*
+
+O eixo de Dados parte de um **mesmo aluno-base** e diverge em duas profissões: **Analista de Dados**
+(2A, mais curta, empregável após Power BI) e **Engenheiro de Dados** (2B, mais técnica, ancorada em
+SQL e pipelines).
+
+## Trilha 2A — Analista de Dados
+
+```{mermaid}
+%%| label: fig-trilha2a
+%%| fig-cap: "Trilha 2A — Analista de Dados. Cursos de IA (laranja) intercalados na jornada de dados."
+flowchart LR
+  b["Informática<br/>Fundamental com IA<br/><small>60h · aluno-base</small>"]
+  ia1["IA Sem Mistério<br/><small>16h</small>"]
+  n2["Excel com IA<br/><small>28h</small>"]
+  ia2["IA Muito Além<br/>do Prompt<br/><small>24h</small>"]
+  n3["Excel Avançado<br/>com IA<br/><small>36h</small>"]
+  n4["Power BI<br/><small>60h</small>"]
+  P["ANALISTA<br/>DE DADOS"]
+
+  b --> ia1 --> n2 --> ia2 --> n3 --> n4 --> P
+
+  class b base
+  class n2,n3,n4 ativo
+  class ia1,ia2 iacurso
+  class P prof
+  classDef base fill:#f1f3f5,stroke:#868e96,color:#2f3640;
+  classDef ativo fill:#e3f5e8,stroke:#1b7a3d,color:#13361f;
+  classDef iacurso fill:#fdecdc,stroke:#d9480f,color:#7a2c05;
+  classDef prof fill:#e7f0fb,stroke:#1f5fa8,stroke-width:2px,color:#0f3a6b;
+```
+
+**Carga horária total:** 344h. **Não depende de curso novo** — toda a sequência já existe e vende.
+O *ramo lateral opcional* [Excel Dashboard](../cursos/excel-dashboard/index.qmd) entra entre Excel
+Avançado e Power BI para quem quer fechar produtividade analítica sem seguir até Analista.
+
+## Trilha 2B — Engenheiro de Dados
+
+```{mermaid}
+%%| label: fig-trilha2b
+%%| fig-cap: "Trilha 2B — Engenheiro de Dados. Dois cursos novos (NC-02, NC-03) e ramo de cursos futuros."
+flowchart LR
+  b["Informática<br/>Fundamental com IA<br/><small>60h · aluno-base</small>"]
+  n2["Excel com IA<br/><small>28h</small>"]
+  n3["SQL para Dados<br/><small>60h · NC-02</small>"]
+  n4["Fundamentos de<br/>Engenharia de Dados<br/><small>120h · NC-03</small>"]
+  n5["cursos futuros<br/><small>Spark · Airflow · Kafka · Cloud</small>"]
+  P["ENGENHEIRO<br/>DE DADOS"]
+
+  b --> n2 --> n3 --> n4 --> n5 --> P
+
+  class b base
+  class n2 ativo
+  class n3,n4 novo
+  class n5 futuro
+  class P prof
+  classDef base fill:#f1f3f5,stroke:#868e96,color:#2f3640;
+  classDef ativo fill:#e3f5e8,stroke:#1b7a3d,color:#13361f;
+  classDef novo fill:#fff0e0,stroke:#b5560a,stroke-dasharray:4 3,color:#5a2c05;
+  classDef futuro fill:#eef0f3,stroke:#5a6573,stroke-dasharray:2 2,color:#2f3640;
+  classDef prof fill:#e7f0fb,stroke:#1f5fa8,stroke-width:2px,color:#0f3a6b;
+```
+
+## Cursos da trilha
+
+| Curso | CH | Usado em | Status |
+|-------|---:|----------|--------|
+| [Informática Fundamental com IA](../cursos/informatica-fundamental-ia/index.qmd) | 60h | 2A · 2B (aluno-base) | <span class="status-pill status-ativo">ativo</span> |
+| [IA Sem Mistério](../cursos/ia-sem-misterio/index.qmd) | 16h | 2A | <span class="status-pill status-ativo">ativo</span> |
+| [Excel com IA](../cursos/excel-com-ia/index.qmd) | 28h | 2A · 2B | <span class="status-pill status-ativo">ativo</span> |
+| [IA — Muito Além do Prompt](../cursos/ia-muito-alem-do-prompt/index.qmd) | 24h | 2A | <span class="status-pill status-ativo">ativo</span> |
+| [Excel Avançado com IA](../cursos/excel-avancado-ia/index.qmd) | 36h | 2A | <span class="status-pill status-ativo">ativo</span> |
+| [Excel Dashboard](../cursos/excel-dashboard/index.qmd) | 24h | 2A (lateral) | <span class="status-pill status-ativo">ativo</span> |
+| [Power BI](../cursos/power-bi/index.qmd) | 60h | 2A | <span class="status-pill status-ativo">ativo</span> |
+| [SQL para Dados](../cursos/sql-para-dados/index.qmd) | 60h | 2B | <span class="status-pill status-novo">novo</span> |
+| [Fundamentos de Engenharia de Dados](../cursos/fundamentos-engenharia-dados/index.qmd) | 120h | 2B | <span class="status-pill status-novo">novo</span> |
+| [Banco de Dados](../cursos/banco-de-dados/index.qmd) | 120h | a definir vs. NC-02 | <span class="status-pill status-ativo">ativo</span> |
+| [IA Generativa Aplicada a Negócios](../cursos/ia-generativa-negocios/index.qmd) | 24h | porta de entrada alternativa | <span class="status-pill status-novo">novo</span> |
+
+: Cursos da Trilha Dados. {tbl-colwidths="[40,10,30,20]"}
+
+**Pontes para a Faculdade Senac RJ:** Graduação Tecnológica em IA e Ciência de Dados → MBA em IA e Análise de Dados.
+
+## Decisões a validar no GT Tech
+
+- **Intercalação dos cursos de IA na 2A** — validar ponto de inserção e se ambos entram (avaliar se a mesma lógica vale para a 2B).
+- A profissão **"Analista de Dados"** precisa ser apresentada ao aluno **desde o início**.
+- **SQL para Dados (NC-02)** × **Banco de Dados** — definir relação com o E2 (NC-02 como avançado/análise; Banco como complemento).
+- **Parceria Semantix** é candidata a ancorar Engenharia de Dados.

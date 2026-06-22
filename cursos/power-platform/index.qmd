@@ -1,0 +1,140 @@
+---
+title: "Microsoft Power Platform"
+subtitle: "48h · Trilha 6 — Produtividade e Citizen Development"
+---
+
+::: {.callout-note appearance="simple"}
+**Status:** <span class="status-pill status-retorno">retorno</span> &nbsp; em atualização (Copilot Studio / agentes) — retorno previsto · Código: SGA 13192 / DN 1746.48
+&nbsp;·&nbsp; **Carga horária:** 48h &nbsp;·&nbsp; **Formato:** Presencial ou Remoto
+
+**Material:** completo &nbsp;·&nbsp; **Última atualização:** 2026-06-19
+:::
+
+## Onde este curso entra nas trilhas
+
+Faz parte de: [Trilha 6 — Produtividade e Citizen Development](../../trilhas/trilha-6-produtividade.qmd).
+
+> **Vem de:** Excel Dashboard (camada de produtividade analítica) · **Próximo passo:** ponte para a
+> Faculdade Senac (ADS / MBA Produtos, perfil gestor). É a **porta de Citizen Development** do segmento corporativo.
+
+::: {.panel-tabset}
+
+## PC — Plano de Curso
+
+**Fonte oficial:** [PC — Microsoft Power Platform (.docx)](fonte/PC - Microsoft Power Platform.docx)
+
+### 1. Identificação
+- **Eixo tecnológico:** Informação e Comunicação · **Segmento:** Tecnologia da Informação
+- **Tipo:** Aperfeiçoamento · **Carga horária:** 48 horas · **Formato:** Presencial ou Remoto
+- **Código DN:** 1746.48 · **Código Senac RJ:** 12319
+
+### 2. Requisitos de acesso
+- Idade mínima: 18 anos.
+- Conhecimento específico: Planilhas dinâmicas; Power BI (análise ou estruturação de dados).
+- Documentos: identidade, CPF, autodeclaração de conhecimento específico.
+
+### 3. Justificativa
+A Power Platform é uma suíte *low-code/no-code* que permite a usuários não técnicos criar soluções
+digitais de negócio (Power Apps, Power Automate, Power Pages, Copilot Studio), economizando tempo e
+recursos. Acompanha a demanda de mercado por automação, nuvem e análise de dados — segundo a Gartner,
+até 2026 cerca de 75% do desenvolvimento de novos aplicativos será *low-code*.
+
+### 4. Objetivo
+Tornar os participantes aptos à **criação, personalização e automação de soluções de negócio** com as
+ferramentas integradas do Power Platform. Destinado a analistas de negócios, gestores, empreendedores,
+estudantes de TI, consultores e áreas afins.
+
+### 5. Organização curricular
+**Unidade Curricular:** Microsoft Power Platform — 48h.
+**Indicador:** *Utiliza recursos do Power Platform nas soluções de processos.*
+
+| Elemento | Conteúdo |
+|----------|----------|
+| **Conhecimentos** | Introdução à Power Platform; Dashboards no Power BI; publicação/compartilhamento; **Power Pages** (permissões, tipos de conteúdo, criação de sites); **Power Apps** (desenvolvimento de aplicativos); **Copilot Studio** (IA generativa, chatbots, tópicos de conversação, monitoramento); **Power Automate** (fluxos, ações, gatilhos, conectores, interação com planilhas). |
+| **Habilidades** | Analisar dados recebidos; desenvolver estruturas e fluxos de automatização; desenvolver e avaliar aplicações; implementar soluções com as ferramentas do Power Platform. |
+| **Atitudes / Valores** | Sigilo no tratamento de dados e informações; senso crítico nos processos de trabalho. |
+
+### 6. Orientações metodológicas
+Prática contextualizada com situações que simulam desafios reais do mundo corporativo. Recomenda-se
+que o docente prepare bases de dados de diferentes origens (planilhas, bancos relacionais e não
+relacionais) para estudos de caso: dashboards, aplicativos, sites, chatbots e automação de fluxos.
+
+### 7. Avaliação
+Menções durante o processo (**A** / **PA** / **NA**) e ao final (**A** / **NA**). Resultado final:
+**Concluiu (C)** com indicadores atendidos e frequência ≥ 75%; **Não concluiu (NC)** caso contrário.
+Recuperação oportunizada ao longo do processo.
+
+### 8. Instalações, equipamentos e recursos
+1 computador por aluno (i5 10ª geração+, Windows 10+, 8 GB RAM, 20 GB livres, internet 25 Mb),
+com Office 365, Power BI, Outlook e navegador atualizado. Material: não há fornecido/adquirido.
+
+### 9. Perfil docente
+Preferencialmente superior em Ciência da Computação, Sistemas de Informação, Engenharia de Software
+ou áreas correlatas.
+
+### 11. Certificação
+Certificado de **Microsoft Power Platform**, com dupla chancela (Microsoft + Senac) e validade nacional.
+
+## PTD — Plano de Trabalho Docente
+
+**Fonte oficial:** [PTD — Microsoft Power Platform (.docx)](fonte/PTD - Microsoft Power Platform.docx)
+
+**Indicador da UC:** *Utiliza recursos do Power Platform nas soluções de processos.*
+
+**Orientação geral:** verificar se todos os estudantes têm acesso ao Campus Digital — o cadastro nas
+ferramentas é feito com a conta educacional do estudante.
+
+### Situação de Aprendizagem
+> As empresas **ESTASENAC** (estacionamento) e **Super Delivery** enfrentam dificuldades na gestão de
+> pedidos e na interação com clientes e buscam soluções digitais *low-code*. Como profissional de Power
+> Platform, você deve **desenvolver e implementar essas soluções** para as empresas contratantes.
+
+**Instrumentos de avaliação:** projeto integrando as ferramentas — site (Power Pages), dashboard
+(Power BI), automação (Power Automate), chatbot (Copilot Studio) e aplicativo (Power Apps).
+
+### Planejamento das aulas (48h)
+
+| Aula | Foco | Destaques |
+|-----:|------|-----------|
+| 1 | Boas-vindas + visão geral | Acolhimento; IA × automação de processos; segurança/privacidade de dados; tour pelas ferramentas; início do Power Pages. |
+| 2 | Power Pages — sites | Planejamento (header/main/footer), criação de site, design *drag-and-drop*, boas práticas (leitura em Z e F), SEO. |
+| 3 | Copilot Studio — introdução | O que é/não é chatbot; criação de chatbot simples; intents; trabalho em grupos por tema. |
+| 4 | Copilot Studio — tópicos | Tópicos padrão e personalizados; scripts de conversação; fluxos condicionais; permissões e compartilhamento. |
+| 5 | SharePoint / Power BI | Armazenamento no SharePoint; importação no Power BI; limpeza e tratamento (Power Query/ETL); relacionamentos (fato × dimensão). |
+| 6 | Power BI — DAX e relatório | Introdução ao DAX (agregação, iteração, tempo, lógica); medidas e variáveis; criação, publicação e atualização de relatório. |
+| 7 | Power Automate | Conceitos (gatilhos, ações, conectores); automações de e-mail/arquivos; criação e monitoramento de fluxos. |
+
+> O PTD traz "sugestões de corte" de 2h dentro de cada aula, dando flexibilidade ao docente conforme o ritmo da turma.
+
+## Referências Bibliográficas
+
+**Básica (oficial — do PC)**
+
+- Microsoft. *O que é a Power Platform?* — <https://powerplatform.microsoft.com/pt-br/what-is-power-platform/>
+- Microsoft. *Documentação do Power BI* — <https://docs.microsoft.com/pt-br/power-bi/>
+- Microsoft. *Power Pages* — <https://learn.microsoft.com/pt-br/Power-Pages/>
+- Microsoft. *Copilot Studio* — <https://learn.microsoft.com/pt-br/microsoft-copilot-studio/>
+- Microsoft. *Power Automate* — <https://docs.microsoft.com/pt-br/power-automate/>
+- Microsoft. *Power Apps* — <https://learn.microsoft.com/pt-br/power-apps/>
+
+**Complementar (apoio)**
+
+- Gartner. *Forecast Analysis: Low-Code Development Technologies, Worldwide* (2022).
+- *Microsoft Power Platform Fundamentals in 15 Minutes* (vídeo). · *Referência da linguagem DAX* — Microsoft Learn.
+
+## Materiais Complementares
+
+- **Ementa oficial:** [Ementa — Microsoft Power Platform (.docx)](fonte/Ementa - Microsoft Power Platform.docx)
+- **Análise de continuidade** e materiais de aula (PPTX da Aula 1) disponíveis na pasta de origem do curso
+  (`cursos/power_plataform/` no repositório de trabalho da Cápsula).
+- **Datasets sugeridos:** dados abertos / Kaggle (<https://www.kaggle.com/>) para estudos de caso de dashboards e chatbots.
+
+:::
+
+## Histórico de atualizações (deste curso)
+
+| Data | O que mudou | Autor |
+|------|-------------|-------|
+| 2026-06-19 | Página criada com PC e PTD completos a partir dos arquivos oficiais. | Cápsula de Inovação |
+
+: Histórico do material deste curso. {tbl-colwidths="[18,62,20]"}

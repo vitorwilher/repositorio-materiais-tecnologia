@@ -1,0 +1,83 @@
+---
+title: "Inteligência Artificial — Muito Além do Prompt"
+subtitle: "24h · Trilha 1 — IA Aplicada, Trilha 2 — Dados"
+---
+
+::: {.callout-note appearance="simple"}
+**Status:** <span class="status-pill status-ativo">ativo</span> &nbsp; catálogo público
+&nbsp;·&nbsp; **Carga horária:** 24h (6 aulas de 4h) &nbsp;·&nbsp; **Tipo:** Aperfeiçoamento
+
+**Material:** completo &nbsp;·&nbsp; **Última atualização:** 2026-06-19
+:::
+
+## Onde este curso entra nas trilhas
+
+Faz parte de: [Trilha 1 — IA Aplicada](../../trilhas/trilha-1-ia-aplicada.qmd) · [Trilha 2 — Dados](../../trilhas/trilha-2-dados.qmd).
+
+> **Na Trilha IA Aplicada:** aprofundamento conceitual após *IA Sem Mistério*. **Na Trilha Dados (2A):**
+> intercalado antes do *Excel Avançado com IA*, reforçando competência em IA generativa ao longo da jornada de dados.
+
+::: {.panel-tabset}
+
+## PC — Plano de Curso
+
+> **Fonte oficial:** o PC consolidado deve ser linkado aqui quando disponível. Os elementos de
+> competência abaixo derivam do PTD oficial.
+
+- **Tipo:** Aperfeiçoamento · **Carga horária:** 24h.
+- **Indicador da UC:** *Utiliza prompts para a criação de agentes virtuais durante a elaboração de
+  processos e práticas de interação textual.*
+- **Conhecimentos:** conceitos de Modelos de Linguagem (chatbots, geração de texto, tradução, resumo);
+  Engenharia de Comandos; **desenvolvimento de AI Agentes** (interação eficaz e natural com usuários).
+- **Habilidades:** criar agentes de IA usando prompts e modelos de linguagem para interações
+  inteligentes e personalizadas.
+
+## PTD — Plano de Trabalho Docente
+
+**Fonte oficial:** [PTD — IA Muito Além do Prompt (.docx)](fonte/PTD - IA Muito Alem do Prompt.docx)
+
+**Orientação geral:** aulas em **navegação guiada** (o docente acompanha de perto cada atividade).
+Reforçar o uso de **conta Gmail** (necessária para o Dialogflow nas aulas seguintes).
+
+### Situação de Aprendizagem
+> A empresa **Digi-S Solutions** quer criar um **agente virtual inteligente** para suporte ao cliente em
+> múltiplos canais (WhatsApp, Telegram, etc.), com interações para dúvidas comuns, integração em várias
+> plataformas e comunicação amigável e inclusiva. Como criar um agente eficiente, com respostas claras e
+> adaptadas a cada usuário?
+
+**Instrumentos de avaliação:** exercícios práticos de criação de agentes com prompts; documento
+(Word/PowerPoint) elaborado com apoio de IA.
+
+### Planejamento das aulas (6 × 4h)
+
+| Aula | Foco | Destaques |
+|-----:|------|-----------|
+| 1 | Conceitos e protótipo | Agentes virtuais × chatbots; pesquisa de casos reais (apresentação no Gamma); protótipo de chatbot com ChatGPT/Gemini/Copilot; dinâmica de testes. |
+| 2 | Dialogflow ES | O que é, ES × CX; criar e configurar agente; intents padrão (welcome, fallback); criar intent simples (frases de treinamento, ação/parâmetros, respostas). |
+| 3 | Documentação do agente | Planejar o agente no papel antes de implementar: finalidade, público, linguagem, canais, intents, fluxo de conversa (fluxograma), frases de treinamento e respostas. |
+| 4 | Implementação | Revisão do passo a passo; entidades; edição coletiva; backup em JSON; início da implementação da documentação. |
+| 5 | Desenvolvimento e revisão | Continuação do desenvolvimento; comparar documentação × projeto no Dialogflow; melhorias com base no feedback. |
+| 6 | Integração e análise | Integração nativa (Telegram, Slack, Messenger, Google Chat) e via Landbot (WhatsApp); análise de interações/sessões; apresentação final. |
+
+## Referências Bibliográficas
+
+**Complementar (apoio)**
+
+- Google. *Dialogflow ES / CX — documentação* — <https://cloud.google.com/dialogflow/docs>
+- Landbot (integração WhatsApp) — <https://landbot.io/>. · Gamma (apresentações com IA) — <https://gamma.app/>
+- Ferramentas de IA generativa: ChatGPT, Gemini, Copilot.
+
+## Materiais Complementares
+
+- **Modelo de documentação de Agente Virtual** (sugerido no PTD) — consolidar como template reutilizável.
+- Links de apoio das aulas (vídeos sobre chatbots, variação linguística) catalogados no PTD oficial.
+
+:::
+
+## Histórico de atualizações (deste curso)
+
+| Data | O que mudou | Autor |
+|------|-------------|-------|
+| 2026-06-19 | Página criada a partir do PTD oficial (PC consolidado pendente de link). | Cápsula de Inovação |
+
+: Histórico do material deste curso. {tbl-colwidths="[18,62,20]"}
